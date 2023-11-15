@@ -1,0 +1,876 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pSynchro
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1b041c88001b7232
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAACoV1QyK1UuaCNO8zZSB8RvS1iJdYw1zFbBu/+DfRe2F+8o/Lk9padPbhoLcUXiN+TH+IdnW2kZkHOMbllzDBffNB9mk2ZaFyypBV5MaXwtoVpxEOkRmem3axlrWhCr8rUO1Yd7gtnCS5hxmQ==
+     code : |1-
+      
+      // Description d'un trigger sur la modification d'un événement
+      HDécritTrigger(AgendaEvénement, "HModifie", SurModificationAgendaEvénement, hTriggerAvant)
+     type : 720896
+  procedures :
+   -
+     name : SurModificationAgendaEvénement
+     internal_properties : CAAAAAgAAADA4iRlJPfTT93c1EbZPFe7NiwpiiiLv8uDoJ79kZ2I1Doto0b4F7dxmR1f9rcOHMbTvKLZPd7RxUTAs9RjUOiiEdE38V6TeJdfLh9Tv1IuwDBgz/F6ycsbBqcIaZpFJqBvc4sf5d7Xv2xD5GxpZ8uLdRYbqBdgbsRq04hZemxVEbwzzBKUO63X1jdHUq9xZOv4YZBN5Q==
+     procedure_id : 1946712459697782299
+     type_code : 15
+     code : |1-
+      // Résumé : Trigger déclenché lors de la modification d'un événement
+      PROCEDURE privee SurModificationAgendaEvénement()
+      
+      	hraz(AgendaEvénementHistorique)
+      
+      	// Copie les données
+      	HCopieEnreg(AgendaEvénementHistorique, AgendaEvénement)
+      	
+      	// Enregistre l'historique
+      	AgendaEvénementHistorique.DateHistorique = datedujour + maintenant
+      	hajoute(AgendaEvénementHistorique)
+     type : 458752
+   -
+     name : OutlookVérifieSuppressions
+     internal_properties : CAAAAAgAAADe7xLe7KwlxMBQ6QeiNp3mOaBuBiDCb6lYjq0ZleYcniw80EgMVmoNPE3swRZBJ0GHMORCRPotpDanBMZCHN7aHVQxeRJk4hI7sDLlNYqDacQmFdCnXxIFQLeVotmrfcREfzX4RhrK4eZ7MzMcQxiVOIIlgZCke7TeXUEkH7AkPQYEbyBuru10v5YFym8gKiLFx7xUYJEotIfAomLFST/Pv3pTJA==
+     procedure_id : 1946977218662405111
+     type_code : 15
+     code : |1-
+      // Résumé : Vérifie les suppressions dans l'agenda Outlook
+      PROCEDURE OutlookVérifieSuppressions(LOCAL sProfil est une chaine, local nIDAgenda est un entier)
+      
+      	nIDSession 			est un entier
+      	tabIDSuppression	est un tableau d'entiers
+      	
+      	Sablier(Vrai)
+      	
+      	// Ouvre une session
+      	nIDSession = OutlookOuvreSession(sProfil)
+      	
+      	// Recherche tous les événements possédant un identifiant Outlook
+      	pour TOUT AgendaEvénement avec IDAgendaOutlook = nIDAgenda
+      		
+      		SI AgendaEvénement.Supprimé ALORS CONTINUER
+      		
+      		RendezVousRAZ()
+      		
+      		// Tente de lire l'événement
+      		si pas RendezVousLit(nIDSession, AgendaEvénement.IdentifiantOutlook) ALORS
+      			
+      			// Si on est en dehors des rendez-vous
+      			si mrendezvous.EnDehors alors
+      				
+      				// L'événement a été supprimé, on l'enregistre
+      				ajoute(tabIDSuppression, AgendaEvénement.IDAgendaEvénement)				
+      			fin
+      		FIN
+      	FIN
+      
+      	// Fin de la session
+      	FermeSession(nIDSession)
+      	sablier(faux)
+      	
+      	// Ouverture de la fenêtre de conflit
+      	SI tabIDSuppression..Occurrence > 0	
+      		Ouvre(FEN_Conflit, cftModeSuppression, depuisOutlook, Null, tabIDSuppression)
+      	FIN
+     type : 458752
+   -
+     name : NotesVérifieSuppressions
+     procedure_id : 1946978799211196283
+     type_code : 15
+     code : |1-
+      // Résumé : Vérifie les suppressions dans l'agenda Notes
+      PROCEDURE NotesVérifieSuppressions(local nIDAgenda est un entier)
+      
+      	nIDSession 			est un entier
+      	nIDConnexion		est un entier
+      	tabIDSuppression	est un tableau d'entiers
+      	
+      	Sablier(Vrai)
+      	
+      	// Positionne sur l'agenda
+      	HLitRecherchePremier(AgendaNotes, IDAgendaNotes, nIDAgenda)
+      	SI HTrouve(AgendaNotes) ALORS
+      		
+      		// Si on a précisé un certificat ou non
+      		SI AgendaNotes.Certificat = "" ALORS
+      			nIDConnexion = NotesOuvreConnexion(AgendaNotes.MotDePasse, AgendaNotes.Serveur)
+      		SINON
+      			nIDConnexion = NotesOuvreConnexion(AgendaNotes.MotDePasse, AgendaNotes.Serveur, AgendaNotes.Certificat)
+      		FIN
+      		
+      		// Spécifie la base
+      		SI AgendaNotes.Base <> "" ALORS
+      			
+      			// Ouvre la base
+      			nIDSession = NotesOuvreBase(nIDConnexion, AgendaNotes.Base)
+      		FIN
+      	
+      		// Recherche tous les événements possédant un identifiant Notes
+      		pour TOUT AgendaEvénement avec IDAgendaNotes = nIDAgenda
+      			
+      			SI AgendaEvénement.Supprimé ALORS CONTINUER
+      			
+      			RendezVousRAZ()
+      			
+      			// Tente de lire l'événement
+      			si pas RendezVousLit(nIDConnexion, AgendaEvénement.IdentifiantNotes) ALORS
+      				
+      				// Si on est en dehors des rendez-vous
+      				si mrendezvous.EnDehors alors
+      					
+      					// L'événement a été supprimé, on l'enregistre
+      					ajoute(tabIDSuppression, AgendaEvénement.IDAgendaEvénement)				
+      				fin
+      			FIN
+      		FIN
+      			
+      		// Fin de la session
+      		NotesFermeBase(nIDSession)
+      		FermeSession(nIDConnexion)
+      	fin
+      		
+      	sablier(faux)
+      	
+      	// Ouverture de la fenêtre de conflit
+      	SI tabIDSuppression..Occurrence > 0	
+      		Ouvre(FEN_Conflit, cftModeSuppression, depuisNotes, Null, tabIDSuppression)
+      	FIN
+     type : 458752
+   -
+     name : GoogleVérifieSuppressions
+     internal_properties : CAAAAAgAAAD6dSZwY17LiWQEWwkWGNOatQKuspZVoaauALBZ6c4yp5DNO3qZyPQJ7oZiUJYEYcruHva7rjRxw16qEbbc2nw9VaZQ9FAMCz40TP713SohCi+M/PqO85indRqVZUCtFbAs6wywdXZaBRkE37DRSaTN4lDWsx1mQdaJdnWBZr6uX1uFPd/s7/7rge6QeL35jCX3tEcm+ZI=
+     procedure_id : 1946979306017913962
+     type_code : 15
+     code : |1-
+      // Résumé : Vérifie les suppressions dans l'agenda Google
+      PROCEDURE GoogleVérifieSuppressions(UneConnexion est un gglConnexion, local sIdentifiant est une chaine, local nIDAgenda est un entier)
+      
+      	tabIDSuppression	est un tableau d'entiers
+      	UnAgenda			est un gglagenda
+      		
+      	Sablier(Vrai)
+      	
+      	// Récupère l'agenda
+      	UnAgenda = GglRécupèreAgenda(UneConnexion, sIdentifiant, "19700101")
+      	
+      	// Recherche tous les événements possédant un identifiant Google
+      	pour TOUT AgendaEvénement avec IDAgendaGoogle = nIDAgenda
+      		
+      		si AgendaEvénement.Supprimé alors continuer
+      		
+      		// Demande la lecture de l'événement
+      		si cherche(UnAgenda..Evénement, tcLinéaire, "Identifiant", AgendaEvénement.IdentifiantGoogle) <= 0 ALORS
+      				
+      			// L'événement a été supprimé, on l'enregistre
+      			ajoute(tabIDSuppression, AgendaEvénement.IDAgendaEvénement)				
+      		fin
+      	FIN
+      
+      	sablier(faux)
+      	
+      	// Ouverture de la fenêtre de conflit
+      	si tabIDSuppression..Occurrence > 0	
+      		ouvre(FEN_Conflit, cftModeSuppression, depuisgoogle, null, tabIDSuppression)
+      	fin
+     type : 458752
+   -
+     name : RemplitRendezVous
+     procedure_id : 1946984601715330961
+     type_code : 15
+     code : |1-
+      // Résumé : Conversion d'un événement en RendezVous
+      PROCEDURE RemplitRendezVous()
+      
+      	// RAZ
+      	rendezvousraz()
+      
+      	// Copie des données
+      	mRendezVous.Objet 			= AgendaEvénement.Titre
+      	mRendezVous.Notes 			= AgendaEvénement.Contenu
+      	mRendezVous.DateDébut 		= AgendaEvénement.DateDébut
+      	mRendezVous.DateFin 		= AgendaEvénement.DateFin
+      	mRendezVous.Lieu 			= AgendaEvénement.Lieux
+      	mRendezVous.JournéeEntière	= AgendaEvénement.JournéeEntière
+      	mRendezVous.AvecRépétition	= (AgendaEvénement.RépétitionType <> -1)
+      	
+      	// Reconstruit la catégorie
+      	HLitRecherchePremier(AgendaCatégorie, IDAgendaCatégorie, AgendaEvénement.IDCatégorie)
+      	SI HTrouve(AgendaCatégorie) ALORS
+      		mRendezVous.Catégorie = AgendaCatégorie.Libellé
+      	SINON
+      		mRendezVous.Catégorie = ""
+      	FIN
+      		
+      	mRendezVous.NbParticipant = 0
+      	
+      	// Reconstruit les participants
+      	POUR TOUTE CHAINE sInvité de AgendaEvénement.Invités SEPAREE PAR RC
+      		mRendezVous.NbParticipant ++
+      		mRendezVous.Participant[mRendezVous.NbParticipant] = extraitchaine(sInvité, 1) + ["<"] + remplace(extraitchaine(sinvité, 2), eot, "") + [">"]
+      	FIN
+     type : 458752
+   -
+     name : RemplitGglEvénement
+     internal_properties : CAAAAAgAAABgiwzaXMztidqa9y1KNpui70SMnMJjDZ4I8mwVrfTSw3Zb0cwxipAVwIhq8D6W1S7k3NTlTl4Nw5BchR5MnIQlR7AKujyyzzKm3vpcrk+w22hlw0s3eCWyTiOOgAXWSGWFXGM5DsOXUFLFsMfWMltGf8VJgIrX0mkSxzboZ9N55KBiHJA5uOdSPlP1w2YuH7Tiiq1A0/g=
+     procedure_id : 1946985009737253128
+     type_code : 15
+     code : |1-
+      // Résumé : Conversion d'un événement en gglEvénement
+      PROCEDURE RemplitGglEvénement(UnEvénement est un gglevenement)
+      
+      	UnEvénement..Titre			= AgendaEvénement.Titre
+      	UnEvénement..Contenu 		= AgendaEvénement.Contenu
+      	UnEvénement..DateDébut		= AgendaEvénement.DateDébut
+      	UnEvénement..DateFin		= AgendaEvénement.DateFin
+      	UnEvénement..JournéeEntière	= AgendaEvénement.JournéeEntière
+      		
+      	SupprimeTout(UnEvénement..Lieu)
+      	SupprimeTout(UnEvénement..Invité)
+      	
+      	// Reconstruit les lieux
+      	POUR TOUTE CHAINE sLieu de AgendaEvénement.Lieux separee par rc
+      		UnLieu est un gglLieu
+      		UnLieu..Valeur = sLieu
+      		Ajoute(UnEvénement..Lieu, UnLieu)
+      	FIN
+      	
+      	// Reconstruit les participants
+      	POUR TOUTE CHAINE sInvité de AgendaEvénement.Invités SEPAREE PAR RC
+      		UnInvité est un gglPersonne
+      		UnInvité..Email 	= Remplace(ExtraitChaîne(sInvité, 2), EOT, "")
+      		UnInvité..Libellé	= ExtraitChaîne(sInvité, 1)
+      		
+      		si UnInvité..Email = "" ALORS
+      			UnInvité..Email = "guest@"
+      		FIN
+      		
+      		Ajoute(UnEvénement..Invité, UnInvité)
+      	FIN
+      	
+     type : 458752
+   -
+     name : OutlookSupprimeEvénement
+     internal_properties : CAAAAAgAAABcDXb4UMPxU5YHTwSGZWxgP4gfL7aVa4IX8BrdrGVVHPjeHhq7Zydfs8QO/KVjnuufUXHZqHO+7SLCKdqKgztJ8hlxaMrFZGCcOIkIsI4zi+Ap9xsYAtTkist1EyOPl20L/vc5kSu8ZrKJlwquX0PDAFMV/KFGROcMrVqpq+HVlZejN9bk8EClucYsQELofdLRcwzny9klxA==
+     procedure_id : 1948521843542460602
+     type_code : 15
+     code : |1-
+      // Résumé : Supprime un événement dans l'agenda Outlook
+      PROCEDURE OutlookSupprimeEvénement(local nIDAgenda est un entier, local sIdentifiant est une chaine)
+      
+      	nIDSession 			est un entier
+      	
+      	Sablier(Vrai)
+      	
+      	// Recherche l'agenda
+      	HLitRecherchePremier(AgendaOutlook, IDAgendaOutlook, nIDAgenda)
+      	si htrouve(AgendaOutlook) alors
+      	
+      		// Ouvre une session
+      		nIDSession = OutlookOuvreSession(AgendaOutlook.Profil)
+      
+      		// On se positionne sur le rendez-vous
+      		RendezVousPremier(nIDSession)
+      		tantque mRendezVous.EnDehors = faux
+      			
+      			// Si l'identifiant correspond
+      			si mRendezVous.ID = sIdentifiant alors
+      				
+      				// On le supprime
+      				RendezVousSupprime(nIDSession)
+      				sortir
+      			FIN
+      			
+      			RendezVousSuivant(nIDSession)
+      		FIN
+      			
+      		// Fin de la session
+      		FermeSession(nIDSession)
+      	fin
+      	
+      	Sablier(Faux)
+     type : 458752
+   -
+     name : NotesSupprimeEvénement
+     internal_properties : CAAAAAgAAAC0PajzxDgY0s9w4As8H138nLK+S3Ega9OAo8zot+wVt9Ad7kHfoXNSn9/GNn30opdFGhBH5AUruy+jIPp3y/yK8qtaE0ktdeG0aJfUcNva4RUlHZqs7Rb19ieEAz/KBLCbK+MNYQydA9fqBaLJRJMCdSSO3z2lTDGsIYuq4UpMPhUld7I7QA==
+     procedure_id : 1948522363233624163
+     type_code : 15
+     code : |1-
+      // Résumé : Supprime un événement dans l'agenda Lotus
+      PROCEDURE NotesSupprimeEvénement(local nIDAgenda est un entier, local sIdentifiant est une chaine)
+      
+      	nIDSession 			est un entier
+      	nIDConnexion		est un entier
+      	
+      	Sablier(Vrai)
+      	
+      	// Recherche l'agenda
+      	HLitRecherchePremier(AgendaNotes, IDAgendaNotes, nIDAgenda)
+      	si htrouve(AgendaNotes) alors
+      		
+      		// Si on a précisé un certificat ou non
+      		SI AgendaNotes.Certificat = "" ALORS
+      			nIDConnexion = NotesOuvreConnexion(AgendaNotes.MotDePasse, AgendaNotes.Serveur)
+      		SINON
+      			nIDConnexion = NotesOuvreConnexion(AgendaNotes.MotDePasse, AgendaNotes.Serveur, AgendaNotes.Certificat)
+      		FIN
+      		
+      		// Spécifie la base
+      		SI AgendaNotes.Base <> "" ALORS
+      			
+      			// Ouvre la base
+      			nIDSession = NotesOuvreBase(nIDConnexion, AgendaNotes.Base)
+      		FIN
+      		
+      		// On se positionne sur le rendez-vous
+      		RendezVousPremier(nIDConnexion)
+      		TANTQUE mRendezVous.EnDehors = Faux
+      			
+      			// Si l'identifiant correspond
+      			SI mRendezVous.ID = sIdentifiant ALORS
+      				
+      				// On le supprime
+      				RendezVousSupprime(nIDConnexion)
+      				SORTIR
+      			FIN
+      			
+      			RendezVousSuivant(nIDConnexion)
+      		FIN
+      	
+      		// Fin de la session
+      		si nIDSession <> 0 alors NotesFermeBase(nIDSession)
+      		FermeSession(nIDSession)
+      	fin
+      	
+      	Sablier(Faux)
+     type : 458752
+   -
+     name : GoogleSupprimeEvénementMultiples
+     internal_properties : CAAAAAgAAADYifMaWs27n3rzhWKsC5gmCYLv/2DDMd57ZKDDkltZAvLARuKhgUm/F5DsFrc92rmZP01t4slsBZ5mV6RMVQsDzB8JUHwboliUCGcOcd0M7IES7hSb74NT+3yk5LxC0B4w2+LubLCH0c8WIsdDzshAxdiQAaxrV/YFpkGCrBCaOoDc7p8njduMnkuvDce7ros24DcAUF2hQA==
+     procedure_id : 1948522659586437163
+     type_code : 15
+     code : |1+
+      // Résumé : Supprime des événements dans l'agenda Google
+      PROCEDURE GoogleSupprimeEvénementMultiples(local nIDAgenda est un entier, local tabIdentifiants est tableau de * chaine)
+      
+      	UnAgenda			est un gglagenda
+      	UneConnexion		est une gglconnexion
+      	nIndice				est un entier
+      	sIdentifiant		est une chaine
+      	
+      	Sablier(Vrai)
+      	
+      	// Recherche l'agenda
+      	HLitRecherchePremier(AgendaGoogle, IDAgendaGoogle, nIDAgenda)
+      	si htrouve(AgendaGoogle) alors
+      	
+      		// Prépare la connexion
+      		UneConnexion = GoogleConnecteAgenda()
+      				
+      		// Récupère l'agenda
+      		UnAgenda = GglRécupèreAgenda(UneConnexion, AgendaGoogle.Identifiant, "19700101")
+      				
+      		pour tout sIdentifiant de tabIdentifiants 
+      				
+      			// Recherche l'événement
+      			nIndice = cherche(UnAgenda..Evénement, tcLinéaire, "Identifiant", sIdentifiant)
+      			si nIndice > 0 ALORS
+      				
+      				// Supprime l'événement
+      				supprime(UnAgenda..Evénement, nIndice)
+      				
+      			FIN
+      		fin
+      		
+      		// Mise à jour
+      		GglEcrit(UneConnexion, UnAgenda)		
+      	fin
+      	
+      	Sablier(Faux)
+     type : 458752
+   -
+     name : GoogleSupprimeEvénement
+     internal_properties : CAAAAAgAAABcDXb4UMPxU5YHTwSGZWxgP4gfL7aVa4IX8BrdrGVVHPjeHhq7Zydfs8QO/KVjnuufUXHZqHO+7SLCKdqKgztJ8hlxaMrFZGCcOIkIsI4zi+Ap9xsYAtTkist1EyOPl20L/vc5kSu8ZrKJlwquX0PDAFMV/KFGROcMrVqpq+HVlZejN9bk8EClucYsQELofdLRcwzny9klxA==
+     procedure_id : 1948531700499942842
+     type_code : 15
+     code : |1+
+      // Résumé : Supprime un événement dans l'agenda Google
+      PROCEDURE GoogleSupprimeEvénement(local nIDAgenda est un entier, local sIdentifiant est une chaine)
+      
+      	UnAgenda			est un gglagenda
+      	UneConnexion		est une gglconnexion
+      	nIndice				est un entier
+      	
+      	Sablier(Vrai)
+      	
+      	// Recherche l'agenda
+      	HLitRecherchePremier(AgendaGoogle, IDAgendaGoogle, nIDAgenda)
+      	si htrouve(AgendaGoogle) alors
+      	
+      		// Prépare la connexion
+      		UneConnexion = GoogleConnecteAgenda()
+      				
+      		// Récupère l'agenda
+      		UnAgenda = GglRécupèreAgenda(UneConnexion, AgendaGoogle.Identifiant, "19700101")
+      				
+      		// Recherche l'événement
+      		nIndice = cherche(UnAgenda..Evénement, tcLinéaire, "Identifiant", sIdentifiant)
+      		si nIndice > 0 ALORS
+      			
+      			// Supprime l'événement
+      			supprime(UnAgenda..Evénement, nIndice)
+      	
+      			// Mise à jour
+      			GglEcrit(UneConnexion, UnAgenda)		
+      		FIN		
+      	fin
+      	
+      	Sablier(Faux)
+     type : 458752
+   -
+     name : OutlookSupprimeEvénementMultiples
+     internal_properties : CAAAAAgAAADYifMaWs27n3rzhWKsC5gmCYLv/2DDMd57ZKDDkltZAvLARuKhgUm/F5DsFrc92rmZP01t4slsBZ5mV6RMVQsDzB8JUHwboliUCGcOcd0M7IES7hSb74NT+3yk5LxC0B4w2+LubLCH0c8WIsdDzshAxdiQAaxrV/YFpkGCrBCaOoDc7p8njduMnkuvDce7ros24DcAUF2hQA==
+     procedure_id : 1948531880888676992
+     type_code : 15
+     code : |1-
+      // Résumé : Supprime des événements dans l'agenda Outlook
+      PROCEDURE OutlookSupprimeEvénementMultiples(local nIDAgenda est un entier, local tabIdentifiants est tableau * chaine)
+      
+      	nIDSession 			est un entier
+      	sIdentifiant		est une chaine
+      	
+      	Sablier(Vrai)
+      	
+      	// Recherche l'agenda
+      	HLitRecherchePremier(AgendaOutlook, IDAgendaOutlook, nIDAgenda)
+      	si htrouve(AgendaOutlook) alors
+      	
+      		// Ouvre une session
+      		nIDSession = OutlookOuvreSession(AgendaOutlook.Profil)
+      
+      		// Pour chaque identifiant
+      		pour tout sIdentifiant de tabIdentifiants
+      
+      			// On se positionne sur le rendez-vous
+      			RendezVousPremier(nIDSession)
+      			TANTQUE mRendezVous.EnDehors = Faux
+      				
+      				// Si l'identifiant correspond
+      				SI mRendezVous.ID = sIdentifiant ALORS
+      					
+      					// On le supprime
+      					RendezVousSupprime(nIDSession)
+      					SORTIR
+      				FIN
+      				
+      				RendezVousSuivant(nIDSession)
+      			FIN	
+      		fin
+      		
+      		// Fin de la session
+      		FermeSession(nIDSession)
+      	fin
+      	
+      	Sablier(Faux)
+     type : 458752
+   -
+     name : NotesSupprimeEvénementMultiples
+     internal_properties : CAAAAAgAAAC0PajzxDgY0s9w4As8H138nLK+S3Ega9OAo8zot+wVt9Ad7kHfoXNSn9/GNn30opdFGhBH5AUruy+jIPp3y/yK8qtaE0ktdeG0aJfUcNva4RUlHZqs7Rb19ieEAz/KBLCbK+MNYQydA9fqBaLJRJMCdSSO3z2lTDGsIYuq4UpMPhUld7I7QA==
+     procedure_id : 1948532404874742968
+     type_code : 15
+     code : |1-
+      // Résumé : Supprime des événements dans l'agenda Lotus
+      PROCEDURE NotesSupprimeEvénementMultiples(local nIDAgenda est un entier, local tabIdentifiants est tableau de * chaine)
+      
+      	nIDSession 			est un entier
+      	nIDConnexion		est un entier
+      	sIdentifiant 		est une chaine
+      	
+      	Sablier(Vrai)
+      	
+      	// Recherche l'agenda
+      	HLitRecherchePremier(AgendaNotes, IDAgendaNotes, nIDAgenda)
+      	si htrouve(AgendaNotes) alors
+      		
+      		// Si on a précisé un certificat ou non
+      		SI AgendaNotes.Certificat = "" ALORS
+      			nIDConnexion = NotesOuvreConnexion(AgendaNotes.MotDePasse, AgendaNotes.Serveur)
+      		SINON
+      			nIDConnexion = NotesOuvreConnexion(AgendaNotes.MotDePasse, AgendaNotes.Serveur, AgendaNotes.Certificat)
+      		FIN
+      		
+      		// Spécifie la base
+      		SI AgendaNotes.Base <> "" ALORS
+      			
+      			// Ouvre la base
+      			nIDSession = NotesOuvreBase(nIDConnexion, AgendaNotes.Base)
+      		FIN
+      		
+      		pour tout sIdentifiant de tabIdentifiants
+      			
+      			// On se positionne sur le rendez-vous
+      			RendezVousPremier(nIDConnexion)
+      			TANTQUE mRendezVous.EnDehors = Faux
+      				
+      				// Si l'identifiant correspond
+      				SI mRendezVous.ID = sIdentifiant ALORS
+      					
+      					// On le supprime
+      					RendezVousSupprime(nIDConnexion)
+      					SORTIR
+      				FIN
+      				
+      				RendezVousSuivant(nIDConnexion)
+      			FIN
+      		fin
+      	
+      		// Fin de la session
+      		si nIDSession <> 0 alors NotesFermeBase(nIDSession)
+      		FermeSession(nIDSession)
+      	fin
+      	
+      	Sablier(Faux)
+     type : 458752
+   -
+     name : GoogleAjouteEvénementMultiples
+     internal_properties : CAAAAAgAAABcDXb4UMPxU5YHTwSGZWxgP4gfL7aVa4IX8BrdrGVVHPjeHhq7Zydfs8QO/KVjnuufUXHZqHO+7SLCKdqKgztJ8hlxaMrFZGCcOIkIsI4zi+Ap9xsYAtTkist1EyOPl20L/vc5kSu8ZrKJlwquX0PDAFMV/KFGROcMrVqpq+HVlZejN9bk8EClucYsQELofdLRcwzny9klxA==
+     procedure_id : 1948541806570698371
+     type_code : 15
+     code : |1+
+      // Résumé : Ajoute des événements dans l'agenda Google
+      PROCEDURE GoogleAjouteEvénementMultiples(local nIDAgenda est un entier, local tabIdentifiants est tableau de * entiers)
+      
+      	UnAgenda			est un gglagenda
+      	UneConnexion		est une gglconnexion
+      	UnEvénement			est un gglEvénement
+      	nIdentifiant		est un entier
+      	
+      	Sablier(Vrai)
+      	
+      	// Recherche l'agenda
+      	HLitRecherchePremier(AgendaGoogle, IDAgendaGoogle, nIDAgenda)
+      	si htrouve(AgendaGoogle) alors
+      	
+      		// Prépare la connexion
+      		UneConnexion = GoogleConnecteAgenda()
+      				
+      		// Récupère l'agenda
+      		UnAgenda = GglRécupèreAgenda(UneConnexion, AgendaGoogle.Identifiant, "19700101")
+      				
+      		pour tout nIdentifiant de tabIdentifiants 
+      		
+      			// Recherche l'événement		
+      			HLitRecherchePremier(AgendaEvénement, IDAgendaEvénement, nIdentifiant)
+      			si htrouve(AgendaEvénement) ALORS
+      				
+      				// Remplissage
+      				RemplitGglEvénement(UnEvénement)
+      				ajoute(UnAgenda..Evénement, UnEvénement)
+      						
+      				// Mise à jour
+      				GglEcrit(UneConnexion, UnAgenda)		
+      								
+      				// Relit l'identifiant
+      				AgendaEvénement.IdentifiantGoogle = UnAgenda..Evénement[UnAgenda..Evénement..occurrence]..Identifiant
+      				hmodifie(AgendaEvénement)
+      			FIN		
+      		fin
+      	fin
+      	
+      	Sablier(Faux)
+     type : 458752
+   -
+     name : NotesAjouteEvénementMultiples
+     internal_properties : CAAAAAgAAAC0PajzxDgY0s9w4As8H138nLK+S3Ega9OAo8zot+wVt9Ad7kHfoXNSn9/GNn30opdFGhBH5AUruy+jIPp3y/yK8qtaE0ktdeG0aJfUcNva4RUlHZqs7Rb19ieEAz/KBLCbK+MNYQydA9fqBaLJRJMCdSSO3z2lTDGsIYuq4UpMPhUld7I7QA==
+     procedure_id : 1948543803730496518
+     type_code : 15
+     code : |1-
+      // Résumé : Ajoute des événements dans l'agenda Lotus
+      PROCEDURE NotesAjouteEvénementMultiples(local nIDAgenda est un entier, local tabIdentifiants est tableau de * entiers)
+      
+      	nIDSession 			est un entier
+      	nIDConnexion		est un entier
+      	nIdentifiant 		est un entier
+      	
+      	Sablier(Vrai)
+      	
+      	// Recherche l'agenda
+      	HLitRecherchePremier(AgendaNotes, IDAgendaNotes, nIDAgenda)
+      	si htrouve(AgendaNotes) alors
+      		
+      		// Si on a précisé un certificat ou non
+      		SI AgendaNotes.Certificat = "" ALORS
+      			nIDConnexion = NotesOuvreConnexion(AgendaNotes.MotDePasse, AgendaNotes.Serveur)
+      		SINON
+      			nIDConnexion = NotesOuvreConnexion(AgendaNotes.MotDePasse, AgendaNotes.Serveur, AgendaNotes.Certificat)
+      		FIN
+      		
+      		// Spécifie la base
+      		SI AgendaNotes.Base <> "" ALORS
+      			
+      			// Ouvre la base
+      			nIDSession = NotesOuvreBase(nIDConnexion, AgendaNotes.Base)
+      		FIN
+      		
+      		pour tout nIdentifiant de tabIdentifiants
+      		
+      			// On se positionne sur l'événement
+      			HLitRecherchePremier(AgendaEvénement, IDAgendaEvénement, nIdentifiant)
+      			si htrouve(AgendaEvénement) alors
+      		
+      				// Prépare le rendez-vous
+      				RemplitRendezVous()
+      	
+      				// Ajoute le rendez-vous
+      				RendezVousAjoute(nIDConnexion)
+      				
+      				// Lecture de l'identifiant
+      				AgendaEvénement.IdentifiantNotes = mrendezvous.id
+      				hmodifie(AgendaEvénement)
+      			fin	
+      		fin
+      	
+      		// Fin de la session
+      		si nIDSession <> 0 alors NotesFermeBase(nIDSession)
+      		FermeSession(nIDSession)
+      	fin
+      	
+      	Sablier(Faux)
+     type : 458752
+   -
+     name : OutlookAjouteEvénementMultiples
+     internal_properties : CAAAAAgAAABcDXb4UMPxU5YHTwSGZWxgP4gfL7aVa4IX8BrdrGVVHPjeHhq7Zydfs8QO/KVjnuufUXHZqHO+7SLCKdqKgztJ8hlxaMrFZGCcOIkIsI4zi+Ap9xsYAtTkist1EyOPl20L/vc5kSu8ZrKJlwquX0PDAFMV/KFGROcMrVqpq+HVlZejN9bk8EClucYsQELofdLRcwzny9klxA==
+     procedure_id : 1948544370666311925
+     type_code : 15
+     code : |1-
+      // Résumé : Ajoute des événements dans l'agenda Outlook
+      PROCEDURE OutlookAjouteEvénementMultiples(local nIDAgenda est un entier, local tabIdentifiants est tableau * entiers)
+      
+      	nIDSession 			est un entier
+      	nIdentifiant		est un entier
+      	
+      	Sablier(Vrai)
+      	
+      	// Recherche l'agenda
+      	HLitRecherchePremier(AgendaOutlook, IDAgendaOutlook, nIDAgenda)
+      	si htrouve(AgendaOutlook) alors
+      	
+      		// Ouvre une session
+      		nIDSession = OutlookOuvreSession(AgendaOutlook.Profil)
+      		
+      		POUR TOUT nIdentifiant DE tabIdentifiants
+      			
+      			// On se positionne sur l'événement
+      			HLitRecherchePremier(AgendaEvénement, IDAgendaEvénement, nIdentifiant)
+      			SI HTrouve(AgendaEvénement) ALORS
+      				
+      				// Prépare le rendez-vous
+      				RemplitRendezVous()
+      				
+      				// Ajoute le rendez-vous
+      				RendezVousAjoute(nIDSession)
+      				
+      				// Lecture de l'identifiant
+      				AgendaEvénement.IdentifiantOutlook = mRendezVous.ID
+      				HModifie(AgendaEvénement)
+      			FIN	
+      		FIN
+      				
+      		// Fin de la session
+      		FermeSession(nIDSession)
+      	fin
+      	
+      	Sablier(Faux)
+     type : 458752
+   -
+     name : GoogleModifieEvénementMultiples
+     internal_properties : CAAAAAgAAAA8bRc+oHmnm+a/reYYH3Qm2fZrm2xfzVoPiIBHlq81cuoEwpat3VXjG4wE2ithrvlBk9FZLk1YCdryR3AoOS/LXCO1DJhHZqS4FDfif2veNncIWKqJKQUx4RLe4sI4OuhWQfzUCuKBn6U8NPUx7JKyE2Yah6JlCczDZIs46n5UFNZq2EX1J73ihGFZG+VJGGVM/vE0LLkFJA==
+     procedure_id : 1948841393392600076
+     type_code : 15
+     code : |1+
+      // Résumé : Modifie des événements dans l'agenda Google
+      PROCEDURE GoogleModifieEvénementMultiples(local nIDAgenda est un entier, local tabIdentifiants est tableau de * entiers)
+      
+      	UnAgenda			est un gglagenda
+      	UneConnexion		est une gglconnexion
+      	UnEvénement			est un gglEvénement
+      	nIdentifiant		est un entier
+      	nIndice				est un entier
+      	
+      	Sablier(Vrai)
+      	
+      	// Recherche l'agenda
+      	HLitRecherchePremier(AgendaGoogle, IDAgendaGoogle, nIDAgenda)
+      	si htrouve(AgendaGoogle) alors
+      	
+      		// Prépare la connexion
+      		UneConnexion = GoogleConnecteAgenda()
+      				
+      		// Récupère l'agenda
+      		UnAgenda = GglRécupèreAgenda(UneConnexion, AgendaGoogle.Identifiant, "19700101")
+      				
+      		pour tout nIdentifiant de tabIdentifiants 
+      		
+      			// Recherche l'événement		
+      			HLitRecherchePremier(AgendaEvénement, IDAgendaEvénement, nIdentifiant)
+      			si htrouve(AgendaEvénement) ALORS
+      					
+      				// Recherche l'événement
+      				nIndice = Cherche(UnAgenda..Evénement, tcLinéaire, "Identifiant", AgendaEvénement.IdentifiantGoogle)
+      				SI nIndice > 0 ALORS
+      				
+      					// On recharge l'événement
+      					UnEvénement <- UnAgenda..Evénement[nIndice]
+      				
+      					// Modifications
+      					RemplitGglEvénement(UnEvénement)
+      				fin				
+      			FIN		
+      		fin
+      		
+      		// Mise à jour
+      		GglEcrit(UneConnexion, UnAgenda)		
+      	fin
+      	
+      	Sablier(Faux)
+     type : 458752
+   -
+     name : NotesModifieEvénementMultiples
+     internal_properties : CAAAAAgAAAC0PajzxDgY0s9w4As8H138nLK+S3Ega9OAo8zot+wVt9Ad7kHfoXNSn9/GNn30opdFGhBH5AUruy+jIPp3y/yK8qtaE0ktdeG0aJfUcNva4RUlHZqs7Rb19ieEAz/KBLCbK+MNYQydA9fqBaLJRJMCdSSO3z2lTDGsIYuq4UpMPhUld7I7QA==
+     procedure_id : 1948841393392665705
+     type_code : 15
+     code : |1-
+      // Résumé : Modifie des événements dans l'agenda Lotus
+      PROCEDURE NotesModifieEvénementMultiples(local nIDAgenda est un entier, local tabIdentifiants est tableau de * entiers)
+      
+      	nIDSession 			est un entier
+      	nIDConnexion		est un entier
+      	nIdentifiant 		est un entier
+      	
+      	Sablier(Vrai)
+      	
+      	// Recherche l'agenda
+      	HLitRecherchePremier(AgendaNotes, IDAgendaNotes, nIDAgenda)
+      	si htrouve(AgendaNotes) alors
+      		
+      		// Si on a précisé un certificat ou non
+      		SI AgendaNotes.Certificat = "" ALORS
+      			nIDConnexion = NotesOuvreConnexion(AgendaNotes.MotDePasse, AgendaNotes.Serveur)
+      		SINON
+      			nIDConnexion = NotesOuvreConnexion(AgendaNotes.MotDePasse, AgendaNotes.Serveur, AgendaNotes.Certificat)
+      		FIN
+      		
+      		// Spécifie la base
+      		SI AgendaNotes.Base <> "" ALORS
+      			
+      			// Ouvre la base
+      			nIDSession = NotesOuvreBase(nIDConnexion, AgendaNotes.Base)
+      		FIN
+      		
+      		POUR TOUT nIdentifiant DE tabIdentifiants
+      			
+      			// On se positionne sur l'événement
+      			HLitRecherchePremier(AgendaEvénement, IDAgendaEvénement, nIdentifiant)
+      			SI HTrouve(AgendaEvénement) ALORS
+      				
+      				// On se positionne sur le rendez-vous
+      				RendezVousPremier(nIDConnexion)
+      				TANTQUE mRendezVous.EnDehors = Faux
+      					
+      					// Si l'identifiant correspond
+      					SI mRendezVous.ID = AgendaEvénement.IdentifiantNotes ALORS
+      						
+      						// Prépare le rendez-vous
+      						RemplitRendezVous()
+      						
+      						// Modifie le rendez-vous
+      						RendezVousModifie(nIDConnexion)
+      						SORTIR
+      					FIN
+      					
+      					RendezVousSuivant(nIDConnexion)
+      				FIN					
+      			FIN	
+      		FIN
+      	
+      		// Fin de la session
+      		si nIDSession <> 0 alors NotesFermeBase(nIDSession)
+      		FermeSession(nIDSession)
+      	fin
+      	
+      	Sablier(Faux)
+     type : 458752
+   -
+     name : OutlookModifieEvénementMultiples
+     internal_properties : CAAAAAgAAAA8bRc+oHmnm+a/reYYH3Qm2fZrm2xfzVoPiIBHlq81cuoEwpat3VXjG4wE2ithrvlBk9FZLk1YCdryR3AoOS/LXCO1DJhHZqS4FDfif2veNncIWKqJKQUx4RLe4sI4OuhWQfzUCuKBn6U8NPUx7JKyE2Yah6JlCczDZIs46n5UFNZq2EX1J73ihGFZG+VJGGVM/vE0LLkFJA==
+     procedure_id : 1948841393392731335
+     type_code : 15
+     code : |1-
+      // Résumé : Modifie des événements dans l'agenda Outlook
+      PROCEDURE OutlookModifieEvénementMultiples(local nIDAgenda est un entier, local tabIdentifiants est tableau * entiers)
+      
+      	nIDSession 			est un entier
+      	nIdentifiant		est un entier
+      	
+      	Sablier(Vrai)
+      	
+      	// Recherche l'agenda
+      	HLitRecherchePremier(AgendaOutlook, IDAgendaOutlook, nIDAgenda)
+      	si htrouve(AgendaOutlook) alors
+      	
+      		// Ouvre une session
+      		nIDSession = OutlookOuvreSession(AgendaOutlook.Profil)
+      		
+      		POUR TOUT nIdentifiant DE tabIdentifiants
+      			
+      			// On se positionne sur l'événement
+      			HLitRecherchePremier(AgendaEvénement, IDAgendaEvénement, nIdentifiant)
+      			SI HTrouve(AgendaEvénement) ALORS
+      				
+      				// On se positionne sur le rendez-vous
+      				RendezVousPremier(nIDSession)
+      				TANTQUE mRendezVous.EnDehors = Faux
+      					
+      					// Si l'identifiant correspond
+      					SI mRendezVous.ID = AgendaEvénement.IdentifiantOutlook ALORS
+      						
+      						// Prépare le rendez-vous
+      						RemplitRendezVous()
+      						
+      						// Modifie le rendez-vous
+      						RendezVousModifie(nIDSession)
+      						SORTIR
+      					FIN
+      					
+      					RendezVousSuivant(nIDSession)
+      				FIN					
+      			FIN	
+      		FIN
+      				
+      		// Fin de la session
+      		FermeSession(nIDSession)
+      	fin
+      	
+      	Sablier(Faux)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_Collection1
+resources :
+ string_res :
+  identifier : 0x1fbe21d8005e5c99
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

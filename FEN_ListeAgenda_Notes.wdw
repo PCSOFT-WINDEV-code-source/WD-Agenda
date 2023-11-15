@@ -1,0 +1,326 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_ListeAgenda_Notes
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_ListeAgenda_Notes
+ identifier : 0x2b02a977c6d202db
+ internal_properties : CAAAAAgAAABRkXiOZTILUdUeAq88b5I/WnBYG11//3Ns/Xq/zPAoIU5sib2laTL3G0Hd2gffPFSX9lOU1i6kqUGXeD0GQV/eMhornW9xnH1RVA1c0AYwwdVNgoesESRTPuNhRWvSoQ+mGw5yAhdkTpYHR6R/WLZOd1Ev4iXVbC+GDx4DsGEmV5DCM3FFFdLITSEfJjU3ZzOWkn/2ivYyKsxodYrLPBvQ1RW/4Weup3n3ibbRG4SiWSgJqa+a2PlEGx/PGipKnE3vHB3f3va8ivt9v7/1yFajioi//kA8UTFYBl5uOAVbTyROEx+QflXf+/E8309tp+xKiDo+Qsrd69VIr4EJc9ONeGEW4hixZHXJ3H45QCCI668drfeUiDig2+m18wYORo1Fqqk7Aa+Q2lEPm618zOiNJfe6lc2ejUu8qUeTB4OGodMvzUXdzGC+V4M7WqEoG8wRml+q3H8fiG03l7MXKIUMs6KVGP80AEEu4Mu3houBMhwy6XhtGPe42bNOydt5qgDm/vmpVtp12gWZkPRNvfcJ29aCiJ4df1jl+Vqw4qw8qfXXhuc3umRHSTkSRXT57m+snOcYpJl7bj7S6LIc9msj0oPp/6BX2/LscnnlshWwtLlCG6c7fl/H/3C7Y/PyveKUHYUaWLldbYZKZX3TPVjRrg41ft7CU5rZ2bOV4nfEuQUvoIWnc2sCG8I1g7N0sOejnusFkTiIWReghpNvD0XKFums/jsiykAD5m/D0Ug50vwarRqszEaRJe5XG94KyRRc/8H6jk9aF4SBEbf1bpvOcvaPjGkLojA3D/OB+hbcy1SJuIg3LKRo77A3Fb35bRocOvtGUN+5bPrgchZC
+ properties :
+  width : 372
+  height : 339
+  widthClient : 370
+  heightClient : 307
+ controls :
+  -
+    name : LIB_FOND
+    identifier : 0x2b02a977c6d502db
+    internal_properties : CAAAAAgAAAACd2RGIrrXGWlL93kLtoHWxPeWTMfE/c5KpA0L+y1UgF2BG6x/7Jynz5fJsJv7dCNYfZrnoZXaRC4ci2b5jnj+K0uz4zpsmLuQz/PgslbGa0HPt22sxNBCsNW5SdSmDFFc41dW9DH/xbghkBLS6U8dw6zFGf7ALWEY0EE5bJQ/D9yi7371OS2NbbHMD0g4iVfnFjwIQW1LRacSVGjRAjDIQL5hQHYycl909kEExSQp9t4ZRasBtq8+HpWRpxYmxF4J3cSdJ6+cp0CME2HpnAeZzKmhGjhsUFDRnY5M9dJ7qlC7ANqk7qSVT96tkRCOcU0qyRaBrmSmraFVdZRr4K/QhI1whZn5e5Q9JnX8nXp6VITv6N422XTnZ3msfJj188NY7XbAUCM3VMIkQFdg84yxeHftnAgDaaLwmFO9aEzIHI8X/17BHs6bp9mZ6R45iV/+
+    properties :
+     width : 370
+     height : 253
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : IMG_ICON
+    identifier : 0x2b02a977c6d602db
+    internal_properties : CAAAAAgAAABEqrkZc5yAhy7J+XX9ZnVdyjHiY9J9RZBtzhzE2YAPMYhmQh1q7t2IimuZLqjj7l0EA616Abld3maenUeEu81mJwYKR8acb3tUcw1mnU+t2gIx62PaSCEXTe8GbEr+ebohSTRVxI+ZPj5eLgzVLQAKRJpm3w/IlhP0NUCqnFZE1rkw9RbH2Ccsn/zeDwNIzUA6Ina55/72d3n41nFr2yCF/p+EnqMalX+UXlKh+3e4wpLgFfGjLwDYNjgXy7Mw08yddBeYNiz7Cov95Ir80h6l9CFzDF7cVheb2qHbrXReNpZWnHmzkUCycWEDxK2CEnUNIwrcA/2rHay75vhuQkfdEB27ZtOThIgoCnleNeTBF6R74LxhTQUc5PrGSFuRJ5Im7R/yAe2ZYE9pidCeVUiNKjTtkcCCC8fbjTgQSRKBtohi7bGdej1C9sLuGiTdFvF1AQ+APYm7TuiMYI4YOSoBnffyqJg5j26dEO7qDbp2yMB1bFqCtWAS/6exX3Sr1kHBdAAAVjxe2cqJ3dX3wEaOE3qD/SGoD/e2WLFnPpbAZV3HPzHUAl8fG1/kx5ZhLTTf35JMaZABWeNf3KSjMoE7QJdn8Z19Hu/fRitgG2J+RlK1Hxi7hcnULRbqwrF+jmBk84M5PUyXaMl/1rVHApiGDc6JN1JgHCNnFJx+SjFwIbsC/a9+8inqm0bknX8yzisJp2hOxDyKIQRe95CcLXIQfpAAgC+RnaLf+NU4UAjXb7c+MjDokmiWpSkIuC3k8Kk8BpTJeoHyJbL0I0NAbLudUF2rY/vR88NbGAGgj+AWECIfsjmODwq8+KfXpcd2SYUAlwoRALsJgOKpzb9tfNFOx7bWjKZwThBGIPV67S6fsgSEx54bfhbujzhSV0pAZLofrnhygRQ6kkxifjfF7g==
+    properties :
+     x : 8
+     y : 8
+     width : 50
+     height : 50
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : LIB_FONDBOTM
+    identifier : 0x2b02a977c6d402db
+    internal_properties : CAAAAAgAAAActbqCxzpG2HCpRZZCpFclolVGMutS3m6WAjf/7P16X4JpMh9NHQSe6UTWaJqvTNLT852gCPFOXT9v2w5W3AMyGPPt6TmKHuFW3A69CEkQ9sy+/luBzeAxPjaALzv9BCuUa/iikc9TmXFwNcCu2vwWgrrc6sVVdcF49bHG0+VNhPgScoukmNXOR/sTdIqfz16q65Cc1fwvjPfIqZkcI9q2lzaZcyduMaql7qIte30Tdshcsp58X90PfrUPXi9ZwRTU25C7uzsFJCRff31Fh+5WZWTkrjXcy13T7nLy73WcguOer0BXcwj6TrhHnGR5k8BHgjXFU+FtF6yNcIiZEOzTtkY4WP7F4PoovNHdhjVw29FLzLrtwEhul+Lxfm/PxRBewtkAbXVdXiSiEPSSmV/FpIDlpfTzkuY0VVXWbwg=
+    properties :
+     y : 252
+     width : 370
+     height : 55
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Fermer
+    identifier : 0x2b02a977c6d702db
+    internal_properties : CAAAAAgAAABMp2muRdR04OcP3bsIHt/pMiTB7PhbyfPazbh+veEq/8a2/xbDsAlJjOltK85WkUMXQhyoAXQobZka58vqsdMfpU4WbNfx3bbt8erV3d61KGdCMPlWNKItiDsyj6BzAcIT/FMRppPjYSEh9MGMA3qw+Oyk7oHe+B617jpLD2nLsQw2bgfYjDXbBruBCHokDbtV6v5by26QvLYCEaXjmus+kex6PYqdUBIYVDDj/Rlaz20rFktUDsgwVW3k/cZgCjpn655FFBh1ba62Jiop0HTZsz9UEVWxGD9FTEE4OtpTZaW7jzNL3LPOBfgRpckK2MtVnjGhkC62EgFhdJR91fG9roo2TirorgUB6xEIG0t2YYdrNEB8bZj9NxpBuCaTqSq4zZSoxg6740Y+3F76R2D4EQRYyf4zB3zdMZEncdmd2F0rGQVCR5UoVHSMHJmGRHRxXyfM2DXtl8gj/pNxEkOenMe6hMObC9HPTKrKE06PZfaikmkTc0Wd5sbSTT59GTefjzrBgD7BYv7JoP9mgPI+D59RfklS3K1x+waHLLu/kNmxznMyf5WHPlY/sfyTg7Fv177PTg/btvaPejVC4htdaVnQICQHlgnVdGKLOu6o73NkV2xvJWqkkUOkmis6lo6v02era/pbhBt0k/CuBT8IZi0Gd4N9WD5fwwS6/AIO0uRxGWLOFIBai2L0r/u9evIEKBgRkFE3fCazG/93vNZ/pLRCk11ERshXdV7LvDGhRXZgFXUH++pTi7XojPGNA6S1UFwKPaRn7oCmkdpyXWW2gVyRdAlzpcit/l4C8bI4gmEqWdYJ+7x9t7chrCWotlAKZvaRQS8WInbmlBSCepbypCHzhtH4Tw==
+    properties :
+     x : 284
+     y : 267
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         mafenetre..ValeurRenvoyée = faux
+         ferme()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_INFOTITRE
+    identifier : 0x2b02a977c6d802db
+    internal_properties : CAAAAAgAAAD9VVz6j8VK+/BwtWiECcM8oFDTugzH1t+OuQmgIjJ9E4LWidBRdlZ5+dMmchOnnRN4V1sm9J+Vdh3d6hr+HsDbglCiMgiySQ+tn+YQdoaB4bAekr+k9bLTKyl9igWvNDHk9FhOXa2AZpUtJVV42OzOARn7V4s8NwK7FgbPlQL6SRAxdtx3/gfJco6h2dgUeIblS+u2DUUumW1kaSH2WuXirHYzbLIESUevmyJUJPN5eKx7TlBemjWuuMmU/7JyqGajo2HAJyHY7b5zQxgNTJsTnEhAWOtnru5MbxFSg+tQtU+tFUqP2SvzaI0wDsct5PMXoi8ggzT9xqa/9mv3WxNzN5+2gami4vGoHaNQdb7fe09SlhW1xxPS+wxg6Uf8S5C6f2q3MmgHqG6AAjOq+UfV0s5KVH0+LtFDEBe1tq8oh3+HStKzRl1HhUcO5zSwienuf5RJIM9Q4251Nq0aZLhY5ItkXZiAYcPfDZjibQZ722DC7ulOJo2XTQ==
+    properties :
+     x : 66
+     y : 8
+     width : 298
+     height : 50
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LISTE_AGENDAS
+    identifier : 0x2b02a977c6d902db
+    internal_properties : CAAAAAgAAABrbj4FlSTJMZP3Qn0h+sGwNoomJPPmNTdGBRn5R2MDuNYUzLQot/tyHLCviAUK9BXhlGXBPWg675fkIGZY8+Bqq8RRSyPmO4vTwNMQczCaXPQZUHkONS/aBevr6FAI/x1UTMYWdvf57QyW7XX2aU2/kMNOGdwwTEMYGr73vbhTfydUWxVyrduZglFm08MSin7qWYBloh61HpyHMgD9d+yHFgtudiLrfy+SPjp+uTbQoB0lPTgogeBxjbF14BWgWhzBICHCD/63vldRmz8FcLvDBZd0ywZ7wrTql+SZYUUKDv1yGnHTDU3L9epH9CHO3bz5rQ+SBaFRUTfWZjuyt7CN69RBY98Eh0WQv2TFVGzgZ8B6+C+xVFLYeRY9UUXA8cg3RYbQVwUrqL6B7x7E/qsf1W+OtgfJosuPQaHPjCUXXlkE5hhO8JCSoTOa0MeH6MYd27BY3FphOM8OsGyTq6tFJgvygKb/M/8/AdhGchw/TPZAnvQWeP3Vg7v1HKyq68HGQ29M+wkfe0ndXjMxtyrb3t3KK6AOqMrheyZQhJ39XP5BmySvwdQtachyFoRnqCZR6bAmfX+8MkUpaupyzWt+PSblOLNbxFkSogSrfHMYLQ1h3DaBI9Zl4Xdhp//5Gc9M9mTcN8jIYsFEZXKLeJeVlfnylnAiHLGExyZllD4KS8cdrd2zFSfp/CiLnsxqlyyXsNlXhztXzZVTkJWGxNhBelg2nH72RE1Fn54f3xZSvzu36L/KyNtC+ra5ZavImp2P/m0sYMao04p0vTP0HYgp6bKVpqOrHzLLChDSFNztrp7+jBe8Y1drRptBpnaVkR60VTmok+7c8nbre+m3TNOeP1brQhUsNqv5lt0pOnKMC8ymL98eN1YpdUIQsOiOGMcwNUCFv9Kor37yxbmsB466NGBbAyaVFI2bRQbYCeKCRlxHwu4LVhsbvbuOYWq0+OkXM42qzA0fZPNYNbVdkIjBe45XIQgBn1hxFb7sE350QuSNWIsqgPa9Xi/W0aVGI4G+xlMxcLklUAZLJvN+yp0ad5lJIWXaAuR5PhzjO64lQ8FAXngyH2g=
+    properties :
+     x : 8
+     y : 64
+     width : 272
+     height : 184
+    type : 7
+    code_elements :
+     type_code : 7
+     p_codes :
+      -
+        code : |1-
+         
+         LIB_VIDE..Visible = (LISTE_AGENDAS..Occurrence = 0)
+         ExécuteTraitement(LISTE_AGENDAS, trtSélection)
+        type : 35
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+         si ListeSelect(LISTE_AGENDAS) > 0 alors
+         
+         	// Active le bouton de suppression/modification
+         	ChampActif(GR_MODIFICATION, animfondu)
+         sinon
+         	
+         	// Grise le bouton de suppression/modification
+         	Champgrise(GR_MODIFICATION, animFondu)
+         fin
+        type : 33
+  -
+    name : BTN_Nouveau
+    identifier : 0x2b02a977c6da02db
+    internal_properties : CAAAAAgAAAAbwD72mK6UQo5sq0XALzIpfrYzLMj3M+pxdyOv8H9SgG+NuGRzisVoCPO/6+LTh6sV6Rgmma3VPZnpIW7aiLsjhPlKtc3WjJCaiXMUnqe6iuoMj/qSwPTN4j7bz32uZUo7tA/JYhvR1taCg6EJ3Hm8ZM4HuJ2lbVpMzu5tRnYZ4pr9Kd8EyvFIO+F/NiIyqLm8azf40wAIZmIX7yZInm0Pq60vAhYsIJqXg9ruCdCPiMeF2kZsMKX3k9dhYVci6WuxzYDE71BKET0hUnEyWEhECiUIvJQmn+j3Z+jfKKyUT0Q0/dvK7Ngh5emdaFHmJmfOW+XUvoUQ/cEXNBCwn16/TBSmzK+s0V84Grf4pnAAkJkjovhOYGrb3GsXbzJcH7sN6bNew9HRlk1KO611CE232EEeo5Q3pXBd2xAhcWP28TsgecUaFn+NyiSV0mSOALuu6T5KV/UKN/36ibHDQvK2SvXoS8e2j5pbUuT9TUbOhAchLwCnaDirl5lJWoFPafDpVLgcpKKK5tnoVFCvQRHXeQQYAiNBgBauJIUbeNwOK458nzVV1BB0ViSdI4Uv+eqbSlwc1DgikkT7STWpf+MsV+0Ew2HZ48oBtkL+C/nIFDp1VH5ZkddfS7nho8P5lOMBp9rCW3j4m6DVyu5JtNk5VVxQcAJuZp0aWh5Kw10XS2zZwjJQyP+6BOgZI4Ghp2tDvyHez9Xb0PAm8EQZvpfkqrvTBUDtDsQ3E1Yd41E3W//XvigORnGT731D795f3ODwguGPLbbIe6sZirNTvIijCQs4IcDYdiQCHuAMFAQ8JA2L2Rl4tuoqlvdTtBbdaYOgBHzkQJUveBYCki6701k9A+zHbXsSgVPcDUlQGV2sWS7q
+    properties :
+     x : 284
+     y : 64
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Ouvre la fenêtre d'importation d'un agenda Notes
+         si ouvre(FEN_ParamAgenda_notes) ALORS
+         	
+         	// Actualise la liste
+         	ListeAffiche(LISTE_AGENDAS, taInit)
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Modifier
+    identifier : 0x2b02a977c6db02db
+    internal_properties : CAAAAAgAAADROPuy0DOAZMC04tzCptTdi0EYaFe+Jddn6necJ2yUGkTU2DSh3jgAwuges9ntIvsqIxYD80YPvIE2LWgG32vA6NiyAemr8qxEO/f0w9aF5XRmufh7eW7X9H07mGgRjGzgQWVb/Gv6pb0R03hVrLOTryg7fcP48vd1TOFUofifybHYeQR9Ba6LRGhYFvXM4gbMFjwIZWfwkGe9DD8XG8J96/myQtPGBp/nBPWgf4UKlotPQGd3KBPhGxrqTD2F1uq5QGXxhafSeKm2iI3vEjfwwAm4Z64+gdfmda09SymWayVF9solarM1iSJGl7WnQw0Bi8Tem70KAlQLZccrN8W8cc9udEbg7ua7p3LpVUZE//7Rgta3oL20deePSVEkylEXwMS3kuZ9JxFs0otHWv/hsGjf1vo7lIM4Rni5lzLE2GQHYH4T5nsEgoyU8WUfnNd5UEP+JKNbg9e7jnkpIfUnIHtRaLu9PP6l1RUGqZmHzxw7c/zkoTQG5MDJFcbqzLobTymxvKDk1+S9SEyVnNYoWkDG4ZzHQ9XiU4R4n6I6pIytcDzaX2ZLOdAZ22Z7KQ2oGDOLiTNND/Fdw+VwoDMkajl0rp+D8oPX56mEnQObW5b4z5bV4Y2jCIL7wK0nYFsM06zlvwID1b1X39hKzYcJ0s5pNFgsicRfwtiqtyI6AHJc6ozUtC3R9TLt93QxpWNn1EwX+FiT0ySNDxU6/vN0Ozoze/IHgFhTT7XzYpnHufxxc13Ujx+4DiumL0DAGSUisGfLiQcH/4IWB/OD3upue8a1avgzZTJHbxmD8sFXw1TnGu/i4ldDvIysJU7JdM5l2kx8cZrJK9f1ZYPOOIQOz/QMgIb/OM77Xy0+dUheHN4ow10rYcfqmRChREkCKI/y4H3oXjnE2r0VOc1AYw==
+    properties :
+     x : 284
+     y : 94
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Ouvre la fenêtre d'importation d'un agenda Notes
+         SI Ouvre(FEN_ParamAgenda_Notes, LISTE_AGENDAS..ValeurMémorisée) ALORS
+         	
+         	// Actualise la liste
+         	ListeAffiche(LISTE_AGENDAS, taInit)
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_VIDE
+    identifier : 0x2b02a977c6dc02db
+    internal_properties : CAAAAAgAAABkxZkMAHicHxk1aMKW9P4Kzg48uJOJdQWBcLtws6+LGXWxDhSqagLGw6Ta+H6al8Cchp8SbXWkGpQ3XRM3xFaqDHXtdj09snJNLzbDnxQWGt5TVzIkS/JQjgo5asUfdHAimEhOUb+ce3CCtsyA6ATbW6kXJLKguY7/Ysm12r8lYuOMvqnTY8wBiX/qZd9oQQX4JTuwennqg+D3DvRgawPQUSfClF29EcxZ3U8aaKsPpEcgrH4rqevzuKJU1MOEzf03BadRG5ZgWt/ZwxZKXFVxneurDOzUYljkJySAV87LnwTYWOCpB/U9wENgFuzuUFrKUJMa0pOBB8iV5M9ev4bp3BeLw4GfM51prkGtAXxxO3oOMQnY85l6Ck2RkuEWou7fLBR/Px0F2FgMzkcHeLf0SyoLStCYi6Ix52sWOelOLLF3D9szEaH3gZbahBE5JGBSo3FjMzXszzbnuNupP3jjyRNigzfxNrKTvBPvET1JYC7ddJ29wGGCIc6zwSPTdX4YoxbNix1ekjr8WqXtT7mNTBGQfWObNLTCdXEbPNTj5H88aR4=
+    properties :
+     x : 13
+     y : 64
+     width : 259
+     height : 182
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Supprimer
+    identifier : 0x2b02a977c6dd02db
+    internal_properties : CAAAAAgAAABd8wWwaUt6TXV4gRIkPgUHzKodWhyiJB+a9Ddj2RL4QzLKXukA1hl9BAeZ9RtdKHVY/wqiY2XxcBKa/VqVYmuhs4hExqcNY0wIXStblJK//1EQChklFuY7gUHM8tDZorEVhdRbWFKAZiRbEan0o2c+k9tlloh8Em0u/+rEsCcSbdjRtmK+YbZ9L5vU3L1J8u2B2w9uJXvvAtBAmN/j9+8o1oOKC3Iz1bel2uPpBBEMQTzIbvUQg+pkq1AVl9BjHjkoOrVhOf7PJ75suQ/BAxvhKYIIDa1OXZJ9mFWP5k30D1IqdQ8QXwEbiFLS8cZXxcF8+n8bnlBYT6K+38irMSzvyOrCmXWdZsR3SCYgfTi64EVj0vpZ1WcPQOb7ecs185hriAnID1FVel1PJnLw1A7RLO46Mcfb5EGEe4b9WobLSDXUm9JJg5nJH7wfRkUhUlez4cYAJOndNVmuXXovqSwTOkNYMzicGVkwnN8UN63hNY6Sdbum210fUDfLymWTb8l/hJo/R0lWs3IU00lZqNYMoqQxPP3QWB3L/Vsrik9aRcdTRoVQdHjWbD7aFPL4w7BLj9Irm5KYaBKMbLRBUOg5Th501k7TIcM8KaPyXLC/XIP35NmHkJAs2E1jv9XbA+uW3j+IP7X3EPd7xqlZRUHCExapUZCDUVkXyXB2QY13tYv3iHy0fYxhBeLgo47MgJ3j+talU7pWpPh3jQyL7TchutLnlP34ROI7rbhR1jOabTBNlmgjktbjSOGuVbTpSYOylw8xB4LaprqM4FUQ65fdhM2MioTZ4rfYwqEmMRdv7hKMd90SNot9WnVGZ4RN8rjVmTZhM7JigAEvoOXagf5NhJ7iPyvgd9NFD2jWScfMG5FqQ7vuFE3zEVWhYzHxjQbdJEvP2+S1FfM=
+    properties :
+     x : 284
+     y : 124
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAAj5gG90OEl8bLOZIV1q9iyEGmxP/e6RE9iBnCJY40K5bT9qyh7muHRpIvtukXH6SUDlka1zM40USUWMpxPgogPV0l9vFoNOYJKQip4XV4XXcSJKUHdmDin3KgPP+gXoP5vkd9h/2gKI3wH+Wxu3tqQFKpxpiB66ix0sGcHqEqKKVLwVyPZIZ29mqmqTmyIRSd5JkKk+GR78VjpOlG3
+        code : |1-
+         
+         //1 : &Supprimer l'agenda
+         //3 : S&upprimer l'agenda et ses événements
+         //2 : &Ne pas supprimer
+         SELON Dialogue(<§?1B029F2E0047D48B§>, LISTE_AGENDAS..ValeurAffichée)
+         	// &Supprimer l'agenda
+         	CAS 1
+         		
+         		// Positionne sur l'agenda Notes
+         		HLitRecherchePremier(AgendaNotes, IDAgendaNotes, LISTE_AGENDAS..ValeurMémorisée)
+         		si htrouve(AgendaNotes) ALORS
+         						
+         			// Supprime
+         			hsupprime(AgendaNotes)
+         			ListeAffiche(LISTE_AGENDAS, taInit)
+         		FIN
+         
+         	// S&upprimer l'agenda et ses événements
+         	CAS 3
+         		
+         		// Positionne sur l'agenda Google
+         		HLitRecherchePremier(AgendaNotes, IDAgendaNotes, LISTE_AGENDAS..ValeurMémorisée)
+         		SI HTrouve(AgendaNotes) ALORS
+         			
+         			// Supprime les événements reliés à cet agenda
+         			pour tout agendaevenement avec IDAgendaNotes = AgendaNotes.IDAgendaNotes		
+         				
+         				// On ne supprime l'événement que s'il n'est pas relié à un autre profil (Google ou Outlook)
+         				si AgendaEvénement.IDAgendaGoogle = 0 _et_ AgendaEvénement.IDAgendaOutlook = 0 ALORS
+         					HSupprime(AgendaEvénement)	
+         				FIN
+         			FIN
+         			
+         			// Supprime
+         			HSupprime(AgendaNotes)
+         			ListeAffiche(LISTE_AGENDAS, taInit)
+         		FIN
+         
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2b02a977c6de02db
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAQB7TWDeHfUcO+ftiXRTV4/GCXimLWoulF3nTB6xcZp7luk5EGQOvvmWkOFeSL0RgOqkIdesRjVy+q2L04sHRHPpq5xdzx7wXhxW0NnoGJjpIzc07gQ86zmNlR
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      // Valeur de retour par défaut
+      MaFenêtre..ValeurRenvoyée = Faux
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1b02a97800b0030a
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+ dialogs :
+  -
+    identifier : 0x1b029f2e0047d48b
+    internal_properties : CAAAAAgAAAC/cGO/L2kejMJ1wokyRsW7sP1B1nKI/eHwtvFnRRwu+JAP+4jwYd1d471H/Ts/tjAQATeMKmeDy7wr9ES3EN0yuFfkwcrN3/vbwmp3
+    label :
+     fr-FR : "Les événements ne seront plus synchronisés avec cet agenda.\r\n\r\nÊtes-vous sûr de vouloir supprimer l'agenda '%1' ?\r\n"
+    image : {}
+    cancel_button : 2
+    buttons :
+     -
+       label :
+        fr-FR : "&Supprimer l'agenda"
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : S&upprimer l'agenda et ses événements
+       image : {}
+       value : 3
+     -
+       label :
+        fr-FR : "&Ne pas supprimer"
+       image : {}
+       value : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

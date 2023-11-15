@@ -1,0 +1,310 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pOutils
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1b04249d003c0694
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+      Couleurs est un tableau fixe de 25 entiers
+      
+      Couleurs[1]  = rvb(229,105,111)
+      Couleurs[2]  = RVB(244,152,90)
+      Couleurs[3]  = RVB(255,204,83)
+      Couleurs[4]  = RVB(255,249,91)
+      Couleurs[5]  = RVB(136,210,127)
+      Couleurs[6]  = RVB(127,211,183)
+      Couleurs[7]  = RVB(179,195,142)
+      Couleurs[8]  = RVB(119,158,218)
+      Couleurs[9]  = RVB(150,125,210)
+      Couleurs[10]  = RVB(197,135,165)
+      Couleurs[11]  = RVB(199,206,222)
+      Couleurs[12]  = RVB(75,89,120)
+      Couleurs[13]  = RVB(168,168,168)
+      Couleurs[14]  = RVB(82,82,82)
+      Couleurs[15]  = RVB(7,7,7)
+      Couleurs[16]  = RVB(171,29,36)
+      Couleurs[17]  = RVB(177,79,13)
+      Couleurs[18]  = RVB(171,123,5)
+      Couleurs[19]  = RVB(153,148,0)
+      Couleurs[20]  = RVB(53,121,43)
+      Couleurs[21]  = RVB(46,125,100)
+      Couleurs[22]  = RVB(95,108,58)
+      Couleurs[23]  = RVB(42,81,145)
+      Couleurs[24]  = RVB(80,50,143)
+      Couleurs[25]  = RVB(130,55,95)
+     type : 720896
+   -
+     code : |1-
+      
+     type : 720898
+  procedures :
+   -
+     name : DateHeureVersChaineEx
+     procedure_id : 1946721208548265959
+     type_code : 15
+     code : |1-
+      PROCEDURE DateHeureVersChaineEx(local dhDateHeure est une dateheure, local sSéparateur est une chaine = " à ")
+      
+      	sDateHeure est une chaine
+      	
+      	// Conversion
+      	sDateHeure = dateverschaine(dhDateHeure..partiedate) + [" "] + sSéparateur + [" "] + heureverschaine(dhDateHeure..partieheure, "HH:MM")	
+      	
+      renvoyer sDateHeure
+     type : 458752
+   -
+     name : CréeCatégoriesDéfaut
+     procedure_id : 1948469887313212843
+     type_code : 15
+     code : |1-
+      // Résumé : Crée les catégories par défaut
+      PROCEDURE CréeCatégoriesDéfaut()
+      	
+      	// Vide le fichier
+      	HSupprimeTout(AgendaCatégorie)
+      
+      	// Crée 10 catégories par défaut
+      	pour i = 1 _a_ 10
+      				
+      		hraz(AgendaCatégorie)
+      		
+      		// Libellé et couleur par défaut
+      		AgendaCatégorie.Libellé = "Catégorie " + i
+      		AgendaCatégorie.Couleur = Couleurs[i]
+      		
+      		// Enregistre
+      		hajoute(AgendaCatégorie)		
+      	FIN
+      	
+     type : 458752
+   -
+     name : __AgendaAjouteEvénement
+     procedure_id : 1948530214434293373
+     type_code : 15
+     group : 2
+     code : |1-
+      // Résumé : (Système) Ajoute un rendez-vous dans l'agenda
+      PROCEDURE __AgendaAjouteEvénement(Agenda)
+      
+      	// Envoie le message permettant d'ajouter un événement
+      	ExécuteFAA(Agenda,faaAgAjouteRdv)	
+     type : 458752
+   -
+     name : __AgendaEditeEvénement
+     procedure_id : 1948530214434424554
+     type_code : 15
+     group : 2
+     code : |1-
+      // Résumé : (Système) Passe en mode édition dans l'agenda
+      PROCEDURE __AgendaEditeEvénement(Agenda)
+      
+      	// Envoie le message permettant de passer en saisie pour l'édition d'un événement
+      	ExécuteFAA(Agenda, faaAgEditeRdv)
+     type : 458752
+   -
+     name : __AgendaSupprimeEvénement
+     procedure_id : 1948530214434490121
+     type_code : 15
+     group : 2
+     code : |1-
+      // Résumé : (Système) Supprime un rendez-vous dans l'agenda
+      PROCEDURE __AgendaSupprimeEvénement(Agenda)
+      
+      	// Envoie le message permettant de supprimer un événement
+      	ExécuteFAA(Agenda, faaAgSupprimeRdv)
+     type : 458752
+   -
+     name : Outlook64Bits
+     internal_properties : CAAAAAgAAADcZ6sAJAqFSAjrBMKlUp+XFMWO3jE7PITs9KbaVH5V3hb7OVBrPvABFAzIkdLq46KOdV/HNtGbhg3lNs5bchwNgP7+zqYn5FJkUTYK3eKrxfC71uM+ylaUnJCvIFWOjEBgkQJl+JQGfdbaSDXEXE20PRsp6BZ/OE8EiYiuVdlz6sgzGQjp6/31nz3AgLoCYI3ihJfss1BE2lsyyNKrFJiohqpKjsevzD4tkcbomBU/V2fSc0+i5sPQqL0sfwvePLBKX18552JvybTny83QgabiV1VM6Buw
+     procedure_id : 2104801079097614339
+     type_code : 15
+     code : |1-
+      // Résumé : (Système) Détermine si la version de Outlook est en 64bits
+      PROCEDURE Outlook64Bits()
+      
+      	sChemin		est une chaine = registrelit("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\OUTLOOK.EXE", "Path") + ["\"] + "Outlook.exe"
+      	nHandle		est un entier = fouvre(sChemin, foLecture)
+      	nAdresse	est un entier
+      	nMachine	est un entier sur 2
+      	b64Bits		est un booléen
+      	
+      	si nHandle > 0 ALORS
+      		
+      		// On se positionne à l'offset 0x3c (adresse du PE HEADER)
+      		fpositionne(nHandle, 60, fpdebut)
+      		
+      		// Récupère l'adresse du PE HEADER
+      		flit(nHandle, 4, &nAdresse)
+      		
+      		// On se positionne à l'adresse indiquée + 4 (entête 'P''E''0''0')
+      		fpositionne(nHandle, nAdresse + 4, fpdebut)
+      		
+      		// Récupère le code machine
+      		flit(nHandle, 2, &nMachine)
+      	
+      		// Fermeture du fichier
+      		fferme(nHandle)
+      	sinon
+      		
+      		// Par défaut : IMAGE_FILE_MACHINE_I386 (x86, 32bits)
+      		nMachine = 0x014c
+      		ErreurDéclenche(1, "Outlook n'est pas installé sur cette machine")
+      	FIN
+      		
+      	// Format 32 bits -> IMAGE_FILE_MACHINE_I386 (x86, 32bits) ?
+      	si (nMachine & 0xffff) = 0x014c ALORS
+      		b64Bits = faux
+      		
+      	// Format 64 bits -> IMAGE_FILE_MACHINE_IA64 / IMAGE_FILE_MACHINE_AMD64 (Itanium, x64, 64bits)
+      	sinon si (nMachine & 0xffff) = 0x8664 _ou_ (nMachine & 0xffff) = 0x0200 alors
+      		b64Bits = vrai
+      		
+      	sinon
+      		
+      		// On ne sait pas
+      		b64Bits = Faux
+      	FIN
+      	
+      renvoyer b64Bits
+     type : 458752
+   -
+     name : GoogleConnecteAgenda
+     procedure_id : 1465820454932985640
+     type_code : 15
+     code : |1-
+      // Résumé : Connexion permanente à l'agenda Google
+      // Syntaxe :
+      //[ <Résultat> = ] GoogleConnecteAgenda ( [<nIDAgendaGoogle> est entier])
+      //
+      // Paramètres :
+      //	nIDAgendaGoogle (entier - valeur par défaut=-1) : ID de l'agenda
+      // Valeur de retour :
+      // 	gglConnexion :  Connexion établie
+      //
+      PROCEDURE GoogleConnecteAgenda(local nIDAgendaGoogle est un entier = -1) : gglconnexion
+      
+      	UneConnexion est une gglConnexion
+      	bufConnexion est un buffer
+      	
+      	// Charge les informations de configuration de l'agenda
+      	si nIDAgendaGoogle > 0 alors
+      		HLitRecherchePremier(AgendaGoogle, IDAgendaGoogle, nIDAgendaGoogle)
+      	fin
+      	
+      	si taille(AgendaGoogle.BufferConnexion) = 0 ALORS
+      		
+      		UneConnexion..Email		= AgendaGoogle.Utilisateur
+      		UneConnexion..ClientID		= AgendaGoogle.ClientID
+      		UneConnexion..ClientSecret	= AgendaGoogle.ClientSecret
+      		
+      	sinon
+      		
+      		// Récupère les données
+      		bufConnexion = AgendaGoogle.BufferConnexion
+      		Désérialise(UneConnexion, bufConnexion, psdBinaire)
+      	FIN
+      
+      	// Connexion
+      	si GglConnecte(UneConnexion) alors
+      		
+      		// Sérialise la connexion
+      		serialise(UneConnexion, bufConnexion, psdbinaire)
+      		
+      		AgendaGoogle.BufferConnexion = bufConnexion
+      		HModifie(AgendaGoogle)
+      	fin
+      	
+      renvoyer UneConnexion
+     type : 458752
+   -
+     name : CréeEvénementsExemple
+     procedure_id : 1711431505547110173
+     type_code : 15
+     code : |1-
+      // Résumé : Crée une série d'événements "exemple"
+      // Syntaxe :
+      // CréeEvénementsExemple ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE CréeEvénementsExemple()
+      
+      	// Si on a déjà généré des enregistrements exemple
+      	SI ChargeParamètre(P_CreateSampleEvents, Faux) = vrai ALORS
+      		retour
+      	FIN
+      
+      	dDate est une date = AnnéeEnCours() + "0101"
+      	TypeEvénements est un tableau de chaines = ["Rendez-vous", "Réunion", "Mission"]
+      	
+      	sablier(vrai)
+      
+      	// Vide le fichier
+      	hsupprimetout(AgendaEvénement)
+      
+      	boucle (200)
+      	
+      		// RAZ
+      		hraz(AgendaEvénement)
+      		
+      		dhDateEvt est une dateheure = dDate + "000000"
+      		dhDateFinEvt est une dateheure = dDate + "235959"
+      		
+      		// Au hasard pour la journée entière
+      		si hasard(5, 15) = 10 ALORS
+      			AgendaEvénement.JournéeEntière = vrai
+      			
+      			// Date de fin
+      			dhDateFinEvt..jour += hasard(1, 4) - 1
+      		sinon
+      			
+      			// Date de fin
+      			dhDateFinEvt..jour += hasard(1, 2) - 1
+      			
+      			dhDateEvt..heure = hasard(8, 19)
+      			dhDateFinEvt..heure = dhDateEvt..Heure + hasard(1, 3)
+      			dhDateFinEvt..minute = hasard(5, 15) = 10 ? 0 sinon 30
+      			dhDateFinEvt..seconde = 0
+      		FIN
+      	
+      		// Crée les données de l'événement
+      		AgendaEvénement.DateDébut		   	= dhDateEvt
+      		AgendaEvénement.DateFin		 	  	= dhDateFinEvt
+      		AgendaEvénement.IDCatégorie			= hasard(0, hnbenr(AgendaCatégorie))
+      		AgendaEvénement.Titre				= TypeEvénements[hasard(1, 3)] + " (Généré)"
+      		
+      		// Enregistre l'événement
+      		HAjoute(AgendaEvénement)
+      		
+      		dDate = dhDateFinEvt..partiedate
+      		dDate..jour += hasard(1, 5)
+      	fin
+      
+      	sauveParamètre(P_CreateSampleEvents, vrai)	
+      	sablier(faux)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_Collection1
+resources :
+ string_res :
+  identifier : 0x1fbe21d800145c2c
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

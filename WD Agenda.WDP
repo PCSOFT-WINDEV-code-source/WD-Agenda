@@ -1,0 +1,298 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Agenda
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Windows 32
+    internal_properties : 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
+    configuration_id : 14946668003493900124
+    type : 1
+    generation_directory : .\Exe\Windows 32
+    generation_name : WD Agenda.exe
+    version :
+     major_version : 21
+     internal_generation_version : 1
+    icon_filename : .\agenda.ico
+    language : 1
+    new_features_help :
+     name : ""
+     internal_properties : CAAAAAgAAAAsSNQcoXy/6GC3Nr/cD/9Q7FpyIEkHaS4YEvUQwsMGMJFIm0d3rlA9cOgdyiOdkelSmnQHCaavpetF
+  -
+    name : Windows 64
+    internal_properties : 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
+    configuration_id : 2582915566035937729
+    type : 1
+    generation_directory : .\Exe\Windows 64
+    generation_name : WD Agenda.exe
+    version :
+     major_version : 21
+     internal_generation_version : 1
+    icon_filename : .\agenda.ico
+    language : 1
+    64bits : true
+ elements :
+  identifier : 0x4b0138e000553bc8
+  elements :
+   -
+     name : pSynchro
+     identifier : 0x4b041ca70013ed3a
+     internal_properties : CAAAAAgAAADEQiwIt+zE5/CDZsmTB5bEYseRAUeC64uON+F4oI8F69E95K2fWZjenYdxT9cJ8efRUQ==
+     physical_name : .\pSynchro.wdg
+     type : 7
+   -
+     name : REQ_CatégoriesUtilisées
+     identifier : 0x4b0bf2de00337f6c
+     internal_properties : CAAAAAgAAAAS6EpebdpSDSqpmO/x7kROMAefd1uXHXyy8sIoQWqqRo5wcYDJd7qAc60X4aFfG413/w==
+     physical_name : .\REQ_CategoriesUtilisees.WDR
+     type : 5
+   -
+     name : FEN_ListeAgenda_Outlook
+     identifier : 0x4b029b8600118bd7
+     internal_properties : CAAAAAgAAACvq4ebKFXdjlksG25wftE7gZC4sJz/9E2K1PatVda8DDz07wJK9jsD9iCaZi6iXlK6ug==
+     physical_name : .\FEN_ListeAgenda_Outlook.wdw
+     type : 2
+   -
+     name : FEN_ParamAgenda_Notes
+     identifier : 0x4b014e24000b4d95
+     internal_properties : CAAAAAgAAABr51O3dDF5oq0w36I0M6WH9eaQ0Pq8ecVO5zHdpHcf8QfFOreGsv9HCjSuCopGMqZu9g==
+     physical_name : .\FEN_ParamAgenda_Notes.wdw
+     type : 2
+   -
+     name : TEST_Agenda
+     identifier : 0x4b1e900e001e2734
+     internal_properties : CAAAAAgAAABCOLru3YqivRrZiH9hQeROeCVHj0XYj+9KjGu+7iHzLdtnfvNZ5ypwY93HMfHvi31Hzw==
+     physical_name : .\TEST_Agenda.wxt
+     type : 17
+   -
+     name : FEN_ListeAgenda_Google
+     identifier : 0x4b029eae000ee147
+     internal_properties : CAAAAAgAAACjn5uPPGlBWmX4l5r87r1HTQwUDLiTWwFWbTmlfb5chLxUb5K+esePQvzm0lKOal6mrg==
+     physical_name : .\FEN_ListeAgenda_Google.wdw
+     type : 2
+   -
+     name : FEN_FicheRDV
+     identifier : 0x4b0be3ab00311f9f
+     internal_properties : CAAAAAgAAAB/21dLeCWNnqk8614AYzHD8YKcHKq93pV26fNuUM9P+TfV6hc6xgtTBjCqFp5SLqJq6g==
+     physical_name : .\FEN_FicheRDV.wdw
+     type : 2
+   -
+     name : REQ_Evénements
+     identifier : 0x4b03bd7d001a34cd
+     internal_properties : CAAAAAgAAAAtKQUZppObRBPixTSuuhsxz4KuhsZqXsq2VR+mWTLYCDzQ1yoULHU9PObQKOgY4NA4OA==
+     physical_name : .\REQ_Evenements.WDR
+     type : 5
+   -
+     name : FEN_Conflit
+     identifier : 0x4b041f7c0015fdce
+     internal_properties : CAAAAAgAAAAkIgwol8xkB9CjhmlzYDY88pHJUWH0AilKbAwdEwyIsEja6xY/+Th+facR77cp0ccxMQ==
+     physical_name : .\FEN_Conflit.wdw
+     type : 2
+   -
+     name : FEN_ListeAgenda_Notes
+     identifier : 0x4b02a9780010030a
+     internal_properties : CAAAAAgAAAAwDmi0cyiAm6Qn6l0HdcY0jj91rRNeZD22WcPmvk3HaesL9hs7xQxSATulE5NNNasVHQ==
+     physical_name : .\FEN_ListeAgenda_Notes.wdw
+     type : 2
+   -
+     name : FEN_InfoSynchro
+     identifier : 0x4b0506aa001502df
+     internal_properties : CAAAAAgAAAAcenSgH0Ts/0gL/kEbSupQUtVhsY2YTSFCTqJ/Qd62Wv4skfBX4SBmFQ+Jdz+xSb8JCQ==
+     physical_name : .\FEN_InfoSynchro.wdw
+     type : 2
+   -
+     name : FEN_Agenda
+     identifier : 0x4b03b7cc0018f859
+     internal_properties : CAAAAAgAAAAT70tfbNlRCtWoh2psRNHTJUD8/EwI7AdWbTOEDxz+ymaaCQhO6jd/cqwW4qJeGo52/g==
+     physical_name : .\FEN_Agenda.wdw
+     type : 2
+   -
+     name : FI_WinDevVueRDV
+     identifier : 0x4b06d04500207d41
+     internal_properties : CAAAAAgAAADXsz9jQD11dsGEY9aI4U2vGSZM7P5pXQ2iFq20moUJL9FzbJWyTpPbnpgC/oZ6BvrCQg==
+     physical_name : .\FI_WinDevVueRDV.wdw
+     type : 8
+   -
+     name : FEN_Catégories
+     identifier : 0x4b0a6bf800199750
+     internal_properties : CAAAAAgAAACa8EJGZSKKlVIhAPfpw1jKkMGfNxkED25KxCn41Fs59wEB/HXRb7L4+yWfGZlXI5V/hw==
+     physical_name : .\FEN_Categories.wdw
+     type : 2
+   -
+     name : FEN_ParamAgenda_Outlook
+     identifier : 0x4b014e2c000d6bfe
+     internal_properties : CAAAAAgAAAAgHhgEo5iQSxQX2q03OoZsrvFNnRUnleOKGAhOBTbmIi48odCLtfxCMevVI+Md5dslLQ==
+     physical_name : .\FEN_ParamAgenda_Outlook.wdw
+     type : 2
+   -
+     name : FEN_Options
+     identifier : 0x4b0c00c1001dbbc1
+     internal_properties : CAAAAAgAAACHg+8z8K0FJjH0k+b49E1fkbzYGMx/8+VSqm6zO8RO0nb6iYjCfsOLTsgyjhbKtiqSkg==
+     physical_name : .\FEN_Options.wdw
+     type : 2
+   -
+     name : pImport
+     identifier : 0x4b01619a00105380
+     internal_properties : CAAAAAgAAAAzD2u/jPmx6vWIZ8qMGaGjfSpwUHLlmzOu8+UEKvWhX+lrVK2uSpffkox2QsI+Oq4WHg==
+     physical_name : .\pImport.wdg
+     type : 7
+   -
+     name : pOutils
+     identifier : 0x4b0424ae001849cb
+     internal_properties : CAAAAAgAAABTr4ufLBkRypVoR6osC53vTT64iMYBaXG2uXuuYM/HOY9tss+Oqve/smxWomKeWk62vg==
+     physical_name : .\pOutils.wdg
+     type : 7
+   -
+     name : FEN_ParamAgenda_Google
+     identifier : 0x4b014e1a000925f9
+     internal_properties : CAAAAAgAAAD5VSFlQj93eMeGSbgiCq8F45ay2gpkqp5ObwAMwVo4kLxgR7qQqOmxoJoE/IR8BPTcZA==
+     physical_name : .\FEN_ParamAgenda_Google.wdw
+     type : 2
+  other_elements : []
+  analysis : .\WD Agenda.ana\WD Agenda.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ languages :
+  - fr-FR
+ code_elements :
+  internal_properties : CAAAAAgAAABQ63RwWuf4x9rtmnvg7nHVm/0JBAVSvF5Tt0ecdO8df2PwBvv8DDeBJOBbXYUXfDxCz3CW/rPVT+zMgR1aE7M629xgw1fDi2KES5gpSQ==
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADTpYrx1Rt3Ng8MPzqkbxDpo/3s/GjNg1uPMtMAqDVvL3E8jlgz0PHN2MMj9GhGPd632tqwIFTCFG7NOG1AkH7U3SGk66XMuKg0PtIMNnJYqnuZ6MMaC6YXUDgdtPdh1wRFJZcBguR+Gtz+L3Q=
+     code : |1-
+      
+      constant
+      	GGL_PASS = "cuaf2747"
+      FIN
+      
+      <COMPILE SI Configuration="Windows 32">
+      CONSTANT P_CreateSampleEvents = "CreateSampleEventsX86"
+      <sinon>
+      CONSTANT P_CreateSampleEvents = "CreateSampleEventsX64"
+      <FIN>
+      
+      RépertoireDonnéesTemporaires est une chaine = fRepDonnéesUtilisateur()
+      
+      // Initialisation HFSQL
+      hpasse(AgendaGoogle, GGL_PASS)
+      HVérifieStructure("*", hCompatible)
+      HChangeRep("*", fRepDonnées)
+      HModifieStructure("*", hmsSansContrôle)
+      HCréationSiInexistant("*")
+      
+      // Création du répertoire temporaire
+      si fRépertoireExiste(RépertoireDonnéesTemporaires) alors 
+      	fRepSupprime(RépertoireDonnéesTemporaires, frRécursif + frLectureSeule)
+      FIN
+      fRepCrée(RépertoireDonnéesTemporaires)
+      
+      si hnbenr(AgendaCatégorie) = 0 ALORS
+      	CréeCatégoriesDéfaut()
+      FIN
+      
+      si hnbenr(AgendaEvénement) = 0 ALORS	
+      	CréeEvénementsExemple()	
+      FIN
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Windows 32
+     identifier : 0x4b0138e000563bc8
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : Windows 64
+     identifier : 0x4def9f1f0022a38f
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    explorer_type : windows
+    children :
+     -
+       name : Agendas externes
+       explorer_type : custom_folder
+       children :
+        -
+          name : Outlook
+          explorer_type : custom_folder
+          children :
+           -
+             name : FEN_ListeAgenda_Outlook
+             explorer_type : element
+             type : 2
+           -
+             name : FEN_ParamAgenda_Outlook
+             explorer_type : element
+             type : 2
+        -
+          name : Lotus
+          explorer_type : custom_folder
+          children :
+           -
+             name : FEN_ListeAgenda_Notes
+             explorer_type : element
+             type : 2
+           -
+             name : FEN_ParamAgenda_Notes
+             explorer_type : element
+             type : 2
+        -
+          name : Google
+          explorer_type : custom_folder
+          children :
+           -
+             name : FEN_ListeAgenda_Google
+             explorer_type : element
+             type : 2
+           -
+             name : FEN_ParamAgenda_Google
+             explorer_type : element
+             type : 2
+        -
+          name : FEN_Conflit
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_InfoSynchro
+          explorer_type : element
+          type : 2
+     -
+       name : Fenêtres prédéfinies
+       explorer_type : custom_folder
+       children :
+        -
+          name : FI_WinDevVueRDV
+          explorer_type : element
+          type : 8
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

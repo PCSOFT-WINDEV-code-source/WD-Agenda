@@ -1,0 +1,2918 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Agenda
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Agenda
+ identifier : 0x2b03b7a996cf75b3
+ internal_properties : CAAAAAgAAACEQuVjyDOtMHe3bYSE10SWyRMW4GmrJKeWWHqDbOWpBTZBbVNOLIhhdrd1scOU96DFOFxChoFW9mLH9CX2kTI4IdbwkzDyCLdKt+D3cu9QZ3t1bBTjoFDrqAtnW3vhIKA7WGzZjVF2MbZeTtuCWGSJKCYL0mN9wywOlm2UWTCSebD65TaiqpIeOT+XYzTm0w3dZOnrMdqkgciIAJOzbI1NN31N/j6Y+PjE3onMuI5zRBkH+shqBC0VgsLfxFjKfzeVHZ7pms7rZCjSSMY1ZVoB6hbzBzizEAFymOU0xsEvC+Kd7spniOEn+dJCuhjxJvi/h8x+/npM+PCtovx5K5GaPFAaJdRRqRCcQN4oJXmiASQKpw1+ZQnHDsn1NiJx7dmclX3Jwdbur/GR9bFz3tgtK/cyN8FE5R+pr8p2owauYC5gY6AkNLXMjKycrMCjzYw//UyQX2HqJWJ+pA67MRmCBsX3FO6ET011tRfLm7X08UG96arRxPo69CbD9iTk2z/jEhKgFvTdwYCOs0jJYNxyqeNafz8tXj7spgrCzL9XTWO0m4tNmol6MeHgOhAJG/UevVX9sbBao8YiYsTN7Q3GYq976CQVekbnLUu9gagCPyem1EPdbeMjyE0bP0AcKyeFymSUn5nXYDNxsVe2Y93LT3vvHY11TOm+qqYtatcnRMpwz3k9Cp/96zfeA4dp8y8ymmLPyM0tmyx+UjDs1gXOwAz3l5vrImGZwMeJ6y6PFxmYz+n1K8bO8CFVY+6kNscR2gZVpvQJb5o/cxBlB3OHOQpxvHcVUr7gOYj4ve2FA2OMT7ip7WktfWuPO1eITG/7Eoy8oJl5/qfSJVgelSTVeY0=
+ properties :
+  width : 1010
+  height : 728
+  widthClient : 1008
+  heightClient : 674
+ controls :
+  -
+    name : AGD_AGENDA
+    identifier : 0x2b03b87c994cabcf
+    internal_properties : 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
+    properties :
+     x : 183
+     y : 34
+     width : 824
+     height : 640
+    type : 76
+    code_elements :
+     type_code : 107
+     p_codes :
+      -
+        code : |1-
+         
+         AfficheEvénements()
+        type : 14
+      -
+        code : |1-
+         
+         // Gère l'ajout d'un rendez-vous manuellement
+         // -> crée un enregistrement dans la base et modifie l'événement de l'agenda pour l'associer à l'enregistrement dans la base (propriété .ID de agRendezVous)
+         si AGD_AGENDA > 0 alors SurAjoutEvénement(AGD_AGENDA[AGD_AGENDA])
+        type : 135
+      -
+        code : |1-
+         
+         // Gère le début de l'édition d'un événement (édition du titre)
+         // ->
+         SI AGD_AGENDA > 0 ALORS SurDébutEditionEvénement(AGD_AGENDA[AGD_AGENDA])
+        type : 136
+      -
+        code : |1-
+         
+         // Gère la fin d'édition manuelle d'un événement
+         // -> enregistre les modifications .Titre (seul élément modifiable lors d'une édition)
+         SI AGD_AGENDA > 0 ALORS SurFinEditionEvénement(AGD_AGENDA[AGD_AGENDA])
+        type : 137
+      -
+        code : |1-
+         
+         // Gère la sélection d'un événement
+         // ->
+         SI AGD_AGENDA > 0 ALORS SurSélectionEvénement(AGD_AGENDA[AGD_AGENDA])
+        type : 130
+      -
+        code : |1-
+         
+         // Gère le déplacement d'un événement
+         // -> enregistre les modifications de .DateDébut et .DateFin
+         SI AGD_AGENDA > 0 ALORS SurDéplacementEvénement(AGD_AGENDA[AGD_AGENDA])
+        type : 131
+      -
+        code : |1-
+         
+         // Gère le redimensionnement d'un événement
+         // -> enregistre les modifications de .DateDébut et .DateFin
+         SI AGD_AGENDA > 0 ALORS SurRedimensionnementEvénement(AGD_AGENDA[AGD_AGENDA])
+        type : 132
+      -
+        code : |1-
+         
+         // Gère la suppression manuelle d'un événement
+         // -> demande confirmation avant la suppression
+         // -> marque l'événement comme supprimé dans la base
+         SI AGD_AGENDA > 0 ALORS SurSuppressionEvénement(AGD_AGENDA[AGD_AGENDA])
+        type : 134
+      -
+        code : |1-
+         
+         si ModeEditionRendezVous <> 0 alors	
+         	// Termine l'édition
+         	SurFinEditionEvénement(MonRendezVousSélectionné)
+         fin
+         
+         // Aucun rendez-vous sélectionné
+         MonRendezVousSélectionné <- null
+         
+         // On récupère la période grâce aux propriétés ..DateDébut et ..DateFin
+         PériodeSélectionnée.DateDébut 	= AGD_AGENDA..DateDébut
+         PériodeSélectionnée.DateFin 	= AGD_AGENDA..DateFin
+        type : 133
+      -
+        code : |1-
+         
+         // 
+         SurZoomAgenda()
+         
+         // Aucun rendez-vous sélectionné
+         MonRendezVousSélectionné <- Null
+         
+         dDate est une date
+         
+         // Récupère la date actuelle
+         dDate = AgendaPosition(AGD_AGENDa)
+         
+         // Sélectionne la date dans le calendrier
+         CAL_CALENDRIER = dDate
+         CalendrierPériode(dDate)
+         
+         // Actualise les événements
+         AfficheEvénements()
+        type : 138
+      -
+        code : |1-
+         
+        type : 66048
+      -
+        internal_properties : CAAAAAgAAAAIW5hLl499Fu+EJItP/9LOLAUlQP2WmhhEa7of4qpI9yuVDwBrKmY0UeNFo4aVfpxSay989B9n9bEM55qPxzb9A8QrRMEVuUXOZuaIVIFWhXTnT3L4qd8/1MlW4Gkt/vMyxEzQ/BB7sGpECPN/3yF7CnrhtWivaWiT7NtOKjiHxx5oQll9KkJExabyFzoEjh6mETAUNeusE6wZuCVj9Kl47RbZIaMoLIZkfvXrb7XR5rT024iupfarFDt7UMsnbezf/Thv69m7rkNEi2pd/blU6B9Qh7yf70MXi5ZDzLUVAwD4+ELg4yeAas+R8KqfasWDnnhqqi/NvIk3hI/0ntC6F4auUpPlUiTePVDUtzIcqt8BCQ==
+        code : |1-
+         
+         // Les coordonnées souris sont en mode 'Origine écran'
+         nSourisPosX est un entier = sourisposx
+         nSourisPosY est un entier = SourisPosY
+         
+         // On commence par donner le focus à l'agenda
+         AgendaDonneFocus(AGD_AGENDA, nSourisPosX, nSourisPosY)
+         
+         // Récupère l'indice de l'événement survolé
+         nIndice est un entier = AgendaInfoXY(AGD_AGENDA, agiRendezVous, nSourisPosX, nSourisPosY)
+         SI nIndice > 0 ALORS
+         		
+         	RendezVousIndice = nIndice
+         	
+         	// Active l'option 'Copier le rendez-vous'
+         	menu_agenda.OPT_CopierRendezVous..Etat = Actif	
+         	
+         	// Active l'option 'Exporter le rendez-vous'
+         	menu_agenda.OPT_ExporterRendezVous..Etat = Actif	
+         	
+         	// Active l'option 'Classer'
+         	MENU_Agenda.OPT_ClasserCatégorie..etat = actif
+         	
+         	// Si le rendez-vous ne possède pas de catégorie
+         	si AGD_AGENDA[nIndice].Catégorie = "" ALORS
+         		
+         		// Désactive l'option 'Effacer la catégorie'
+         		MENU_Agenda.OPT_ClasserCatégorie.OPT_EffacerCatégorie..etat = grise
+         	sinon
+         		
+         		// Active l'option 'Effacer la catégorie'
+         		MENU_Agenda.OPT_ClasserCatégorie.OPT_EffacerCatégorie..Etat = actif
+         	FIN
+         	
+         	// Active l'option 'Modifier le rendez-vous'
+         	MENU_Agenda.OPT_ModifierRendezVous..Etat = actif
+         		
+         	// Active l'option 'Lier à un agenda'
+         	MENU_Agenda.OPT_Lier..Etat = actif
+         	
+         	// Recherche le rendez-vous
+         	HLitRecherchePremier(AgendaEvénement, IDAgendaEvénement, AGD_AGENDA[nIndice].ID)
+         	si htrouve(AgendaEvénement) ALORS
+         		
+         		// Si le rendez-vous est lié à un agenda Outlook, Notes ou Google
+         		MENU_Agenda.OPT_Lier.OPT_LierOutlook.OPT_LierOutlook_Annuler..etat 		= (AgendaEvénement.IDAgendaOutlook 	<> 0 ? actif sinon grise)
+         		MENU_Agenda.OPT_Lier.OPT_LierLotus_Notes.OPT_LierLotus_Annuler..etat 	= (AgendaEvénement.IDAgendaNotes 	<> 0 ? actif sinon grise)
+         		MENU_Agenda.OPT_Lier.OPT_LierGoogle.OPT_LierGoogle_Annuler..etat 		= (AgendaEvénement.IDAgendaGoogle 	<> 0 ? actif sinon grise)	
+         		
+         	FIN
+         SINON
+         	
+         	RendezVousIndice = 0
+         	
+         	// Désactive l'option 'Copier le rendez-vous'
+         	MENU_Agenda.OPT_CopierRendezVous..Etat = Grisé	
+         	
+         	// Désactive l'option 'Exporter le rendez-vous'
+         	MENU_Agenda.OPT_ExporterRendezVous..Etat = Grisé	
+         	
+         	// Désactive l'option 'Classer'
+         	MENU_Agenda.OPT_ClasserCatégorie..Etat = grise
+         	
+         	// Désactive l'option 'Modifier le rendez-vous'
+         	MENU_Agenda.OPT_ModifierRendezVous..Etat = grise
+         	
+         	// Désactive l'option 'Lier à un agenda'
+         	MENU_Agenda.OPT_Lier..etat = grise
+         FIN
+         
+         // Si un rendez-vous a été copié
+         si RendezVousPressePapier <> null ALORS
+         
+         	// Active l'option 'Coller le rendez-vous'
+         	MENU_Agenda.OPT_CollerRendezVous..Etat = actif
+         sinon
+         
+         	// Désactive l'option 'Coller le rendez-vous'	
+         	MENU_Agenda.OPT_CollerRendezVous..Etat = grise
+         FIN
+        type : 65659
+  -
+    name : IMG_PICGOOGLE
+    identifier : 0x2b03c59e01a4f3b9
+    internal_properties : CAAAAAgAAAAoOSh/P2g64XSGggeztZVq+1Tq1o6eItGLGhyYVi4Jl9K5RTrdDrxnYUtKUIDDhV70lnAW54cQy4pMiomHelSGVOOVJRJ3g0KiG65SgZkW2n++LAb7d7SR6iscFEYKwpO/JljkPquJPoxmyCyPUo/RVXKBSS9ZNUDo6nffPYeEAqaK4DhjmoTPmeKrLusQ7TzvaIvVzqXk1Ggqf5GEm/+h7orN5QGWIPzI97z1uC7ArCqojLmHt1PvCb0YXZVgeBpoQtcrT5ub25LWpoCc6Q0nonbmXPVcWULhCfqiyvFOJ8zNhrEHULUL/RQePDXdIdfFKcwBaGheEv8gLpY+IhEyoAEXpg5QumXgrjO9uIOZAEBex8lHSt0/XqQJx7d4EraNYcQ/Dmkh/8bwSurJqUjaK5EMvLZZMoUL+z3VtgbbjfIm0ne1fMIuYOMrmJrDyc0byqeBtlvNtYcsjEz/RSkHGTa3mrhd+11Yf2OoG7qmDtHhqiPHiHuV9j4jWxs501XN+uyWkllkfkTRbdc4oFRWESHqz5AfLMcrHpY8hSFSbhxdxUKoEfH1q+iHgrsc
+    properties :
+     x : 6
+     y : -81
+     width : 18
+     height : 18
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_PICNOTES
+    identifier : 0x2b03c59e01a9f3b9
+    internal_properties : CAAAAAgAAAAdDcBcN/MrdtKfuJWmG5VDr0bUeIv1KqnDkvSTV6uhZMjeCxR+1zfqiTut55abgaIGbnxeU0et/3jHSKxlKg7eAF39IcGV4KdquQhY683K7HeEphT1ogLgmg0SxFm7ee53QyKrn7sIID7NIxtlLxVcvSaGTrgYpbA3Rwr52uZwbBBTlCq3KXD3fPpi+/e28M9ipSDKtczhEiyrpYNZws9ojl5i21DLkoCefsyz0gwVVGSLF1KIJpoX4M+YrIwvjehXwo4rskMAx0l+kITz7fVQby6Et3ihkbjrapEk00KIqP6ZO1HIPDhGrFdM8qBJC0qlBukGqlzWzsOw17IzcQSHzrFStrqOjp1kHQKcNdSuVZ1dxm+c3iJRY6DRwvumxHZZiwKqfMP7J2vx41jL7QLn4ZT7cX72O3anCAnAxDDFU5nDJqFhaTG76BuuAsGeHHbQhNnkmxwPOkycMW4oWLcKjiuDRNtPrsysc2agzDjsTFH8b6zTzcKcx7+vNFbqm2zKQ8uCAGiPpWv7wYClK7L3usOCeWjqdZ0R3XrLtwEKALGYDeIJGV6XJ3bhug==
+    properties :
+     x : 6
+     y : -81
+     width : 18
+     height : 18
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_PICOUTLOOK
+    identifier : 0x2b03c59e01aef3c8
+    internal_properties : CAAAAAgAAAB8oFM7HYhr4Sp5BUHUBRyRSod6mB3mwCtTyPlijy/Y9/MJQ4h6osP6xtBDDCJcVInxoWG/jOEXMIV9AmeptugA3rFlzk5oXf9cO5lbxaXCzhDuugLvWccm7vIprpRBiXd4rhBqOh/eMGGgMgOvPYOr+H0Sm11dqAbxMqfe80mFEXZOJ+wJXpU6FUPDaM4DGsWZ7l6g0QwkcRIEixAnMIR2pr8NFhIZ140YXsXsoSTCfJo43Vsv7OyPV1C5zM92D5ThqXsRV/dn3WQe0ZJ4IeWqoSvAWobw1rUCzm7oP/g3uFbZz2WdNm/ifkHuDiYJ4eC3jMc12ZtzRt5zt3586n7UxlOS5EHNwNWmvrizBZKQbwFHUZBaDJz2HobCWTmF11TGqd5jUJlrS5RVDBAOSPkhJD0l1T0Re7q1k+EFvduHLDjyAdEOk9Nk6oFRVkj4k3ZmTkuZIYWmC3NrGoSnDwXPX4r0hJtkKz6cvX7YtmfnDAdx75U4X2YR2z4RchbuS8pWBdGmGk36PQ3O2EBw63b72DOubx5+mXsiAeUXo8Ial8KHMJYYkBub5ZCgr+QPW+g=
+    properties :
+     x : 6
+     y : -81
+     width : 18
+     height : 18
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_PICPLUS
+    identifier : 0x2b03c7890dfb73e0
+    internal_properties : CAAAAAgAAACpuqne7MNr7vUtgRwmu8LPqzQ+6jRKDtK/byXXPxU/tZBfQdEJR9OQUrbLrJl19lO1zE8cxKYOz/J/tY2sGeITbIAIZAtAG02Qp87ny/I1OOLIZ9MHe+Obx/5wm27TAVK9AwKvCUNB/Cg5RW7zahn6lylNSq/WE8FItNlGXGTLfyomoYCtJnZk5J+xQ6qvhuU4ZpbfvXaY4/fttankyS4a69vbbsSVQd3pwNO49k3Fj5+2M3e1JPr/CM8B28iNTMcqyeIYbMmuFgkwNF1xx3+UB+QSB6Z5GzChUW9zb9VP06vKTyHU9E9zoTjDraQoGxW2X1O0wvQC4g8g7jMLWtn66sOByGo2zqnFhcG5dlIqz7ZwSCo8IZ/75mE0r7fGr/FO22eacS2286wpkaVU9z2w2yfLq/dEm1Jl8ro43iOkAtRraZkdXCOZvKvdTqi2EgU+IF4ztuJw50HepFTzBX3FL2mOY//dm0utbc2TLrxeJk0aaYnklDPCn25Zr44cHIyqPXcnG9IVR9XTzrwAjTgl7BqX8cXEwFsP4FBaT1tY7ucoltHl0NaQPHkIATqd
+    properties :
+     x : 6
+     y : -81
+     width : 18
+     height : 18
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : SPLIT_AGENDA
+    identifier : 0x2b052008c7321c79
+    internal_properties : CAAAAAgAAACFaaSfJkIkcNhsYVyqKBcFWrYhSbVruQWKa5iTLaLG5R1lPfC2bxNOUabD+JZgSn0bveYonnCPQL6EArp+Q8TuKyZculNgKGTa0113BtFKqc5YWyjv1k/P15a9tFUn6EGEvwoimSLLnI5H0m0QO9BzcLZiKalyrM1TO1ZRdtezdmVjfHxi0eEz0eV2O3jt5IFhp59t5EZnbnLSHt+9U4lteK81v7oTqOuk4yFzrHH93LeWfdHAqfLMjgMVF+sGCbP9ru2SldY1udcFPrPV+8FsQjZlS5V4mqOM5E69GuUswWKMwi7p4x8imNNURpssZL7C9LC2H0HHxAMl6vbCuZk19BLiBCktQwl6ci6n744KCQ==
+    properties :
+     x : 179
+     y : 9
+     width : 5
+     height : 666
+    type : 28
+    code_elements :
+     type_code : 61
+     p_codes : []
+  -
+    name : CAL_CALENDRIER
+    identifier : 0x2b052023ca6b879a
+    internal_properties : CAAAAAgAAABDPiAoSKp4Zas+ZfaIFS1/7oP1NWuOSkR0dN7uk2L2e9dA9uv0UnvvWCZlCMbBZFpC9F/p1ChL2PVyEQ6CRtq0+B6ti5cWQugP9p0YeS5Aq3uhVU8jZOe4o+k/XlJmghQ0S8ciyJWSFaFqykoY31fNPmCkPN4IJ3y0bKk09q21iYCK8snBC4J3A6zka/2gHkVadg21JiLjRUCEhQfkJn8hd5EvdC4dvzwXh7a2zvLh165CssLVlaCsZ3/TDOMOic4UBcRu68yjjLdRdcgNlbzwDH+x1KT3AyU3OWR5iFYjg9TvbjExZlklF06OoB/t4YjOjGTU7EK8z2rE30TuWlHfRv3oj0Pvswb9MOs4K2rhSnZdkTLDzGqZ9Mqm5zDF6KeAuWo7yFhO9yFZbWAu+6uwOSlLYgsQr75Rw/Wtms4e+WbU09rv5o74JJZMArO1S7mcMlci0Tbk29uJ/C/boYMmzBTI+DNC7y6fWSnJX6s0TQIP6KjPAe45wppqxexNTJt19xTHtWMTc6WP9eLlw7r4k2HIy9aYuK3CzzYeR4Ni9URq/UNHWn98/eUmrX9/tvx1M7ps8r/zrlClUoIyIOlUN5ZF500LlvR2DjaUZi1dgsw3oXTKUQVV/sOz8PRQ0/45FtIbJwVbCBPEeu2CKfQMkV48NWLtycfW/q4SI1UgxWMik0XqMisTY6RB97srZWbO0qU3N0WtSKs6xrmrqI6DpdlL6onrz+qeROYRIxS/w74hwPnpezSkjt5sSdZa7lc5WZSHoLCHR+d/0drr4dFcmTcTL7U4+dGMd25DkiPBVy/TFXvmw25QQHI4+CLFPNOanx0QORI3LoHbMaug6pvIZ/C7frYdLu2D0En2H35U0boCpt4e5XcENtQn6M0dBU4Zs6QgVz2hIshvZ6tFWXIff3Xp0LB+rcnoDUAIbD4Pt25BQ5rO2cFsa+lOQODQTO5SZXaqG1MJUvONggDlCkwTjSIK3gsh3PYC+eV/DuqZCpo6EKMDs0HGRa+VIG4ciq7B1UOtw5h2XlvPwXV/eoUARcxgfvuvycclNKe4K2Lm6KwEp7KbLjAtqFNvkpx7JdRQeXF4uHj7iVgRB2bbaf5cdlFmedUsQRcXg92AFIpG08h2fFoz3rWbJEQKzF1hwpHsYi3kdrInEo4+EWxGev4q+0vHcOS+2AwcmXuXE/vHwL5ncWuXvKByslfVjYYiqPeADh/XWpxYwpyJsXXj6r7GzsjXe5xl0kuo+/f9V/gVf6cUXvIHHtKrby0gayFAC+AUSNCnGTDrN6AMI8r0WzqFnqrfxOCaG+iuyHiN67f48DDaWzUDRLL9HYv52301h8PurTtvdmmGdxo2ZzYKNGbPrYTLzfPE3/P76Mzu2s8i7frsQAcvzMu06wgvUp6gBNfhlL/3IdeEyvXlRqObV6TiD3iuci8CFjRaiH5YkqknDag5PeAtaHmHPVD8/SrHw6MzpWjc5w3slGV9goNZYhOmPvp2QR3xt82kKo1BBk26dzkiFDMcjQB97KLS/gODuwcj9NWETfxjXy3TZhlHH9C6So7s+86KYkQNDhYFL5QB8p6vTmmw3Tb6eU38zUQQ1sZBgIWWCCoGXacLGTPuxNkKSbG/
+    properties :
+     x : 6
+     y : 34
+     width : 173
+     height : 175
+    type : 47
+    code_elements :
+     type_code : 100
+     p_codes :
+      -
+        code : |1-
+         
+         ExécuteTraitement(CAL_CALENDRIER, trtSélection)
+        type : 14
+      -
+        code : |1-
+         
+         dDate est une date = CAL_CALENDRIER
+         
+         // Change la position de l'agenda
+         AgendaPosition(AGD_AGENDA, dDate)
+         
+         // Sélectionne la période correspondante dans le calendrier
+         CalendrierPériode(dDate)
+        type : 120
+  -
+    name : BTN_DBLCLICAGENDA
+    identifier : 0x2b0ab7875bf4ba02
+    internal_properties : CAAAAAgAAAAvOc3n/MaO4YMUBGG3jwjWcO+Odql0js15lVrvY/LCVdh9ZhNG96X+1W2yHMI29oaWlqblMvlCNxl/6s61DM7ephsYzP+p9BUvH5pKwpemIoFcazSSAYwljg/ahiYp5keQDc5F/Zt1/YK12AFRNBVWQMfjsFaQBvheKVk6XJzqsXzsjZOEDWd26pamLmiosvI0IY3ccJXGJ3OaM4iIoSXdDPTl9nnn0o2gGfmFncwiYTDKJVeguTT7KH4uNo+y9tuhUCEflX4BFm3iliPamt1WZHExMuH+82SyAg2dQUzLn8WCcUoiF0xwHKcuivEtPrt8YCWjralKN8GnREklHfNw/SD0gzTZnXT0kdyeVWKe//oZkXBt+rrL0jSiAq1xnJZ2WDxqGrEXxibEcUYy+5m1tsWXgvuuodCW2g+VxcKVgrKeHG+amZLMJwMfsKhD9DNB9GK5YSxgoOqgIbDntJ3aEx9HSKufpjr8NwhbKeJ1Qsbh9B4JXJa+Z3b13kKNTLTK9dPTu5FGu5gigfP76a6bFnadYSoR3LqJp8z0w4hZ+Wn7WNnJBhJkpiQRnMm3NrSQtUWyu3Vjwb1OB1yVVbmC/gEepG8vnuox8zPlyLzIs0z0qqEMdKu36Qlgd+iE9PeBJso83VJlRGBcm3nsRB/o5Ix8P1IoXDNHZC/MsZQhoN/0cYKSectrBQ==
+    properties :
+     x : 52
+     y : -87
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAAR4wfafeZOhs8cj4rkL8DJoz18DIjNU/sfUvOAWIWvfwFsLlhDYNF9uHNzREjmrT53Wuog4LTqDBb1oBUoqFYspVnsE60EgOB85lr03qqQYoMx8MviQw6PWACF3N+5DzwNXd+pyjMSjik87bY=
+        code : |1-
+         
+         // Si un rendez-vous se trouve sous la souris
+         si AgendaInfoXY(AGD_AGENDA, agiRendezVous, sourisposx, sourisposy) > 0 alors
+         
+         	// Edite le rendez-vous
+         	ExécuteFAA(AGD_AGENDA, faaAgEditeRdv)
+         sinon
+         	
+         	// Si l'utilisateur a double-cliqué en dehors des zones éditables (jours, boutons ou horaires)
+         	si AgendaInfoXY(AGD_AGENDA, agiDateHeure, sourisposx, sourisposy) = "" ALORS
+         		
+         		
+         	sinon
+         		
+         		// Crée un rendez-vous à l'emplacement sélectionné
+         		ExécuteFAA(AGD_AGENDA, faaAgAjouteRdv)
+         	FIN
+         fin
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Jour
+    identifier : 0x2b0aba3a0abc42e0
+    internal_properties : CAAAAAgAAACPY/mwc4aRIh7VwpIMwDftzCGrwltjVo42YcYHNv5nb3kK8yDgmMaqaMZeChAJH6e7ls66zutDDP7EfGzwe2v+i3fydc0KS08hdsxuZESlFCKqPRbXqiypztTiORRSsbL6BcfHgJ7VGanDun53OgJtqNKNXvHteU/2oxp7hDM6FunTfb3ZKdO9XZ6iMJjhb0En2h5xvO4ec+EwQIeXYLdov6M6KXwxpj/MuLgh4m3Ok0Zns9di+fz0KMGtuW6x74a0quoEaYQUrm3nD1EmJn75BWQRz1bIMXTXgPI/fhlegkJKDU/LY0tPmF19/uNE0M1s6RubOvUsf9EJ/QJsEZj4U6F+01lB+dGEiojRYC4flfXCVRZKXu+Vj95fHIy+b9kR2p1gefm5iF4tEf/YISi3THd4gnnFq2DgWsaRvJbiPNT00Lh47AXTU2m4HMxAQ8rbA4PpA4cD/wgpMeiuLG2LTnpSlrtKxS0p/Bwq0KZeGyI44PiRarlYPuwYt4+mbUyDOXTpYWUr7PRTNDxbLg5fp6FDh9cROs0yoHpZDcW1//quYmTkld4cGweqisTOO9xYoOAOML/QjH2JZ2njXX4q5sZNqkFtvrwDEiMqvkgF0Uh7qRtPBSpv+rXJphf9cJKSL/3v/xYLERv9vSmBxl2tzgGSzIE6pUxq9BQNR4Pg3apCmEzlLDVFDAXsOMmM4sTfdSfqj7/BUS3F
+    properties :
+     x : 183
+     y : 9
+     width : 80
+     height : 26
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADw/9RIZZ0e+PNuE84i98yvmwBRjUQ1lJ4ZQyezFT+GDwe4vNltDddvfkpbmQXiryTXoH/PsxXt7Jeo2vVXKLujoAtCj3ImC6j9ofooPYjhpXYdXKVdpR1jH7UnhvTXhmkK0fNHDnU0SyDJYQ==
+        code : |1-
+         
+         // -> Mode 'Journée'
+         AgendaChangeZoom(AGD_AGENDA, agzJour)
+         SurZoomAgenda()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Semaine
+    identifier : 0x2b0aba460b3f746b
+    internal_properties : CAAAAAgAAAB0ogbH5oBILrxRn1IFYUuI53H524EImnNlG6NfCVab+Zd0YmzVdKH6mJVCoR7q10ERKv8nSUvW1UqBa/ciz/HiiduxQoFfpHm5FJvLrdyEAPYPQPqBz/6dB59mjp/5WyY+jOULap6X1nWS1ac3kJLP4m1CZBfj/R7Xf14h5yVBfVp2O3JYc06cCEwKRpoCsGogplYtNPstlY0OYPi6nLOOOGMADAUVNUoIeKrUr40PjxQTOqXWWhSpFdDdMOit7Uy3vXN2Vfgw2q9m7yJx8+fMpY7IiB/Td6/DrL/Sq0C+BZFmOZRCHZchtf4khqHIIj3jUwXqtcD8hqS6KafRjS1uLbCtqMK5FD3Mqh13NN6wSmFfW2vn1CR+Q1yIrETFNYdb1+rTyiH4FekexcSdxcg0tIkb8ap95tIUX3BkRdLNWm//kPZg/FNlJ0CiRg2VQEyE5OXzTTU7Zt2wKmgcWdvHp0570bgme2o4uJ7tBgUBsvSStYGS1DPQF8Z8s9KzjClJX0hgrqJBEMYXTS21+uasyZ+aUKk+Mj9tEm+MVvPETsUMAWfHjv63sA9Wo4Yr9ILZvOgYrCjm9F6V4leJz/M/RUol8R53MXCqoyvakq6G6eFH5dwlTXbsG4jWnV+iZLVaceicDOdWfsATOH/IfF/BgOB3kAOu0nB78tBNhc4Tt2BHXsz1wis3lx8GBAinJ2Fmj/LHMw==
+    properties :
+     x : 262
+     y : 9
+     width : 80
+     height : 26
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADw/9RIZZ0e+PNuE84i98yvmwBRjUQ1lJ4ZQyezFT+GDwe4vNltDddvfkpbmQXiryTXoH/PsxXt7Jeo2vVXKLujoAtCj3ImC6j9ofooPYjhpXYdXKVdpR1jH7UnhvTXhmkK0fNHDnU0SyDJYQ==
+        code : |1-
+         
+         // -> Mode 'Semaine'
+         AgendaChangeZoom(AGD_AGENDA, (SEL_TYPESEMAINE = 1 ? agzSemaine sinon agzSemaineSur5))
+         SurZoomAgenda()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Mois
+    identifier : 0x2b0aba4d0b998f79
+    internal_properties : CAAAAAgAAAC56cel/BnNQNhuKIj4BhfyVFGicr+Ac2Vd7YCFKYPGAX863D9qgmAb+o5oCnmQcik0fL2ovi9gjb5MY1ITDmKNm8qbiB37JilxQqLpw3fy+vSizCX7w7Lfw4Woo4AjucbkRYrh1vat6HWKaO/9uLKIyTZcUJl9tpQqj5hVJOMWFAa0hc8T3xQ7KtHx9KopG7SdyLV3cRBNg9rMJAjHf/tQprUDWDneQmQ7U38hE4oPVdpwkYM0jpq0sYdl+naYnwK8o6ifNqsAmEBBwDtRgxg0dGpWcHuidygtJ/czJ2mKCkith+a/KnvMP4x+9Mf2+g3Jgh59AfI4YWpnO9b9EM+dO0yuLyuMm5UndH/18YXH5xhtaFcE3c8MV4N6vueU+Mqg9/X//9BFM6l7V5zYlv1l66nc33lUowz42IRqMoG4XYz32daDhXbF/VlabL5Mb5PZpl5RYCB86CnP+rbxlBJecGBsOUNvXj6uu0YD1wouZ38ygHnVkQJOf8MkN+NeH7YQa3/e7RdQzs6cF6dWvektxLmtosQtP/sLq9fMafDF1/gmlBPK+5ULYjwyDXVuz8nSDlWczdvvvPz2FB96P/Uuz2OxWeTABTnLp7Ig84FhWNrt3X8chcrrNhVcMUSYUWx/RMaYi3TLNUSY9cHtR2Rn/8odNgcHmN+S3oPy+ZQ5ObZSQp8G5p+VNTROCmteq+mRsLg=
+    properties :
+     x : 341
+     y : 9
+     width : 80
+     height : 26
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADw/9RIZZ0e+PNuE84i98yvmwBRjUQ1lJ4ZQyezFT+GDwe4vNltDddvfkpbmQXiryTXoH/PsxXt7Jeo2vVXKLujoAtCj3ImC6j9ofooPYjhpXYdXKVdpR1jH7UnhvTXhmkK0fNHDnU0SyDJYQ==
+        code : |1-
+         
+         // -> Mode 'Mois'
+         AgendaChangeZoom(AGD_AGENDA, agzmois)
+         SurZoomAgenda()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SEL_TYPESEMAINE
+    identifier : 0x2b0becb23a486325
+    internal_properties : CAAAAAgAAAC+fUw1ssgkCTf0TwtACLXginuRNQprx11WQKpgHQCqcF+AKnn8Xn2XtxS+4fR1IXGSdYv1K+cdCG6iDcjLhF2meEGf4Ej0c70vVev2t1k/va5Alulxw4i7AQdZqm8r6XofOmhX0EW+X5P8Drathfrx1HXSq8WjK7730miy9UbM2Ead3WjQ8aEIAVBwuaSxMk3feC7aZzEnjdsX1n/J+1bHWGHot6qi0iMowXD3Jqr66Ubme4QsiaKHidMGMiH9s6DqvNOWl+gM3LR5JJ7lckVeN9Zg7k+Gqw7vlcCG3CR7mjkkqFFd4x0zozVRE/fBOYp0eiYhQDNzBcVsJ6QRFKeI4ffSKIffmasLMSlroauUoGVltb3B3wWTMfkvUQSw9CTYWN/+DTivnRk8lJqla+lhxuWxYCsMOHVpOPOjgut9ySY5Fz7SBfIocCv2q3ceUYrlletRyfLfAowUYqlDWFCAJ++xo6RSWMKPCPpRbP+YWCQN8+jl6FG0NLez+6ZjAA6J8U2pWtWHVzWrhJETAikdudQX97w081UH+Myb6iNTvQAWfWl/APAiaJJXR0QrpYLo15vS7KGcwtBLesxvUCMF+rdrpAqpYFq2YH379ahI2lPsQknmqC7yEQVUToniBaPYC2rkP1g=
+    properties :
+     x : 428
+     y : 12
+     width : 238
+     height : 23
+    options :
+     -
+       internal_properties : CAAAAAgAAAD2yUd1ERO5ejbIb/sDXUISVJKFp7iXka9DpYHDiqQkN+rX/ROIP3DKfSV+YPavKxYEJS0YV4ePAAjHtXy3+xBikfJsNHY8weL/40a55Mivaio2wvyE11GcfmKRoIzNBggpLTue8n4/DYyf2FR4+wWuK3S4bVizImRQiAQonr7tZYzzBMca+d803g==
+     -
+       internal_properties : CAAAAAgAAACM0+3T/zvVJsroW6OXzQYq6LXh4rCCi7NZVdf/QFhsyeTny4nJPzDKfWU+oPbvK5aEJe3Y10ePwMhHNfz3+1Ci0bJsJKbcoYIfA2ZZBOhPisqWYlwkdzE8HgIxwKxtpqhJjVt+EZWIBH2uZ8v3TLJx0pVx1XRIDwIO6uYCuHRTV/pNrqE8n3lOJA==
+    type : 6
+    controls : []
+    code_elements :
+     type_code : 6
+     p_codes :
+      -
+        code : |1-
+         
+         AgendaChangeZoom(AGD_AGENDA, (SEL_TYPESEMAINE = 1? agzSemaine SINON agzSemaineSur5))
+        type : 17
+  -
+    name : LIB_TITRE_CALENDRIER
+    identifier : 0x2b0bf1fccf3d0f1d
+    internal_properties : CAAAAAgAAACe8YTFxMjDooSUdAEm0nsFNgjAILxxXGhkfQxGltpKGmMCXuFvQl4xSaze4h/kNStTYY+LQW+kPZ8I356bXsX2ko4fbU7EvQhzBAP5XiGkryoV7l+4nybyabgXx8eyrJosDohCCBSD9CdQoUyMsIsFLEeRYKtfsPuF0j/5OsLqsYBIDpv1GjGhC4MpQg7hZxwRl3bL6iAOJ7xryG4ln0K/08M6tm4QP4SXUdpMFa0FBK6bujfG9aK26DawhaUbP5MGgDxe1IiNU973EH/z0R5mi5SvuhiPnKxso4q2ZOFOCv13d3sWYzPMP23Ox46+pFB/F4oM7qztnvKOpT99W+KR/ahcvNBHmVxqftjkq/69rWU33pWdcJbz+y0dmEEp/qmuqUoPWoYDndMiWB+snqkurPx6F5Emoi5w7GdzgsDOlRvVjQ05
+    properties :
+     x : 6
+     y : 9
+     width : 173
+     height : 26
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_TITRE_CALENDRIER1
+    identifier : 0x2b0bf2a1e35993a7
+    internal_properties : CAAAAAgAAACY84pnnsuWzcuV+V2B6X6oEBBW/FN6SZf/7kDdiKC8nG2kbKXbaoO5VzZivYavEkiWyuS1Nu6Li6mgk8TIKbCxYr7Y9sDUYBYi/7hSmueZNLu8QSWj2AmOi4xizAk9g8mdgG+XmRkHw+P7y3gwvrsZCxz/n/3pkjnaxjrgTsNvXEWJWoxhK9Tm8LFiyQIAnFYn2ikgJ7d0B3ITKJ+XDSPOS/yCEjYCSFqXJK5OEb+prsCsNu/GFVJgGa+lUxaT2Tn/MGWBJ+o3gcv6CJ4JSLllo4ZSDLrigQiSYooGAG+/FYscUS1Fp+6c9YCbTTsNqD3tV5lO8Ns/6Bokh9AOyL9oxvnNawtgQPH9pVvHcD/qqB72VTYu40OhalMrAvNrPPds7xjJnLxNdzHxP/ZHl64VpWvRTHx3ictFMi81Rpr0D/3Xjws/
+    properties :
+     x : 6
+     y : 208
+     width : 173
+     height : 26
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : TABLE_CATEGORIES
+    identifier : 0x2b0bf2f2f288cea4
+    internal_properties : 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
+    properties :
+     x : 6
+     y : 233
+     width : 173
+     height : 442
+    columns :
+     -
+       name : COL_IDAgendaCatégorie
+       identifier : 0x2b0bf2f2f289cea4
+       internal_properties : CAAAAAgAAACWJ46fL8Lo9+EHV4OrFKJEwzd0+vllXJ71aYZGRpGW20H1z2VZVxpLC0BXdB3r0qmR1phxereV5yP+6yN3Nx33Tg9KF5NYMODPJ86pJikDKfoByQrmlag4Jyxsp9fberlZvypTWASHssoAaVSrtuNbbFDgJY3wA2pv/s6WW+rhpErikbKjVVXvf0Fui/giddkf/VBTg2fUY9RUxrpacNn2PQtJjeAZ/Yw0S0xiC8Wz+3cqf8Vx
+       type : 3
+       content :
+        internal_properties : CAAAAAgAAACc5q+wns2+CaVeH/3l+RTuSdyxulCV72xhdc+64S4Nmw36odQ3e1VanSwv/mHfY9N1boe60fXe9vM+p3wCn3rBuFDGsCir97vhoeDGfpFfUkxFgPJiSNZRMHpsm7o8s+IScuJXnAjdTwJqVaOhRTnfhVJz+zomPpYMvIvs2a5lHH4aIDPOq97N3UOqYlznvRybMm6MeftLIdHHxDI6X+cilMDmH0GG7LdhPz1B5NmfGZZjjw==
+        type : 3
+       code_elements :
+        internal_properties : CAAAAAgAAADEyCfFbJxrF0nDCgYSryEDhTh1FlGUtjM/oZk02k9BymZhrFO/0agHhca9I3aBpBTw9JKQI4mrNdBe67CXUoSsQY/fwjHYLbTr83PQamgAMTcrCIFLBkKWXA==
+        type_code : 2
+        p_codes : []
+     -
+       name : COL_Selection
+       identifier : 0x2b0bf2f2f28acea4
+       internal_properties : CAAAAAgAAADlM66XwZ0Pi3vGpgaEZcdU4hZVPk9hZx1NrPZsyN/NTbhJkx1nXmRh9N4jjjooXI53tCSnZqtYx9TKDLZFpugVhFBfMcHMLlpDK54UcrNnjtSOLdw/umLdblihcPzCVRY0Cp0oM6874mIH4N6Ft5RQvB/VGRKEppu/ECE/H2bIMi9fdX66
+       type : 5
+       content :
+        internal_properties : CAAAAAgAAAAylZYqXwinn6ud4Kxx8HkbHHvrj7+obGyQIr5fqYNMrPWehK8RT01MhjtRxSK8enkLlOpSgOiZhwLvoe2qzU1cf7/HjEpDVTBSaPfW0YODTDqMZOBZ1WyWqhXO17mVpdPARrgONUOtFmqSR77igKCZPgoanDj24bDnpPsd4uwuc6diNU6bWIhvH4u/ooVzUCHIxpTUE09qT4kKe654KNAMfA7zD/xDD3wul2TkwJ+NvxQouusD59UMyNLfG6P/lStCMrHftsyK7bwurjs+VLL4nui5QHKKulXj7H8tEaKK7EXOdC1ZVBJqCeodn8EahC2NCdADVan4X28cofHiXA49OaAsBElnrLPD/Rvh30k1ukAUzVoh5tTua/VItw4AdhneVn5mD/SoCLVBji0Ng9c7RRL2hnGAYq7Wh73WakW6UrIUgi61jwHZTI9b2lx3jNlnNenmfdUYUZI6TaBfxCeDdnC6r166rVVGh+OVbcQPE+wI9OvW+CRiJrFbsKdHe5zqRKR7Ydp2SHo7Mw==
+        options :
+         -
+           internal_properties : CAAAAAgAAADZvWx7N04Ani6QsNIAD7/3Hg/t7SCF2bx2IaVjkjXz3Ke1ob84s1r5eL5hgzRFaLoEGE/s4cUC
+        type : 5
+       code_elements :
+        internal_properties : CAAAAAgAAAA6szEZbriSaDEJc3a0AZE0eDn0ave0nl/2ptdQjUVmGrUL0bRsPT9RrdriAPbSpaDrPadWciv+zr1Auak4yjDvJxiG21yCYwy6M1c7NPEBm/wlE0qFDM8UTAdUGOWpLaeCZCy8kZgl4Qca6FHxFGdhoD9F99NLVo9Igcz6wCuvr3r4/CS1zg==
+        type_code : 5
+        p_codes :
+         -
+           code : |1-
+            
+            SurSélectionCatégorie()
+           type : 17
+     -
+       name : COL_CouleurPicto
+       identifier : 0x2b0bf2f2f28bcea4
+       internal_properties : CAAAAAgAAAAN2EtqjnfKr85sqVef+/lBaSqyVNeP7ws/gOEcV7xysFRIl+PcXREQdf7NowZHWGdQiIaJTVI9+Y0Rkkv2hqPgt+/EAUMPswhmkXmsICi0ulzxjwvivldgPQK2bf7/mTvfUMcYCGGvBeIpz+E4LZq3vgmw6Izc0cNFIACoAl2GA8DtDOs=
+       type : 8
+       content :
+        internal_properties : CAAAAAgAAADeTyGhzze1q7j9+haz/xHxAxMYCj7t+U3jb1GKjt6X2611bx12yAe6Si7gR5WZiP+tcPfvE3O9FRKz1GXcuh9sRCAUI5Zo9dcA1mE3TfCo2B203EfTygs9Voyp83fVs7oVNQjrOD01RPOyePwC5dTW3jpNZl0/15VyQbkjFZvwtjL3HMFMlJuXIV+FKT04zzSYOT3YIi0lMMCz7r/sYcJZHEXsBGrcStmhl4cuoSBmumbotiuVXs+2pwKxfMXZSCh2mu8nFOFA6+4XhJFkKMM2hb2LONNq4XG23MVhjlyUrXDaOgjGiFp8X1dqp01j1lEueN+jhi9mIdSWVCoed6A70JYoj/FYfnDeSWCZGwTdgQwpKaDwEoD6qwbipHKymX43cxqAsKgjfKKevcjgGzWoC9LAOpcVXSUlLI1W4D43xVg=
+        type : 8
+       code_elements :
+        internal_properties : CAAAAAgAAAAlD2axLcKOdkOf9Wq8RFHJztOM52gKXCp2ayzf6vlrfMsepJuF+5tmUCTXn9vtpB2Aae52/FFWjGHuXdpwiRC3l+g/mgzcJMsSrV3aJgLinuSVJZp+WtpYKFh5Yg==
+        type_code : 8
+        p_codes : []
+     -
+       name : COL_Libellé
+       identifier : 0x2b0bf2f2f28ccea4
+       internal_properties : CAAAAAgAAADVSICOEH7XYRViay4mPwqTgpJ+U/Zj2OOUYceY8JKrD70ZKL5r4bIe+Xt8AwouFbXRVdgYryVIKORZLJyJLUr11iwhVtLKCfxa+Nk1n6OJi5PMbz0nJkABNDFSbqm1lO5lDNje5Aryes+LBYihzydIgwkeNecJ3iakq7joAmvJ68+fuCakjoeTCqtL5z7JFsM1Kg3K2vPdey5fP191V74xnPbIFLcr67oHYqkOk4c66NbdVNHTXJ8OMWDQ03fTWeaDOcCn
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAAN5Hy/qNbw7loIkYYjyes5lZzTdHvfQ1hK0Tcc5iVPd+tWm4JXqhsbyCPITJeRdww7oYefnqww3FKUTJxB3CZEYQONr0BRtht9GvgNLSIqlwOk5azZBRi+Om7I63q0KWoaEJU6VZJsO4nlCLGtM+SRaVMd9MoyBiI5mVX1/L4qJIBl6jV3837VjDaXfqFh9sLREKkK+aKNtdGE+VCU81c5RxGqNwdcKwdzkFBokOXKIIlpqLINFhO/MtyxZl5lEQnRIYN3cZTL7V+rMIIuc6NdPUwx2Ms0g77PACd9Wc8BokfB3gAznHUtpCCHvRDuwNOg9m+mJ87G25ZhKdiDWdsKlk2USIOcdt2emBb4Kwn4PQfTtLn/0t/UNlvu5MAs65Tau8dTxe2FoLVZSzKPzjkhijnm+Yp0Pc3Y/Nb6Wfs9X/9qh/r4/mAUUv85J0XH0nTXsTGiGgxgxjGb3tccgWcNdIPQs0G4hemlqlvlpycmqoLdDFYN+K3u33xhiSUwUGSyvdWjZM8r1yqfl1Ndlzgi1/QWZR/JdAy5VM3TEoLAFlC26GthHexkr3+GFXMHm4OoD/71
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAADu/0HqjgI29FbweThzBPrVp21kdtZuBpePotCO1hoD/iIjrWcZiPv39h6v6Gdh8h0VqSr9gdBDX1W9sy39aOwhulKPp59lnwg+rDS+4GdS1+U1P+nF0TYhDOQ=
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+            COL_Libellé..RetraitGauche = 2
+           type : 14
+         -
+           code : |1-
+            
+            // On ne peut pas valider une catégorie sans libellé
+            si COL_Libellé = "" ALORS
+            	
+            	// Avertissement
+            	beep
+            	
+            	// Reprend la saisie
+            	RepriseSaisie(COL_Libellé)
+            FIN
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_Couleur
+       identifier : 0x2b0bf2f2f28dcea4
+       internal_properties : CAAAAAgAAADQWRWCA8NVzFfHtFqo4tZ9PQnI2W2/dqiJec9nmAv1S40axd0IuCdSuDQbL9MRjSLJ1KTkBrV39jhcpqEx2S3J8s0kg2UYwu3+sKSjshwQLlzKHIybGXZG4uR38tc8270fUY7awXIsm5cY1UGZnBqno4y8yyF8HXMSDThftfgw1bQ8ZcCUXsCjgc6CgUMdyPH0L34eXU/ULqaCw2cIZy2ez5vwt7EDlGDQAXocbbasBqYwYlC8WqFClrFJ
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAC4qn+BjCIlJnk6zpnon26Npf6dI7HlNzB0kwBxw1AceRHHZ9KV6msceAUpSaWTXt6tvSie32NZ/9YUGfcrieP7zCsMRH55d30yYcKVBBTD8AZLzlp1SzUKft9snJVUibnXiJEdkTdafeVIJ/+dDcCThl8KSRupeyBOT1ut32lw4Ni3g9ANqOlSOVlX3FcdxmB1VDitiJLxUYJLmho8C17dsuV8xaWG7PASwkkY0p1uFmcqsFIcamPfJRetV28zlnhxDsSQgB0lHnzIMers73FEm7sAZigBXDrLDSne5TcFQmjb/Pq+NlvaVxaVxIO/9Xr8rY23PoNkj0kTmd9wmA5rUJS4Ibz3WuutuHQBbhJlLM8GbJJe5ykgn9MyC/M1AAM2WFFo+mTrpDTD7y12845orgxwMhtPM2FDiGDDyEhQ0NdB3eP73/54+0sRvPIOAWEx0CV/FzPGym5jTDZzJsRUhqRYnEDtoavUZq4HS/nODnUZqBKE6NAQvg/sSSf5yR8mkD2bKiDMr/VONo6TzbOdy0Im8GZWlBwt7a4xTJlJL+zQbUuBAjwS2LTrHuMFZfZed0V0whpe4Bn9aGN5+VHpIPv5uhvlgZTJVbMzxd1pf5+n
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAAAofjvhBY10x3f0BA/f+JdigzPt//wIxGu+cTf2ARE/bhiI3L479LceUP+j+0Btmpj0olfYArL1F93rPfOFprv56mObp4zhtcYghwwiQVv
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADn0eYtyVpggpswy14YY/AZ34E0YNhRMwejnu9k1AGH19VYDuz7BCmRrL+PgBQiVY7jHqKswBgY2qCv1vvqxkTmDyc6qQeaJgZWcKAaoBg+jE3fXnEU0XRl4vKDSkm/DTZnyzXnpGOixogq24A=
+        code : |1-
+         
+         nCouleurFin 	est un entier
+         nCouleurFoncé	est un entier
+         nCouleur		est un entier = maSource.Couleur
+         iCat			est une image
+         	
+         // Eclairci la couleur
+         nCouleurFin 	= TSL(CouleurTeinte(nCouleur), CouleurSaturation(nCouleur), Min(100, CouleurLuminosité(nCouleur) + 10))
+         nCouleurFoncé 	= TSL(CouleurTeinte(nCouleur), Max(0, CouleurSaturation(nCouleur) - 20), Max(0,   CouleurLuminosité(nCouleur) - 20))
+         
+         iCat..Largeur = 16
+         iCat..Hauteur = 16
+         
+         // Début du dessin
+         dDébutDessin(iCat, dEffacer + dAvecOpacité)
+         dRectangle(0, 0, 15, 15, MagentaClair, MagentaClair)
+         
+         // Cadre
+         dLigne( 2,  1, 13,  1, nCouleurFoncé, 1)
+         dLigne( 2, 14, 13, 14, nCouleurFoncé, 1)
+         dLigne( 1,  2,  1, 13, nCouleurFoncé, 1)
+         dLigne(14,  2, 14, 13, nCouleurFoncé, 1)
+         
+         // Dégradé
+         dRectangleDégradé(2, 2, 14, 14, nCouleurFin, nCouleur)
+         
+         si nCouleur = -1 ALORS
+         	dligne(2, 2, 13, 13, RougeFoncé, 1)
+         FIN
+         
+         // Sauvegarde
+         COL_CouleurPicto = dSauveImageGIF(iCat, enMémoire)
+         
+         // Sélectionne automatiquement la catégorie
+         si position(ListeCatégories, COL_IDAgendaCatégorie, 1, MotComplet) > 0 ALORS
+         	COL_Selection = vrai
+         FIN
+        type : 21
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : BTN_CACHE
+    identifier : 0x2b0bf5250e5e642f
+    internal_properties : CAAAAAgAAACOpvGPoeeg4MVJachHCR5soAyeCMeWIHaNxZRp2nXGKJ6JIhQdOtBC0CpEn7ppHTp8crmNVWh7Y19D3jfGqSHiQqo7W7HFdIwgLb73UqISY25KzebOE5yf/9qnIwPHzqzzCUlsi5znCZLUKW+wn/HUkwgkNE20T6ocyUF+Wf/74khtCkbMMqPr87Q0uoxxmuymUUuSpDkaZwQtjIyLgqnTFSiccomW/o0Qm1IyQjWLu7OuHvxFR+X4H5h+cau6MWmTcLXrQgG7M65/IrblogB1bePc6sndZqYsxdWV5p4wqWOPpX6aREQXfQoT0bBFV28ZNDRQ1LoI1FsxISwzzbqj4DsHA6G+WzUj8DHwLI/fR0wrjk7RC6TrxxToVpbI/S0uZyyynR88YM1ItQ4zOL+Emvzvk3ou7OvbJGnMbwi2LMh2UmUdBr/JvvHrkafuTISM3YY7bnkATOrrwBEuhj7iZOuaCFamQD86XRxYxp796yIPXAEjISNuAkWCQxVaEJESJ03Cn5Brbs3ZsL6EGpaIXfRObpBMrr8ubaNypAq41A35+P9ztjocdleA+vu/iUAR/o6XL/HzoEoqff1puYk8noWn3amcbjrC3fXcNbEeywcIBqRlE6ToCP1CFVjnzP6Vnx1chvtZr81Y7IvAhq2NioRbRRVlrOrmZ2XJd1d1yhKA5Dd7lUVDyKvx9oIuWOJVBFBnvX91RnVBUkk=
+    properties :
+     x : 155
+     y : 10
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         SPLIT_AGENDA..x = -3
+         GR_VOLET..Visible = faux
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_NUMSEMAINE
+    identifier : 0x2b0fe14715dcd1e7
+    internal_properties : CAAAAAgAAAC6/jFK/Pyy+pJ2sup5jZp+wMEzY6nBP4oeuTW4nXaRMkKBxbb8wVgix3wdNd0lMRbbzpMDvGVYjd4wRKZtXoK3Hv32FWui1AhEkCqM/WINRLLKPzjyaFlbNcDb0pwUsczmX1hajnX4Ghe20J3BGpAQYvR0uAdWMUMXbfyI/BXRmnlv63GfbXBQKV8+5RbqmlVtuGtswwSiMRvNp4PxX24zK0kFf421YpfT3iBc999bkaVWszXTP0Y6QhPJ5UO2s2Wh+iciQ6mL0q4HhJRj0XPyXpGIFvULaD2iargoDm8bjtxO+FW8YhPTtjs/7Y7ywAGrBTaSrR+vej8DuKRP35p2mJyku1rP2BYfWChtMioGu9o8YkI04AmKYr3M8r79VZY=
+    properties :
+     x : 672
+     y : 12
+     width : 317
+     height : 23
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x2b03b7a996d175b3
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options :
+   -
+     name : OPT_Fichier
+     identifier : 0x2b0bfd840b1d146b
+     internal_properties : CAAAAAgAAABquwAxblgTM9/Mr/86bnIhasVAoMUlWRWif99zxvMnBEfKXo7W3+SqV8ItWDXOfLt8P4ripMC08A6YDGsJJ6ysPmwBRpZL3wgP2vwsNQDA9sFRQcEIB9mIT6Icx/WIaOgcClEbSHh135kpLXaAXUKws1Uza1Qft3F4OeTrOkQPMefiPz3bRXptktdHrhSbW6NJ8SX95tCPD/MMMcfP+lo83X89ue5XQW6zDzVKuudhfxGhWhGektH/U3QkDdldBwmxd5Q2CTSoTY+UKJ0YPCErnMpu2XJLlJWXimE7JEgiwvmUhxwfCTbe+ldv7bc12KTjEmeiYiU0y2Ql5lGReOt57A==
+     options :
+      -
+        name : OPT_Quitter
+        identifier : 0x2b0bfdb00d4bc1c9
+        internal_properties : CAAAAAgAAAA76yKtEfPUHFu4TbqWAqjEcaXbNV8zO8ndXLDYgqRjStCLW3uAUej3ktSUTVR9bfA575N79BVKH1nNtPoVC8B9PGg2TBgI8Cn64lar5KTlesTTQ7Va9NNQwBJVywD8vrnZ4SXcRaNiXHkJeNMpAxT3CAtFf4W4hs5b+kwOzvzXzxafBIrHsYIagNSiJz3xJWX097rCo0POzoACfjiohdEsjJFYiR1m+kiASLXnA3M3texnqybQ1/b2LmAQxNHclvGJSXaIfxKpdtxDg5YWXkxMtbCM5mkvbOk4dldFyzFKvIhYUs+SUiGxVVUrAcTMYR77dTrzP1W+VbaEPIs9ORkoPQ==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+             ferme
+            type : 32
+     code_elements :
+      type_code : 26
+      p_codes : []
+   -
+     name : OPT_Affichage
+     identifier : 0x2b0bfdc60f03163f
+     internal_properties : CAAAAAgAAAABI2/iyDCvAKdJfNz4wbFFe00DqYMTn6KrIxgJvdha5eDy3MCWIrdIM4T1UqugcgxGh4QzsduRSaQMy5fcvXFnhmTJ4ZARXuQjMtDvNZslZ5YtcqPL6L8ieh9VbZKr551l6oRE2beSoFZ2kJba+qulcjxCR3thyiGl9WFVn3QBhVy9C9ssWUjdGQKeTfcwSNoZi5rwBgCteqH2utMTNMTuPQpl6ehSZDdQOj9CQaFPe7D55pdg8+t85cRr3PUNTcBTGRAhJDTCAE+c83L14axDQ1UsD8yWn/7jtVQmdcKr6xPKQPGCazrO7dIQNyC4y5lbFlC4N4zD9Yhz5whck7b/0Wb6
+     options :
+      -
+        name : OPT_Jour
+        identifier : 0x2b0bfdd10f3342da
+        internal_properties : CAAAAAgAAADE4FDT+7zIfLgrYsf8Nwzxqiw21unkptQZYMjCUzM67HeeYT+X6bmJjGDUwU9ONEl9bgBVfwmtZGs7EyvKcSUF4Ryx/e6oTD9rWddioqAm33SSLCQhyyl/3AemTaMj2HtrHQi36DhIKJ2l7x02O994pgMRS04Ts45fW5z9AlWmBjJygrD5NPXpRLitbnNooK1fXdcj/AC9wPGLEeSkIckqikMos4oGdHd+aENYn+aQr6TSH9Bc/dAI1RsZApHiCmmotoYtDnNswmBvQYc1Za2QJ/HQ8e/2C3doEgjVfOI9Ds1Zoua+34oFaE+UhwYIc6iY6yc=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+             // Change le mode d'affichage
+             AgendaChangeMode(AGD_AGENDA, agzJour)
+            type : 32
+      -
+        name : OPT_Semaine
+        identifier : 0x2b0bfddc0fe26bfc
+        internal_properties : CAAAAAgAAAAjpAY3DtMXlDmlhBoO+riTjSXbz9kBeQbzVyDUwoXGFdwC/a64Ic2dUgh8BVYrdLcs1OG+NCLrk4et6UUVvEEXsEzqJ7Un20DrfzDdO4k/Jq67EiiTBJNzkFPuHih0y3pWPQC/ONLrR8Cpz6yyzOh/pAGYNwlvE2ZAOY5nXFcbnEPEwJZ9KHMlScWQ5y5t+otLcqjS12hixM50FvKWXSZhM9878BQsjn9Qyx0Ut+7YHpaRHvgArCOzslFWtVhk/h7pT2uZN7a690HFo2r8oOiymQlgjRtgUIr/c+1T/ra8UjwQpEZjIdyFOnKoiTs98MHZ/y/zTSvyBQn6Eg==
+        options :
+         -
+           name : OPT_Semaine_entière
+           identifier : 0x2b0bfde2101286bd
+           internal_properties : CAAAAAgAAACSIy7/XX2V7s00DJ8UcWNrfaNh6uG59LZaRp1taJnRkTMFxT2uuCOA9SRBedCPDzxrkzdbv9ziI0DtLTc3gIT2OUbSOAFGiMeVd+byPefUONpLioI1h21MvZnuY9Xxp8BTFUKkbbWR2slhw8Uk82ahnMl6Y07cCf72TIR6R9S5/hQgJfZcp4vSyguskrsC5nDxKBqFH1Nq2WxHvAraB3zL2k0xgZ8xHr1tdsES0u3WQF1BH/0nJViVc+UF3jtwJewABBp7g3AEWenRWks/WzFQoDY0WbPm4lSRoFc4FXUxd61UrlykEaBgGPDqXrxEWFLsqEAkZ6KktLQKXoiBJg==
+           code_elements :
+            type_code : 26
+            p_codes :
+             -
+               code : |1-
+                
+                // Change le mode d'affichage
+                AgendaChangeMode(AGD_AGENDA, agzSemaine)
+               type : 32
+         -
+           name : OPT_Semaine_de_travail
+           identifier : 0x2b0bfde810529d58
+           internal_properties : CAAAAAgAAADnsFOStmig7XCXgWh9JCx0MA4Qu6Dc1w1tKY7n9uXNpbcJGck0IDN2F9OOc/rwrJhnHy/rxeTCD1jN/+W5AIByQf42FE+uEGuFv6SscxMY/H6PDq4/a2nIJWkE/fOd3xif+c6oc8XF5jm5oTc652o17DGKs7w89Xpi6CaoGbyRc/nVUuHNGARNW0xrMyRDBaGeXUfoOERjyIEM+9PrCHOsOy6SKGwGC6hye9yfp1pBrdYymHwcwp1gOCrE12iFVB3RFZva2D2phBaOhSgYtFx9SxFP9ihfn0viYSo9Ioo4eFr5WzOLRifhnUW3kZNxUTnhpaWT/vebtZkvc7P00w==
+           code_elements :
+            type_code : 26
+            p_codes :
+             -
+               code : |1-
+                
+                // Change le mode d'affichage
+                AgendaChangeMode(AGD_AGENDA, agzSemaineSur5)
+               type : 32
+        code_elements :
+         type_code : 26
+         p_codes : []
+      -
+        name : OPT_Mois
+        identifier : 0x2b0bfdd60fb55561
+        internal_properties : CAAAAAgAAACiQio1lYYiJtKh/G1miW4TyMbI+MueiPYzXhL49eX6wIu+7cdLfQnJAIhcZYO6dLXBNsTlky2N/Oerg6dGBQ1hTawtRQJ0VDd3qY8uXiReYxAiUIxlx/H/qOdmgT9P0GdP3fzHjBxoALFdV/mCJ3+sUhPFw/q/E64DpbILUJvYtKg8EOY3wsdrFko7rPnuGrNVDy2xYu5v0qOdz9pSf1s4gK2G6cDMRrmYelFOlQzqBRqcpYYaOxpSf1XvOA9ghO/ewLSTFGFm3GpZR517q+dOdUsuHz2gsZ1CPCLzUjxbKOdzRERceSCb8tkuLewySYLyTYE=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+             // Change le mode d'affichage
+             AgendaChangeMode(AGD_AGENDA, agzMois)
+            type : 32
+      -
+        name : OPT_Séparateur
+        identifier : 0x2b0bfe0717331564
+        internal_properties : CAAAAAgAAACVLyanXKgPjQkE4A+GCJW/J+QExxRGy31ZMmAs+spRJOrg0a6qZBb7tiY2y2WfIA33r8fFrtNq4a2ErDhn8wdY/bkapQria/LWEgWnh9/l7fxSRzrtEGc9rHDCVSmZkCycUHu1rZ8D3HRMjtP4319bkDH7dvMb9Kjof5225kovV+vqAtyaJXsrchb9wG5beXUT8mJmmKPHdPPd7gai3+ypPMAWV2RUQvgYlyNDZSllFX0qBXu15preIRkLnZDM3c26iPIEU3OLvh/RV2pQ425YqNQPSEv4e/PMyHtkqJ0sPreprEwP9EUxgNBZLqFl7Ja+8xtgqO5r8IRshA==
+        code_elements :
+         type_code : 26
+         p_codes : []
+      -
+        name : OPT_Options
+        identifier : 0x2b0bfe0417320a3e
+        internal_properties : CAAAAAgAAACDHHAboptTOImb5cSTzINAmf0i9HaJTwTLyj+TiI4Q2jZlh7fVEUWzV8UMkGDNiVXXS6CTajPLHjywDyRbM70/VK5I8sxGUt9mdg4R/h4aZZ94uTMxIEhjhTESe2n3OKdW8GxFEx3cF7+YrUWeIXG0GGDeZsq34E3qsAZCB5Z1B490PZTpGi6r5HC6dNi3Kb6kj3PVloliWF7mZXnDYt8kAmBqPud+mcbYQQpt05ADlFpxj9NULi9XpmZm5p9lKWlgFSqmfzX+p3ewsHC1yp3Li8pWK9WdqGvIeqd1dnbV5CSCvWF4aPeLgj299wHtf5HKm3t6cc4X
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+             ouvre(FEN_Options, AGD_AGENDA)
+            type : 32
+     code_elements :
+      type_code : 26
+      p_codes : []
+   -
+     name : OPT_Agenda
+     identifier : 0x2b0bfe1c177168f0
+     internal_properties : CAAAAAgAAAAOxK4Q0Mq+qc/ITpDJRlZfjwnP9YX0hxUa/fmACMUcuUC8rFwyiXPp1sofcb+H5JlIVutSSPQijBzwU3OlhCyDUkLHPAWyl0+Tvb8PAxggzIU+ldZPqSLwd324hbR8kh1qYfq32zc5tDlgmx3jWWVKFOTt5DE3+g4eIHmIgwFuq0M733pc5oxm5ohjT5hugLI6BXGGO3n7WUPvT9x3S5mOeRacewXofeohTr0jvhqqL9v9xsr3d/OFrdPDnAz5ia13R8YA+/ZDvn0HILgsMhZ6Wre4C6IWrcDRPy1ASHUhgfZh4A71e4KuhJ785u/yTiJANEN9e9pibc+9W8qTogAB
+     options :
+      -
+        name : OPT_Gérer_les_catégories
+        identifier : 0x2b0bfe2617a18d51
+        internal_properties : CAAAAAgAAABXXQ+iDKxaugJaZVGNVidyuexnIbD+/hlcDQfA05L7h+HUNaRnniDOPPV3SfsH6+wgWBkuB1DfIRvAtvZPCjHWG2YTlED5vUxnUepPgFbkKr5BlDaVG2dnnIJqHq1bDna95mkUXOTqRd07z0+uqnMCJ7N/RGxLeXsF61ZznE4r5Fkoea2a1L/8Jzs9kblUL5RmyiUHpFsCmsA0R052tZ+n5d/BcAiDMsLFFEfVUlFw2R75J8jDdbp24aZBimyVUitcsb/He3zYxEWec4fcUPU4C+zSNGVmcuVvcNjXiSZ9G99q38fnxzbr9OfKnJ9IHh7JHPbeKYGTTZxRXyQOnZzCbq+Bx9WLzA==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+             // Ouvre la fenêtre de gestion des catégories
+             ouvre(FEN_Catégories)
+             
+             // Actualise la liste des catégories utilisées
+             TableAffiche(TABLE_CATEGORIES, taRéExecuteRequete)
+            type : 32
+      -
+        name : OPT_Séparateur7
+        identifier : 0x2b0bfe381857d5e5
+        internal_properties : CAAAAAgAAABKBi3ac49uIqqlh6x7F6wm/J/7Om9p5ma2H0MJh6mwQwvDwNlFV1nU+4MJLJ7iuyAgmuJg1eFm36vYQs7b7cXkb23ORxzsi3yYenO9Ewkv1abe8/Df+v+zLvCsP8mTGtxK+M/fC3U3vgoYuNmE2YW/5gl3dL1FTLYS9zcAtmXClJp3jWvJ4CDQx3csdyWGVGJONz3dXw5M+ZxauXFVFn++2/3RFru/h7WdvHbWQFB09mD/eGoESSdv9u6eQHPDpMbtUcHXjoqkWfr8Aoe1jsUxgy/SdRgrqJ675xqFibwPI5qUh2Hk3yoUp7ewl8pMhzPdkrrBSQ2Mk3uTuw==
+        code_elements :
+         type_code : 26
+         p_codes : []
+      -
+        name : OPT_Comptes
+        identifier : 0x2b0bfe361856cd0f
+        internal_properties : CAAAAAgAAAAeVi604mr/kWDVuKk+cO3fy22xy2UPsFA/JeuSBrHC0dgFvvpl6iABwZML+SpWZBTpFltbJmQua6WGLmXGjeYrgDB4RiG2Y6FXyTZM7ANJo9tut1Ut24vmbgvZur7vUG55CvK+iXLKxy57IpmkhBPCJn4NCwZ0AZmLEnNnoyfKQIDapARN01e5/m99MnMWYW/iy6h52Uy7POKWHNEq5PKOTusjvnBhmNq0OSidsrZv81fZfNx5PJN8Bgv1YsZZKubb2ZrjdX1w/jnzcqX87XIt3IajKKtPLn1y7GXYjCUGuIpaM89kKBs3sBCYpeIh+CUzVC3+zJ4ksIhx4rk=
+        options :
+         -
+           name : OPT_Outlook
+           identifier : 0x2b0bfe3e1ac0edf7
+           internal_properties : CAAAAAgAAAC1nLNZ5MHanFosHJoTnzDn3LvZ1mecrsAjVfXMt9EgEishRhGJE18QIzpvlK7e768ezc4IK4m0buTE03j+BUlNOHMZBdBqC1Jot/E82+f5mTiTNJ/YKprHE28tA6C7Vvz/sAbTsB2Da84tAJvq5W5FDesvZHa4Dm5ek/sYQwI6JMkjiUUkNdfPA/bd4Rw6iT5tvpKzpOt0aiSH36gFjToWQZR+7sdkbdbMMXf2pCepvhIrds516VldHQToQbK5vTeSw1iHgoD18bfdFlOHc5yiIs9m3UPBmxmqmvpF2MpwZQ6i7P7arhUlrTMxqi1xOSgJnbt+ljw3VBm78nvI8O9zGxl/3wtIKE4NHarjd186OQ==
+           code_elements :
+            type_code : 26
+            p_codes :
+             -
+               internal_properties : CAAAAAgAAABkYxCOUYE2SIcGyy5+4wwrT6DF+SgxhKYNE697YSO+C/M48G0BQUcnkrKT8QFeX6iz4Jvjh7uHfgUS4CsNltWZQi1w3Wjctcozk+DG4/azu9iXKmOT4z+Fzb/9rFJFUBd0mzntXNuOl9Q91Q==
+               code : |1-
+                
+                // Ouvre la fenêtre de gestion des comptes Outlook
+                ouvre(FEN_ListeAgenda_Outlook)
+               type : 32
+         -
+           name : OPT_Lotus_Notes
+           identifier : 0x2b0bfe441b940510
+           internal_properties : CAAAAAgAAACv+gd8De3pnmll3xS8X32QFpKeSyse1iJjOTth/Sqmz4fUEwKGmzelRF+CzfBWDXHYBdiHxT0o0GKJh3Z4wGhOII8SSed+4Ookpf2S75j/7dAlnCqYPliM7AJbLKsm7Odl9FfgsqQibG2UOQv/IOBhc3dPeT4mrcT5ESRMDgs3y33UtggV/SarOCVuUdPFgh/nr1juu78HWJEClqrgC8d8nQHmVvh3I6wvb1wnTHLyd9fSKT4xJo+Ybbw19Qm4OhWcNaAmQ9yZag3ocI2qvN32/mQTSk9TvuMT/nl/SxCQ01/X/CAsdETOiwVOwNehemtfSJIpsh1377kQkkNw5OhzFYSYWaj3+ObUNeGqflzVA4Ciqg==
+           code_elements :
+            type_code : 26
+            p_codes :
+             -
+               code : |1+
+                
+                // Ouvre la fenêtre de gestion des comptes Lotus
+                Ouvre(FEN_ListeAgenda_Notes)
+               type : 32
+         -
+           name : OPT_Google
+           identifier : 0x2b0bfe481c0d1564
+           internal_properties : CAAAAAgAAADtiqIFQiMFdK+kW7ov8BHcpghVAmb1+vcha2d9X8CbknFcR7oFFpleIbhj2WSB+pbACtOLCgjvYPuir+NeK7BRxvAdN9Ly9XyUCT80BZNgH17DbbbqT8jV7e5Ckk/6YaWX4S3ODQ2vL6UlGprub1wPQ7x0TGS1Pd+k2JyWQ1KJ9aNLaKddrs2FQnLGKsWMRNPweIFJhy9nCQkFh7LnHPy18x43Aaxz50ms8pADKdft0N/aP7QAORxUr054hY6ZC2AvaKvsXB7llsmGHt1h8cMlL8Xv4NaOH+Ba04ZVJmdL2YsVon9Uc/2Jc9L/TKu6G8ENy7SDst4KW4PFvvfQk+ZQLcpGYa8NRX5GqHVi5g==
+           code_elements :
+            type_code : 26
+            p_codes :
+             -
+               internal_properties : CAAAAAgAAABkYxCOUYE2SIcGyy5+4wwrT6DF+SgxhKYNE697YSO+C/M48G0BQUcnkrKT8QFeX6iz4Jvjh7uHfgUS4CsNltWZQi1w3Wjctcozk+DG4/azu9iXKmOT4z+Fzb/9rFJFUBd0mzntXNuOl9Q91Q==
+               code : |1+
+                
+                // Ouvre la fenêtre de gestion des comptes Google
+                Ouvre(FEN_ListeAgenda_Google)
+               type : 32
+         -
+           name : OPT_Séparateur8
+           identifier : 0x2b0c00482b8fe1b8
+           internal_properties : CAAAAAgAAACzCUTBeoZ1O9N6PlU8VmNlNcZSAdK8CUujkD6acDAPaiA6F/CYKgyJwFRMsfMFXpN1KXW3HF8iMeHsFPAblyf0OeEu2VZWa0rSapU3A3OtISBSm5bxrI8FCLBaFaWVeMBQEHeZEfubTDjE/jMkQ6+H1CFniu/nbDh8h1XOUvD5Hd28UApQ60XtMOCTFhS526vlzEjcFrHpjklvbGxIBQ5fXvrsDcoq7Jq2gblR67eXWx+0g7nLnIRIr5OJU04K1/uEUsgaceH9MI1P1fTaaeDOPmKdOkXGTcWSDjGu8iOmtA0HcnbRKn/rTu5n2AsLRmyUyWGqUgSFimKKog==
+           code_elements :
+            type_code : 26
+            p_codes : []
+         -
+           name : OPT_Synchroniser_maintenant
+           identifier : 0x2b0c00452b8ed6fe
+           internal_properties : CAAAAAgAAAD61Vjf8YSdh3RJh0a91ZAFdU1JbuNlh2MWDQQ6cCsmLetax11R4/SHKvLIJALkWdDB+v6LDvIl/vvQrD0jrlPGx1IBBQfgpVN5BtY4r2r6ciLyO+u28Uxw7SoI5KOEoRUp/rzObOjT1vztoJsF4yBvy6g97mpasjMCiCL6ynY7cYAeaNk0NZecDTAHag57gfWqU7IRJGqFWUIur3fituSHhcToHWv3yrV/TGF5lHVMHorixm6wW53szFMIIWQ/f0c5UQvC03AhVOpStwWp/OU0jMe+CZR3dbhl69LLSj+p6VGex9at15HRCxfbEBamUb2ILrnrRf1li2TUXc/Gyz3HtCqB3QrdkUXocDHTa4nAeQWbWDr1jg==
+           code_elements :
+            type_code : 26
+            p_codes :
+             -
+               code : |1-
+                
+                // Synchronise les événements
+                SynchroniseEvénements()
+                
+                // Importe les nouveaux événements
+                ImporteEvénements()
+                
+                // Actualise l'affichage
+                AfficheEvénements()
+               type : 32
+        code_elements :
+         type_code : 26
+         p_codes : []
+     code_elements :
+      type_code : 26
+      p_codes : []
+  code_elements :
+   type_code : 26
+   p_codes : []
+ popup_menus :
+  -
+    name : MENU_Agenda
+    identifier : 0x2b056c6c23647bfc
+    internal_properties : CAAAAAgAAADsoMgSooh/uXtMEVRqcQiqK6TZB/ikV0P2fLxF0vgZZxPOAZrlf4jBa1/5xG4FA5ZlvkXdDd9ssVZzu3tfWdR/hUI3yJbwxCeJ3dA5Eb0VBPdFO6q5wdvHz0Nt5ensm1gEuuTpqiBQKV39wW8c+Oz43YJg/6xLp0l9P2i3LJ/6tCWoDi5Q/zHGXU8H0taxmHwXj6bIQ2OTYBg+omDOKKV2psHfENFdcZwxY4J18un9qNpDizYUwFr7AwtKsAeoT650Kazh1HNRJf0UOFQ27Y9JWjVN4gDiEXl+O8LeJp4Fhs+1jlJaoLChCy7lfMOymwphUM17wpnK0fEu8mMxgV19qIkkcYt0M37050p7FInAlpfTVIUrqDNZvKB+Vmnk3yW3j7782VTKDiQ=
+    options :
+     -
+       name : OPT_ClasserCatégorie
+       identifier : 0x2b0a58200ed61543
+       internal_properties : CAAAAAgAAABetazaLmASlxw1/74AOb15bBiVhdyXa/Jpg2iUZ0z6nKjzinCXpjDgdhJ2Nvy27PwwB61yX8KipeeNj13n8WodUoK42kmXZhtfeuhCTWiYT5Dx3wGJ5mtPAoTGxdmsOHW+PD7EsfpUShCxmN6u4qE7PdHsOHGpaf+bHr24qYG4ntTnf/XxypkNKCJYX26puFTQHkntvsMZSHCbaEPKsGuVxsdlWVNROQ5d7CiUqxreMBzMzjT2jDomRCriAi6+pfB2brrtJ5fk9q0RfP7Cggw8tRPY0GVmRZvBuEnbWwZNbDRKSbJyCoig5Ljc+hKzQ3BFYKGhUTeFDaVtvQbAvrvTT75IfiJ73YzNaWOnQxry8/9bxI5DnNTAm/k06yo/zhoSE/N2Cl/WLy49VwdNFrh6y0OCDvnb7IxG9uo0glpR0g==
+       options :
+        -
+          name : OPT_EffacerCatégorie
+          identifier : 0x2b0a6ac509c8e649
+          internal_properties : CAAAAAgAAADInLY8JpEj1NFbi5cBW+GCQHPa4eRsuiXmAAiuJzLOoYxlGYZ1qKR5z2X4oSuFK7c/qq6KepWriRpvL/CkQcc9/Es4Qo60ZWdId/Q4Byi6IuZvRkaT/8s6cc1ijC+robIZXYEMFT0TeK09sqXtwOQ+diR1zEyTaFL7L7NaAEHvvLY/Rhj/F7lgwJqiPkAfXIqoZXeEDWC6JjJUrT0s5GECLNeHjYL+Q316ZHU3RxRib1SOM6Bw/Eeoep25hjHnSwgDidBH0YAnrbrnSO0tF7mDfobSDivfvXeGMu+bQ2u9OibLVdjWTNZfnR81NQLzt7YUtBRtg9Fum05ONMET0VAE1/VQ6rVcDr6S30CMUdO9nBJDaxtgMPEfEaYkhHXk0mpHKg+X/8mqvkEUtkEmyRcvMGUX/Wx9W0Y2grGnmqWqSeuCaQcE2GM5AiS3BXstulsN7DkgwRbmimA=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Efface l'association
+               SurClassementEvénement(-1)
+              type : 32
+        -
+          name : OPT_Séparateur1
+          identifier : 0x2b0a6ac909c9f631
+          internal_properties : CAAAAAgAAABUNrM957iqkDpiCEO7P1TZqJnEIl3PaUrrjQIQOGZkFKCrvdtVruFOwylPHejIdzDVa/ZLC/NJb+FIsZG1WBHlAG2N4UHf4AhZuvIB2iPzCwc8w0qw8JeA3/myk0Rw+vpOBDQjRokGH3e4szfomab6uvW7Fg226UXrvp7ciGAXMxyIV5K9/JWFRJ0O0gGOuxwwL2uMHlj1hbzTAW2nsRjyMxZU9GK1aVvv5Z+lmRXEwnO3zRUnkU7X88G2OetrGQHEXJnyaobrjPwZ0CY2EhgkpSnMjzsht5rUk7a9lhcWrJu3ONlj5ImTpenm3Tpl+QXdXji0AWHKtdH2+fXB6tbBqZoi2OKbWQYLwAHxfeWXw4i9c9McxXZR9K2ePYkVz/I94M5FCK9/H3+j1KiguQWDQ8M=
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_SéparateurCatégories
+          identifier : 0x2b0a586c12483dca
+          internal_properties : CAAAAAgAAABxw3Cup1lGeulJE+D4iHkiN2SqVyIocTfKki1h5nPsZuoWAfGLdugTQoWtgG9frgrAZxGz+OTjESUG8rqBKkAzclJeCi74fCdBfcBG/bsNCQvkOX55f/rd6Jc9T8P7g1oF1wCfqt1oE2VZ4iOb3RadxVZSWJusHDIq6356+GNgjROkn4LUjf8hWTdciETe6FbVOEVwoFMkhA1Y3GeSoeLHf8CiZ/lw3rlngGgi4TAzAfkDxxIANeCFurIsfheKjoWIX0UL76Li5g4nKoVoWGSBdQvOEndeBw8PQglY9T7QMoBqaoAw+9/LSo7VArkLdSkuNwWQmnoLWVK4/QnjnhQIkcWPCP7PIb+tQJc/Kg2KoOQQf7AuE8REE9uCIuLcvceBR4HlpVT2IX8strv4kLvnwVbq
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_ToutesCatégories
+          identifier : 0x2b0a58500f21cfac
+          internal_properties : CAAAAAgAAADDksTN6j6TvnEqzdKjirGlNV37oyI0GqNR1iUsP85PLFkBUaDIMnWUWtP9Pqn7zQkUK6lEzWPMDd+I+K9+PIQK5+n0OysF1rxIRxbc9s5mIkd13RWf4BoTaCJAvV6/2o1FK45kvfVwCr9nYIcKo1vpp7wYtZnrzpCIzohtlgkzETwXo9ri2rDWYTlq86xwzCXgc/wLDlbqjMRtTn0Xl1cbxiFJu3lFqH4Ijf8QbmV7SYQ+mO4aZ5bnKY+WI8udds4+8mZypeOzW0hNTa2v4GejSW3aWWgLBanmlh/yClfJ0PFG4d2XwVRPTb5l5XMT3IgThlt2mk8nb/ngZhYmC7wlVTOmeG2VRaSNdfZeJiaRhpgt1A4t0eRsX91lIKHcD+x85DaZa2VN+VShCNLfIgO30qIYy/hXA9yIjvWAAqxVfRL0RKc6pQ==
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               	// Ouvre la fenêtre des catégories
+               	nCatégorie est un entier = Ouvre(FEN_Catégories, "Sélectionnez la catégorie à attribuer au rendez-vous :", MonRendezVousSélectionné..Catégorie)
+               
+               	// Si une catégorie a été sélectionnée
+               	si nCatégorie > 0 alors
+               		SurClassementEvénement(nCatégorie)
+               	fin
+               	
+               	// Mise à jour du menu contextuel
+               	PrépareMenuContextuel()
+              type : 32
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Lier
+       identifier : 0x2b0a7465a143841e
+       internal_properties : CAAAAAgAAAAqd9hnA7aelPESYtwoc451al6ROjJ9lGEBgYDi8tu12fAmU+Xggkh73udNoa8GnVQ1AeBsw2xcpKXMIGQS+40kZs7H3y5Uvjb+wYiwfZ3XELg/KwmPW8dhCxdNXBFq4Z4IZOf15JZgkB55XKuD+7lnwA8MaxdvH37wokJot4eJqDVmNynGjH1qlk74DXGtxYJX0RjLGJJVVArHYd1Fe1CYpR7WknvaNrCijce76ahKDlEVBjw6KLAWMetXiX9N5DnXemTQY8xcN4txKJVQKxYfyk730yxPilPzpezavoGS3WVrCgFVg1nito8CtF9PErAUQPwVFGAvZSDkidKI+T9M7wHE1GfA8vaYZu1MU7PPYHjJXNDikHYFbl3S1IDt6f/Z1tTEjC9v+JNqtSL79KNjuxH9au3Uxz6BP9XtspzWOpB/j0s2fVsuIh0p
+       options :
+        -
+          name : OPT_LierOutlook
+          identifier : 0x2b0a746da470a489
+          internal_properties : CAAAAAgAAACZ3+nu6PBR8XvhcJjfDR+qBxxdOau7L6QmnBRbVd244vjSPN8e27PxTryxIrgQigZ11+MzvU1VifLlOokxoyY6Xlg6R1a1kvotN3D1c6HNbdc8KKyHYpFNLn7muF1vMYSgZZKiux3fhRuIYfU/bO0lR/RkBD0sGezYmrS2q886be1AZUdo7jsRS/yZ9mkDrhu57YaH5nF99rWmyKX3/FYEymRGPYi7AKSE154AtiIS9LI1Cvo+bnGJ0ctpcvlZ6w7lrxmWiET2zPs2oR7WreaqWbqR2nOa8DRwtdDjf862e9El20PnYVjDk5EKEbMTyfX29u6WFAyVTxsbDhTXRcTTYC1fBpzy06a/9x9hVZiiyaRoJEdnzHv8eexocTIHhjHFBJHSoCLHO1KT3X8afDsvtqW/7MkUjhlIN3wJCbq1ScWXUwzXIQVNlchEQOUDL2MttWCcXnU=
+          options :
+           -
+             name : OPT_LierOutlook_Annuler
+             identifier : 0x2b0a74a3abbd75cc
+             internal_properties : CAAAAAgAAADKwRgx6gQTbY6SbYy+Zgv3/CfYSs6lk4LVXzvlMEja54weXyub3bysejuPqWDa2Jwvfky/5ZlPyUZkVOqFOhKxZt6JhErKxnDbEZNZwBendUHO26C1i07/UQp7snYIYb62+cxr9dm1SIavKAbJKPlRIYJ+/IC7XjpmPhTNo9sejpm0o8qwl13WDtgs+LNezTYDGUcDuT6hI00a6vNLVUg8CvEdt7wAffvH0H0ft+Y+U3IVSbvC2PNlaxluZkuMQw/j7M5nMx6P3KDwMi76wsyCWkXoNxyyAiPNc72wJ2GQbSlk3xV9MAN5XSSkHXISMguMXzjksBP70m6bYDsjFnzEvOFSbIAF9YBN3T2j5+P2hjSWhX4NntAxc98SIPcEfap8Ln9sFJpvvn/8gPo/61JGp/+XyxCqVlb0FzNbzu7FRg==
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1-
+                  
+                  	SurLiaisonEvénement(depuisOutlook, -1)
+                 type : 32
+           -
+             name : OPT_Séparateur4
+             identifier : 0x2b0a74c4b3c1f882
+             internal_properties : CAAAAAgAAADdvcSudg9ZoTVxx7JaXrU6CfAt26SmkKMCdKSx/QtbJ6sYXIq2f3Ld9ApYJg312tOMgIH+vAxa2uqZoua2UZD8J2DMgauhVm4daKoleNnTO0sKpw4GphECzzMyG6bKMhruhqSrMOMkQdd61y9is2KGMm/Poh9Ix79r2JJQdvYH+/S6j3pfJuszrL8mVhc8r8i4Ue+g5OY/l6hE6IYuCs8Daiurrbne0JjWAkLyXFJ/R4r87HbW4r0oin7xzs6YYMoDEYALWdcK2dci78edqwe92Pp/7LZuGufrQPF6IYwZQTrEL0IK9ai44KrFPqkWwB7MccclhuRH1FBJCKYejbVCLNml1ePaOq1Ko4BymtgSqDN8tpBNjB/0qxR1ZvK8pssUP61m6Y5Qbo6y41kRKJQMyko=
+             code_elements :
+              type_code : 26
+              p_codes : []
+           -
+             name : OPT_Outlook_Sep
+             identifier : 0x2b0a74c3b3c0f104
+             internal_properties : CAAAAAgAAABuxHujlNTR5QJUDtvLu0w3zGm9ZB/LnMK/gbt2MzB1Lb25nsiWy0HEIVKecezcbwlDPq4W32UI9tyLB1Nen0meZQXXNtOuvl/B23Sgib8lD2v2B1Tb84wdvPHB4T+Pd2x5xZI1aC1uG0lbeqVz/apfLdhgTuUIFv4+7cZ4QIsAg6/eAaBq4UEZ5anYvuSO1MBpxhuybhMasN3nYeQfpudEkjsLTHbF6WJwY6GLyjk4kvAyFGMxzkd6W7Ep27TH21qvar74/E+No2NymxbxkZ2+4OILs9AH9hwwPXp5DpdZO5MRhyGhXHYQU72aby4UYqKx7mARC8WYJD2zzDbQbdfNLJSiodcyzppsl3JwE1jh+ecfutGf7lEDBs71t38/0NSMSpzaskfjDGpHUSBlA870zFnl
+             code_elements :
+              type_code : 26
+              p_codes : []
+           -
+             name : OPT_LierOutlook_Gérer
+             identifier : 0x2b0a74b4b06ab8d4
+             internal_properties : CAAAAAgAAAB2JZm6R6XcN5mquuXmigYGeDDM6TUfPVdvyibxbuCJ2TSDQWB6lI4o+mcOaF/0uaGqwUvK9ly4XXHSWNuxRtV8e4ad9avS1prwXiaMoxz/EF+AgnjjOEjS2vkVdoiKt1erT/SkWW5OuIta7h4Cq/9heRS+r+Wgj5Qfxc4qPUEmgxSV/vKhs8yreW2sQ1Ry76lmP1ZpJtP1gJUMEW1nWGmLNpz9q3ecsfbBtbjSd0RuqJk+A7+Kiu71w3oS8Ov2JopGA+/qqRmmnNoek/G9vsJAUorltuX0zlJdHTec3Zoyv5F6/UPRhdZSN0ZMbeT+XAq5nLoO7dJGA8kLEauE/2gyBGprqujYRCQ1utO921+k22j6I5+y6sXP81OhB/CZUkLScioXuRjvXUoq4pCWWtJQHy8qTW7bbRbNkfgRSBvApu3PL0yHEA==
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1-
+                  
+                  ouvre(FEN_ListeAgenda_Outlook)
+                  PrépareMenuContextuel()
+                 type : 32
+          controls : []
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_LierGoogle
+          identifier : 0x2b0a7473a4f8b951
+          internal_properties : CAAAAAgAAAB+gRelmaHW0E0WLR5Y0jelCfDKc4IEXdzcnHig8gXAF+hEvUO+PdHkkzUL0Y4cxz80Th+akCObyV+awHYGqz4hq5V2Oa8luRBF6pRpm8D/wSg+Z2u0ZY5IaslhlJvTktDECgjFlstfrfLO0pPjLgQaMqEQx6uL6/o6Xtotl47AQ2lIWzkbZqnG/mcQ6/yfz1k8gNM5RApIKHhlZnuef5D2mixY3RtEBsqG60j/mjVEYhIND1h610o6SW6fzEEAdNQz2394aHeZ2jyqmRLZ83Sb/XqN857B4fK/4GkX4XCFZ9N/bMoSTBJ+C0TRgTF/FU0yj20eFNJbhaDhoU2LpZNozvdiRZghZJXRkyXsTi2eKqTnkvt8MG57hDGscze+pWfzhANrj5eWne4fjTgRnyATPys8u31iQHkGd/8=
+          options :
+           -
+             name : OPT_LierGoogle_Annuler
+             identifier : 0x2b0a74d9b55a4a0b
+             internal_properties : CAAAAAgAAABlrBDWGV8n2f4UfjDPQoFsQ1QUJ5US+U3moUIBKt/l98V1SFLslxo7G5eHD3fucJmYhieNiTlTFc64khbG9BTmngCdXOQz6QuoCuHjE+4QBhZPg2ogcZJces/QK027AutnQfWUAsRKIZ8o6YdcCRNewgMhV4Gaazh1WI9MSfQH97mFl2Iwv5Ycsgm9S8or45PZBw6SpH+RzmAo5z4GFebJpaZJhxrQmRB0e6X59zaLRDYAu4faKDs8L4XPVBCcQxzI2f+/O9oil8joOMjKQhAwigQdRjObKWRaGIaL4q7EI2EMBbcjWnebdzXO3znMbP/uidzYM+1frIZ5AzkpIAB4ZVJnJPx376LLn4tB547xgtGlmnB9wpSCobWAK21NHZ/DfmJHU3JIg7CIihSXqjdBAPmu1ARQvyBDA08fFD9q6Q==
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1-
+                  
+                  	SurLiaisonEvénement(depuisGoogle, -1)
+                 type : 32
+           -
+             name : OPT_Séparateur5
+             identifier : 0x2b0a74eab77d8ad2
+             internal_properties : CAAAAAgAAACmmKVP6fJsWuAc5t01udZfwjPuhP9pwywZP3TxIxHv0ws+PJI4kXhrfIjA9hNbhlfMpk3aepqM2Mqnava0zxQoU3wQpWVTFKTl9s7d9l9Pf2Noz9a8zNOkg612Nzg0TmZyaCinut2qO8NEP5O0pWJe5hF3gqkytfmPMhLwTOTr7/zIZ4LNlH3lHC2WIjEe02y4F3PUtvj1vexf1Ylb/Vzud4IIQBaB/UcD8bNBbSGoblfDIdGLNZpzf32SpQ8nZR3QEOWWxqLfMHCN5Mridrz4iSUwO3/lY9YQP+IJihOSeLf7lO1vkI1HaS2aIdbp/RkNPFgUl0NYK83IMX0vbFLtuQi6QHgNx4CzRuXVl8ujbygzmzuif5x/ph8Akyd3bQzXelDDjiHtjeldHmZmw3NtrbU=
+             code_elements :
+              type_code : 26
+              p_codes : []
+           -
+             name : OPT_LierGoogle_Sep
+             identifier : 0x2b0a74e8b77c8325
+             internal_properties : CAAAAAgAAAAxAzDu5xmGOqkJ06A4SDnidyTqF+JoMXcKch1ajcrDlbv5NmBC3VWyV/6Q1RpiEfV1Enqme+8sRMbTPcMI2Y9GO+XBpJ7auGPx0dzmJVPJ+Ztw0Vrxt5aJ+NsRHwODd7p9mwhjyq1cd0WNZkOzzeL9JdpaFOvMCBbih+oSmPPchTOEi+qAMd/BhV88lPiiaJoxMAH4PC/UREmOpjm04xBxkY7UcVMiTMeVZqJU04q5E0PReUxql05D0LguENkkBIditX+F4azgVITNfA/qOgqjJ2ngTDmQPdX9UGMar4h+5MoApDqapcWxyKTnZJNBj8+sqYXeuBb3ZVI6ZXtlZszOD/dvtrwLnUspLuMNMGnWakY+E8qQ45Sk0xtCYiKcfQdBh0Gl5RS2Yb/s9nu40PunARYq
+             code_elements :
+              type_code : 26
+              p_codes : []
+           -
+             name : OPT_LierGoogle_Gérer
+             identifier : 0x2b0a74deb5875c44
+             internal_properties : CAAAAAgAAADJgDJHeLhhLKCBYXrJwW3pkyMxxhYCMlxuCe+UO/mWxonokM91gZEPPyQz0/xhLj6nzqpB0YHL9BZ3xSqGC/JlVEdo6KY3/8xsCoReeezhigdY7ixZPJrEytlD0F6KpbGvw/xMSx4shtMi9EhwW+1zKWTCm5ewuaZLwVgYLz3wychR4raDIx7Byc02dUqi8VN6I64h/Gd3SgmA68uR/HuxluwV0ET5CsHual1hRGmtoZ47giAfzw+UXINrj1SfiWe72D5zWkqzuyfrIKhK48GBc4vgi9YFm6HuLgi/3pt9xGqjHFTWCj/NtJshJEmTA/POmTXT3hODLiZo7opd4FNn352Wr+kzxaeEsYoC4F5bzHep0giPMSK64kJgnK3AqRuJqVEInm9EMB09VRGXWd1dChIFYls2wu2UqI+6MQLbQwjiOrEsqw==
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1-
+                  
+                  Ouvre(FEN_ListeAgenda_Google)
+                  PrépareMenuContextuel()
+                 type : 32
+          controls : []
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_LierLotus_Notes
+          identifier : 0x2b0a7477a55ccbb8
+          internal_properties : CAAAAAgAAACqEL9IqICDaLGTXgKLkgM3jbMh92a1w5TFGgoerJ75iPBCNz8WjJlGlo+Np4cKxYqOML+cmgmw5Z18Cq40uuA6qwySG0aKzQrUgUyLkAKlnof7TZFsHzH4Sb1k46+IdEnSmLIfUc09nNmShdkEjRxjZE3PYxHQfICECcpKnOrGy3B5r4KwAI6ltWn5LHHgK18XHteJFEc6FFSI5rUT29bwyhuaq2iTIQ3HJ0HnAcP58HyLbgWUo0Kx5jDcoGm3JhNUV76ooS5ua0uEk0znxCA8ris6L8TrCR/Z1e3/VJlGDtBUVd9HOx58gPXV8LXP/ajWhyE5TY/y81dkc3CJ3SJcSYm6WwbEEwo+jYEmSf2rzjbmQV3cnknL7fJFdu4yRUqtApZi4ssX9R/tP5w4hYBZsYcaX82GYb5rZMRRuyqRkLhFiQ==
+          options :
+           -
+             name : OPT_LierLotus_Annuler
+             identifier : 0x2b0a7505bc4ef5e4
+             internal_properties : CAAAAAgAAADwB61TntqgRn+V/7FGyTgFSuuptAqZcsJ7WjBzhAVVRbHJ5GZa/ZBvKV0hUZE8sFdceqvxw2P99YzmnECosuBIrvjZ/Av922feMFN9lUxo7DqDRx6Gz7BUdHWi4Ws14kmDpRn4WJqYGQV2yxn2XwsM8vMhpyvUVQinJjXavx7n1b0JF9L2HWyECP8P4aj1f6Uxt8LeQkW/6r7e9eDAMyobIJm20s1hLlHz+haoqG3eJzlzEDI9sZyhhuwAe/WXWqMPIEA28ls3pAPTpbt/bVuTTTfa0fbgFn3hR79CW/VLutT/csKWs0iMojhLWjafNypBdMHrXsIMxVVI7HAad6OTvCm4k9OY2O+6ToRozAl8rdg8Ezf0u3XnAOwZsnZcBLa2eWea7uvPCDUND48KJ7A4GZI3W4PRPqHAgMyaj7T/fA==
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1-
+                  
+                  	SurLiaisonEvénement(depuisNotes, -1)
+                 type : 32
+           -
+             name : OPT_Séparateur6
+             identifier : 0x2b0a7511bc7d24df
+             internal_properties : CAAAAAgAAAAuIB3XQRoEwmiUDkWNIU7nWqt2fAcBKwRRZ7HWTqwaDn6x67ELBLcctccZI97GhWpDeTRRWZk/fUvmIw/zNi/HdewsQWFH+IgBenpxyhMLG2/EK8K4kGdYv7FSu9wISoKudBRTBiFOv1/YuycYqW5qgg3T7rWmGW3LZg50IIjnC/wI54LN1P0l3O2W4vFek+x4lzOUdvi1vez/NSk7HTyOVyJoYPYhXWfjERNhzcEIjrdjYQFLrcJzR736BY/Xrc14WL3efrKvyKB1tDKqjizA2dUAa1/9C3ZYH/p5qvO6yH/z/HXXYO0vCYV6Ce7h/XH1cCqyB9NIK0OQC+Pn1HRLC3TENnAdp3wl8ss3WwdtrTofjbk6nzyHPmfY+09fBaRP8thL9rmFJXHVhv7+W9vVNT0=
+             code_elements :
+              type_code : 26
+              p_codes : []
+           -
+             name : OPT_LierLotus_Sep
+             identifier : 0x2b0a750fbc7c1d41
+             internal_properties : CAAAAAgAAABc1nUNxqYjH5Q6gFFNDf6hQvunPtn1jhQxt4euSwgBPWUF5nS243UQsa4qQUTMywkbqi5qh4XMIizX25seT6U+HQlZKCiCtm9tK8zUbZvtk5ceswR/t/StAJmh1RuzBzBVpXZ1hAlGO11TIhHneTrLiZAEVvGcrnaihU6EbMcIH2NWhciulYFZoalQuuhy1CyNPj/aoj/iMNHJb2qdlNEy6LXJYmz7I5y6Nf8p6OfasPY84unPdOGUXTP3CZJtnZi1FIz2Al2nncWUuTTXt+d8PkTpaR710AZaH7gP7N2jgUG7NbePWjAahfdAhTwqpNgfaAb/KeuCPl9tKvym21HTAu5QV61o8Cz2YUDu0dZj9/VpwJ/NrFNFiEBnBY0Blh52vA5oINFpkuzZ41ZTNRxGvkvX
+             code_elements :
+              type_code : 26
+              p_codes : []
+           -
+             name : OPT_LierLotus_Gérer
+             identifier : 0x2b0a750dbc7b146b
+             internal_properties : CAAAAAgAAAAxGFr/IIAZdFjpeaKxmRUxS+uJLs5amnS2waItomKF0V4lt/ri6nZo/Hk+7CsO4W3Y363QIk4sJY/4eM/NuEnY3bCLN/fPe3VpBw+rDP3AaYiRGduO2ZvZH44K2bGvvCCseOvv3OdJFzjvg9nruDQqkq2talDZXk9YtmdhLurbLP0mRR1MDLumEqZ9XvkDOBt6W7457H8X4klQu1NxTIshXmydBOhdNu3ansGd4OXRDQq/FpSTQ9vg8uF5bWB9lXsNuh4jfkjLQ7F9gkZKPVnRSZF8X0pTCyFoqGI9hu2dHGCpLGxmlPv58lm/lsUZh3944/GfGilTfkhKkHhBDofbo+n84fOPOx08sXoqwpKVkq+xUKKpvYgQMlqorFsIx21thTNGNKceCjEJgfm/AbW14mrtCqPueiXcYDfSCVoDa9Aq8gnE0w==
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1-
+                  
+                  Ouvre(FEN_ListeAgenda_Notes)
+                  PrépareMenuContextuel()
+                 type : 32
+          controls : []
+          code_elements :
+           type_code : 26
+           p_codes : []
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Séparateur2
+       identifier : 0x2b0a5ac7ba6b74e0
+       internal_properties : CAAAAAgAAACSZanRMrg+1UX95YRXgnElXKahdEB8Pj7ESE5suVcFj4iO9n5kyo10YVsBVcn7UskvEdU73+QdP4dHaXYcfrHfHDSf/5BgQ5frmDBMnhdaBEgTiHhJCsleW9Xpt9w3hMJoYnYju5IBGVPBVu0MkExFQButt+VRz5JdMi9PD8QsJEU5iePrVUCYgtS5iJoaOM0rT7JdLXB+KqpyEuJp4mYwl7WU7BHSDlfhlxyZ7mfHtXLo+igEl+tPfuYeSjpUyVn3N00RwNxfid59QdjnzT35L6D2o8zEVF/oqmWN/ksfzPXdWJrMyv5HcerkL+RWML1VqSbnDYv2pPMj5xE/e7YvKttppNH9bixh1cs8Hk+veuOE0MZRoJVEWoxswlYS29BPX1qGfuUothEuyp8Qeq+Hlg==
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_CopierRendezVous
+       identifier : 0x2b056c6c23657bfc
+       internal_properties : CAAAAAgAAACuv+TCs2pJzL7LCa8n3FdiWVn4cROu1+n2hXggvLccfry1BQEwdijQUYrkQW2CGgPUSNF34CsQzYS9UuaSXEU2jOJz2R4uIHy9dq480rMprIUxTuYJ68PH0c6Ix7cUgqshn4BEqlCo0O/vds74Nb4861YtPTUnZ2SLJEHWJ1b/q9y8JTBCxe6o9Dg+ZoL8ynBZH9aSJ8tKzNyWqZIKoZsqyOjKuVh4iu99jw3wg9N26qRdf7lvhZnU1/0d1N/dnMy0Fj0uYdJg+sIttfJJUrbr3yD6gGmeg6SeKuIcSKEGcWppUYksYiZHkiut/2+rwqz1TW+hgVzlCUUTe4gVGyh5srJgiIMQ+27NVpuqsxHSnH7DO6ezbeDnLIpktr0ESjQDP66cmLNb8ofLRTy8NgWCC+w7Tw/pQKSsDKlmgOOntag=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAAAjKuIsl2VC7bGyw6UOjuaritQ6cE2Twp2zFLqYdAundyQh9ZWqCYerDOuMycsmfW4DH/XbzscshxKv48gJJcvW9Eg+5Cu49vysVSNmFuqlPFqHEnpkWOZ51AWkfNCGWbNcgOcrJaC072EDryQB9G7aUQiERDb7mOgh1k43E4Wsrw==
+           code : |1-
+            
+            	// Si un rendez-vous est accessible
+            	si RendezVousIndice > 0 ALORS
+            		
+            		// Conserve le rendez-vous
+            		RendezVousPressePapier <- AGD_AGENDA[RendezVousIndice]		
+            
+            		
+            		// Active l'option 'Coller le rendez-vous'
+            		MENU_Agenda.OPT_CollerRendezVous..etat = actif
+            	sinon
+            		
+            		RendezVousPressePapier <- null
+            		
+            		// Désactive l'option 'Coller le rendez-vous'
+            		MENU_Agenda.OPT_CollerRendezVous..etat = grise
+            	FIN
+            	
+            	RendezVousIndice = 0
+           type : 32
+     -
+       name : OPT_CollerRendezVous
+       identifier : 0x2b056c87273de72d
+       internal_properties : CAAAAAgAAAAID953uJ1IxiG94N93N+Im2U4Bk9iAoys2uKjI1az8rR2gAy03Yz8FAm/uP1+c+p4oHnvYCp38I5i+T9ojH5mlq9KX0rxudOfiDjTapakQm6dzIQYaqso+i1u6gkWSGUruFgjQcixK9GjV51czEe1DUa7x2COIuSXCAbOlKFf2fSC6t3/P8TvjIxlqM/2IPPqiApPPyVqqLkqSK+I6KSwrOKGy1smZbmmTwtD29Pm4QzP1ZOnLQ8pNkOeKhMrxj8nBIvJGHaDz6/15Zpp+dhDlnJC9/oNLS4yYh3j3hvxLGWgntLdStju8p/WIBDku9VprXmket0t9ExxRdd4QWbGbHgOQa8qj4LI/L9PZnXAjnCqM4+e0Ccd4tZrZ4qR2+GuWvf+mjkDkdswBCGyni8IyYXlvO8SqzAqiQ9klkCwHBA==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAADZm4wHl+y5ltFqh4gsJ0ZfMWtuLAZ3h4tJMIumiFVJyVtWmFglQnXhkvnPFsxyC5yB/FgUhlq5fQ1Ud2hFC4frQoqb7s6Tm/3XqVFf4yUp+UjCOxJXls3sZz8Ev8QklEcWAtZMi5WAvLIEJX4=
+           code : |1-
+            
+            	UnRendezVous est un RendezVous
+            	hHeure 		 est une heure = maintenant
+            	dDate		 est une date  = AgendaPosition(AGD_AGENDa)
+            	dhDateHeure	 est une dateheure
+            	nIndiceRdV	 est un entier
+            	duDurée		 est une duree
+            	
+            	//
+            	// Colle le rendez-vous copié précédemment dans l'agenda.
+            	//
+            	// - Si une période a été sélectionnée, on redéfinit le début et la fin de l'événement copié avec cette période
+            	// ou
+            	// - Si un autre rendez-vous a été sélectionné, on redéfinit seulement le début de l'événement copié avec le début de l'événement sélectionné. Sa durée reste inchangée.
+            	// ou
+            	// - Si aucun autre rendez-vous n'a été sélectionné ET si aucune période n'a été sélectionnée, on colle le rendez-vous à la date courante, à l'heure courante. Sa durée reste inchangée.
+            	//
+            
+            	// Si un rendez-vous a été copié
+            	si RendezVousPressePapier <> null ALORS
+            		
+            		// Copie le rendez-vous
+            		UnRendezVous = RendezVousPressePapier
+            		
+            		// Efface l'ID et les pictogrammes
+            		UnRendezVous.ID = ""
+            		UnRendezVous.Image = ""
+            		
+            		// Calcule la durée du rendez-vous
+            		duDurée = UnRendezVous.DateFin - UnRendezVous.DateDébut
+            				
+            		// Si aucune période n'est sélectionnée
+            		si AGD_AGENDA..DateDébut = "" _et_ AGD_AGENDA..DateFin = "" alors
+            			
+            			// Si aucun autre rendez-vous n'est sélectionné
+            			si MonRendezVousSélectionné = null alors
+            					
+            				// Efface les secondes / millisecondes
+            				hHeure..Milliseconde = 0
+            				hHeure..Seconde 	 = 0
+            				
+            				// Si on est entre xxH00 et xxH29, on ramène à l'heure entière
+            				// ex. : 14h08 -> 14h00
+            				si hHeure..Minute < 30 ALORS
+            					hHeure..Minute = 0
+            					
+            				// Si on est entre xxH30 et xxH59, on ramène à l'heure demie
+            				// ex. : 14h45 -> 14h30
+            				sinon
+            					hHeure..Minute = 30
+            				FIN
+            				
+            				// Crée une DateHeure
+            				dhDateHeure = dDate + hHeure
+            				
+            				// Modifie la date du rendez-vous
+            				UnRendezVous.DateDébut = dhDateHeure
+            				
+            				// Applique la durée originale
+            				dhDateHeure += duDurée
+            				UnRendezVous.DateFin   = dhDateHeure
+            			sinon
+            							
+            				// On donne la même date de début que le rendez-vous sélectionné
+            				UnRendezVous.DateDébut = MonRendezVousSélectionné..DateDébut
+            				
+            				// Calcule la date de fin à partir de la durée originale du rendez-vous
+            				dhDateHeure = UnRendezVous.DateDébut
+            				dhDateHeure += duDurée
+            				
+            				// Applique la date de fin
+            				UnRendezVous.DateFin   = dhDateHeure			
+            			fin
+            		sinon
+            		
+            			// Applique la période sélectionné au rendez-vous
+            			UnRendezVous.DateDébut = AGD_AGENDA..DateDébut
+            			UnRendezVous.DateFin   = AGD_AGENDA..DateFin
+            			
+            			// Ré-initialise la période sélectionnée
+            			AGD_AGENDA..DateDébut = ""
+            			AGD_AGENDA..DateFin = ""
+            		fin
+            		
+            		// Ajoute le rendez-vous
+            		nIndiceRdV = AgendaAjouteRendezVous(AGD_AGENDA, UnRendezVous)
+            		
+            		// Lance le traitement 'Ajout d'un rendez-vous'
+            		SurAjoutEvénement(AGD_AGENDA[nIndiceRdV])
+            	FIN
+           type : 32
+     -
+       name : OPT_Séparateur3
+       identifier : 0x2b0a8e31f6594701
+       internal_properties : CAAAAAgAAADVLmoQ8Qc3LCw0WP+Kxz4WN4vGX1svWxXPhwQ5YhrkyqklzdN1R5wBEiAWlkYC9WjESMykBAV42NT4Gps1vWjtHjI5ZC2x1i/lRIMcdGvBBaickk4hgOqSHE0N1vf0g4RIMo7T95p19S/FSj24WIglFMPt7wGJ4+6thpsHm3XFTQWLG92Vl4qWvHIt8P6aFDW//8KdmfAKJthkBEyTwCiydS+exkNQRBWjqe7fBHEtDzgUnvYKGXVhTDj4TBTq23utAXdTyopF71zf64pRe1djHXZMy6wkrNY3V5IuT5w8o/yEh9nLW8mG7mmjzEn5ly7GGKVk2uYfT7qucuIo6uHgSSa87ZKME7OESP7dn0Ye79Kvm49CNyJTVbcHbzs9Nq2qMqXLOyBtfSg1weBROW7AUQ==
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ModifierRendezVous
+       identifier : 0x2b0bea51277715d0
+       internal_properties : CAAAAAgAAADwSYJFSSGS7ldmyPBtGUlpfzrT8FmCVor5C5cfxQkQDPh9oBVQjxR6k7KEW5mC7QW5pSk0UcQ+f8gMmIjdqpquRrq7+dXhhotw1Ica8VhNht93g8lUXy3aoYPq6EYYgzhukwNiCFQyMl5WM7yxaFrLl6ksNv/e0Gci7xhO4L9kCy7ZsfJRn6An745d1dyomUgadPkwWJtAZBMae7RnpSaqZDr/1KBO1M+DIliB0Baa76PIFn99o8Wr9fiyerUNBZaU2V3slJgxaNl/K9PF3dq9tEgdsRtpXjHWZAtobJ+qhK9uH+G2TWlFpQ2c7zGI+S57yEdbMl+pOZteGpjOSFj6opUyl5fplkeAfKQQGenO1gdNAsRYzfvCIkXIe+eN4L8+C3aH6RbbSH0hlobGUz3+q4cNasxqb0zfw1mSHnj9XOE1JxImXZlY
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            	// Ouvre la fiche du rendez-vous
+            	si ouvre(FEN_FicheRDV, MonRendezVousSélectionné) ALORS
+            		
+            		// Actualise
+            		AfficheEvénements()
+            	FIN
+           type : 32
+     -
+       name : OPT_ExporterRendezVous
+       identifier : 0x2b069b6c14820c9f
+       internal_properties : CAAAAAgAAAAMxQ6x9dU+muPS1JxJ/W1NI06XhC3OCu7djxbbnC45v5c8Ye5xCDkftiUzokjztsQANL55CunnAKfLe8vYr8O5yU043m59LXrTtxF0g/Ib0P0x/TNuRZ80k70kekCyWUKkdaXsgnI0BHAQNfYjIvCFecdi7fRyXOOOa6T6bNP438JtZVb1a7QLE9KBGSAU1XR2EAX82MQckPdeK6CDYQJyBDb72JZY1uWxkMJXzjQkGSlWIlOpD/mvCVwG7pFxuepIFfEIiNxtFLWLN8/Jyda5sEwpRXkDLH9gfhUmwgngXimgaXcst98br4cGRe+qP9C9iqGRiOE3pxVYBPaM6qC4ptHGc8HHrJtqlkxweaG0IrE30uS+z/EmbB8o25fthsNIHeY3NzDlwNvf0jrSbxnah9vZHhgmI4ADp712OlyR8BXhW27a4SXk
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Si un rendez-vous a été sélectionné
+            si MonRendezVousSélectionné <> null ALORS
+            	
+            	sCAL 		est une chaine ansi
+            	sFichier 	est une chaîne
+            	
+            	// Ouvre le sélecteur de fichiers
+            	sFichier = fSélecteur("", "", "Exporter le rendez-vous vers...", "iCalendar (*.ICS)" + TAB + "*.ICS", "*.ICS", fselCrée + fselExiste)
+            	
+            	si sFichier <> "" alors
+            	
+            		// Exporte le rendez-vous
+            		tabRDV est un tableau de RendezVous = [MonRendezVousSélectionné]
+            		sCAL = RendezVousVersiCalendar(tabRDV)
+            				
+            		// Enregistre
+            		fSauveTexte(sFichier, sCAL)		
+            	fin	
+            FIN
+           type : 32
+     -
+       name : OPT_Séparateur9
+       identifier : 0x2645a07508390006
+       internal_properties : CAAAAAgAAACb84pkvNWf53/XQTjQpMNM1ybjiQJ8/nlEuuScNBX1BcVyhkR4sTxX4hR2ML9PbCk2ynuApkak1GDjuFh4i7r6K6j2Inwq7xDL6uAXSus1ya0UUcDIgHvUFUXAbVgclEhgyE4VSq0ec50cRaGUJezsBPlJTOlS8WGRikA6GLhpGbxu59pzGl9TtNO+PvsgczQo9bewaPKDH5CyYsQIcNnBfDl1w7tkOhawIDw49pixHSQyujgA8P8yGKS/MPieYiDh1z5d+z2ESz3QRWF3wXHzxpj93sAc/BFZ9m+Mo/qzF9i6NVzsEzrCFpgrmEGOzkjqU2GbHM5tOkpzYkxEd8MMVsPfK5ksSHsE7RrYAEKoAq22OJ4z7n2+YVrLyBxieBnCbUPQcwTK6DToqZNL7k5KiIg=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ImporterRendezVous
+       identifier : 0x2645a0730838f8f2
+       internal_properties : CAAAAAgAAAAS1+UKVxFD2TqBiSHaRWE8RcvSjAfyCs8hXZaguVVoiEIXYdgkyxFanyqdgYThLZPlol+v8lZAqUP2g7oiU4WmBC2lweDzinPIOC2hZokHHkWuSgm1r3N34/+zec8LVMnzt7CTxXFr8OSMhRg7rrxCybqD3uzJE9KalOcl6p+W4hd2+2TMWTT7tP/X0MeDpZfS08alcPX7ZfW4ogug0nFIjyDjac4mhCNP6QaM79m7BVIyVU1n7WcdRBoFAnQrJQwiY7VsGJiBeT7ycWD1K5fovT1gcAywQccN1qnX3MpCJ10jaZjR7k2Gu5nq0h7R6ByHZDLMBI48uZVDO5ojaIArEvHMTUMgUddiatVtWczereQE3hA3zoBDC/aUbNlElX+3F2WZ9mCart3CH/IpVKOnd+HhLqfNR/FUiZauKV8+GNXbnPF9RapMXzTGzQ==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            sCAL 		est une chaine ansi
+            sFichier 	est une chaîne
+            
+            // Ouvre le sélecteur de fichiers
+            sFichier = fSélecteur("", "", "Importer le(s) rendez-vous depuis...", "iCalendar (*.ICS)" + TAB + "*.ICS", "*.ICS", fselouvre)
+            
+            si sFichier <> "" alors
+            
+            	// Charge le contenu
+            	sCAL = fChargeTexte(sFichier)
+            
+            	// Récupère les rendez-vous
+            	tabRdv est un tableau de RendezVous = iCalendarVersRendezVous(sCAL)
+            	
+            	// Transfère les événements vers l'agenda
+            	pour tout unRdv de tabRdv
+            		SurAjoutEvénement(unRdv)
+            	fin
+            	
+            	// Mise à jour
+            	TableAffiche(TABLE_CATEGORIES, taRéExecuteRequete)
+            	
+            	// Prépare le menu contextuel
+            	PrépareMenuContextuel()
+            	
+            	// Actualise
+            	AfficheEvénements()
+            fin
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+ message_bar :
+  internal_properties : CAAAAAgAAAAmDmDzT0AGF/jdbVNnnQmTiAzEEfAMBSoLoNisKG+ODu0+pfQtGeFTGpTsDD1++EUvWu6PJxKSQRoPUhN/X+prsUMg08moq9PpmE9XcxEo0xLHqbNgWoYbJll6YQ==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAAeL8gqDjr2nfHnr1QCJN3+ZSFGRwEQUORjMUH+BzxrtE36QK+lcvv2dBqdu9uRdb58OFY5/pm+oWWGwEjiqpR0FsqquP4XPklBnUDHQfegcVgZQGz21J2RvFQ=
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      externe "WINCONST.WL"
+      
+      // Structure facilitant la gestion des périodes
+      UnePériode est une structure
+      	DateDébut	est une dateheure		// Début
+      	DateFin 	est une dateheure		// Fin
+      FIN
+      
+      CONSTANT
+      	RdVAjout	= 1			// On vient d'ajouter un rendez-vous
+      	RdvEdition	= 2			// On vient de modifier un rendez-vous
+      FIN
+      
+      MonRendezVousSélectionné est un RendezVous 
+      RendezVousPressePapier	 est un RendezVous <- null
+      RendezVousIndice		 est un entier
+      PériodeSélectionnée		 est UnePériode
+      ModeEditionRendezVous	 est un entier
+      ListeCatégories			 est une chaine
+      
+      // Prépare le menu contextuel
+      PrépareMenuContextuel()
+      
+      // Importe les nouveaux événements et les événements éventuellement modifiés et/ou supprimés
+      ImporteEvénements()
+      
+      // Charge les précédents paramètres
+      AGD_AGENDA..HeureOuvrableDébut 		= ChargeParamètre("AgendaHeureOuvrableDébut", 	AGD_AGENDA..HeureOuvrableDébut)
+      AGD_AGENDA..HeureOuvrableFin 		= ChargeParamètre("AgendaHeureOuvrableFin", 		AGD_AGENDA..HeureOuvrableFin)
+      AGD_AGENDA..Num1erJourDeLaSemaine	= ChargeParamètre("AgendaPremierJour", 		AGD_AGENDA..Num1erJourDeLaSemaine)
+      
+      si EnMode64bits() ALORS
+      	mafenetre..titre += " (x64)"
+      FIN
+   -
+     internal_properties : CAAAAAgAAADTpYrxVRt3Ng8MPzqkbxDpo/3s/GjNg1uPMtMAqDVvL3E8jlgz0PHN2MMj9GhGPd632tqwIFRClO5NuO3AEP5UXaEkayVMOCi0vlKMtvLYKvsZaEOaiyaX0LidNHfhV4TFpReBAmT+Gtz+L3Q=
+     code : |1-
+      
+      // Met à jour les libellés des FAA
+      FAAChangeLibellé(AGD_AGENDA, faaAgEditeRdv, "Editer le libellé")
+      
+      // On affiche la date d'aujourd'hui
+      AgendaPosition(AGD_AGENDA, DateDuJour)
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+      // Synchronise les événements
+      SynchroniseEvénements()
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : AfficheEvénements
+     internal_properties : CAAAAAgAAAAwuIGZvN8ADa6JZmxZsqV+E5YBn42tWZfMrELGNfMkZY5Gfh6/0iKagoDzrAgzQbcAyd8CN4XvFg8iRL7aisBG//ussfIlqyvs20sDDWuxvUyH1ENDxrPAQm9qsOPstt99tMNpkjX5ImTfyo0c9hW0WznNdJKLbgX8scB+ZdWTgmGzU+GSBygF+ZZ4sHUR0Imt3HXQI8+hSQz7wWXirVnoCibWTsbT
+     procedure_id : 1946604814931824786
+     type_code : 14
+     code : |1-
+      // Résumé : Affiche les événements de la période actuellement affichée
+      PROCEDURE AfficheEvénements()
+      
+      	UnRendezVous est un RendezVous
+      	dhDateDébut	 est une dateheure
+      	dhDateFin	 est une dateheure
+      
+      	sablier(vrai)
+      
+      	// Vide l'agenda
+      	AgendaSupprimeTout(AGD_AGENDA)
+      	
+       	// Récupère la période sélectionnée
+       	dhDateDébut = AgendaPosition(AGD_AGENDA)
+       	dhDateFin	= AgendaPosition(AGD_AGENDA, agDateFin)
+      	
+      	// Paramétrage de la requête
+      	REQ_Evénements.pDateDébut 		= dhDateDébut
+      	REQ_Evénements.pDateFin   		= dhDateFin
+      	REQ_Evénements.pListeCatégories	= (ListeCatégories = "" ? null sinon ListeCatégories)
+      	
+      	// Exécution de la requête
+      	HExécuteRequête(REQ_Evénements)
+      	si ErreurDétectée alors erreur()
+      
+      	pour TOUT REQ_Evénements 
+      				
+      		// Copie les données du rendez-vous
+      		UnRendezVous..Auteur 					= REQ_Evénements.Auteur
+      		UnRendezVous..Contenu					= REQ_Evénements.Contenu
+      		UnRendezVous..DateDébut					= REQ_Evénements.DateDébut
+      		UnRendezVous..DateFin					= REQ_Evénements.DateFin
+      		UnRendezVous..ID						= REQ_Evénements.IDAgendaEvénement
+      		UnRendezVous..Invité					= REQ_Evénements.Invités
+      		UnRendezVous..Lieu						= REQ_Evénements.Lieux
+      		UnRendezVous..Titre						= REQ_Evénements.Titre
+      		UnRendezVous..JournéeEntière			= REQ_Evénements.JournéeEntière
+      		UnRendezVous..Catégorie					= REQ_Evénements.LibelléCatégorie
+      		UnRendezVous..AvecRépétition			= (REQ_Evénements.RépétitionType <> -1)
+      		UnRendezVous..CouleurFond				= (REQ_Evénements.LibelléCatégorie = "" _ou_ REQ_Evénements.Couleur < 0 ? rvb(191, 210, 234) sinon REQ_Evénements.Couleur)
+      		
+      		// Répétition de l'événement
+      		si UnRendezVous..AvecRépétition alors
+      			UnRendezVous..Répétition..Type		  	= REQ_Evénements.RépétitionType
+      			UnRendezVous..Répétition..TypeFin	  	= REQ_Evénements.RépétitionTypeFin			
+      			UnRendezVous..Répétition..nbOccurrence 	= REQ_Evénements.RépétitionOccurrence
+      			UnRendezVous..Répétition..DateFin	  	= REQ_Evénements.RépétitionDateFin
+      		fin
+      		
+      		UnRendezVous..Image = ""
+      						
+      		// Evénement exclusif Google Agenda
+      		si REQ_Evénements.IdagendaGoogle <> 0 alors UnRendezVous..Image += [rc] + IMG_PICGOOGLE
+      				
+      		// Evénement exclusif Outlook
+      		si REQ_Evénements.IDAgendaOutlook <> 0 alors UnRendezVous..Image += [RC] +  IMG_PICOUTLOOK
+      				
+      		// Evénement exclusif Lotus Notes
+      		si REQ_Evénements.IDAgendaNotes <> 0 alors UnRendezVous..Image += [RC] +  IMG_PICNOTES							
+      		
+      		// Ajoute le rendez-vous
+      		AgendaAjouteRendezVous(AGD_AGENDA, UnRendezVous)		
+      	FIN
+      	
+      	Sablier(faux)
+     type : 458752
+   -
+     name : SurFinEditionEvénement
+     procedure_id : 1946610278131497892
+     type_code : 14
+     group : 5
+     code : |1-
+      // Résumé : Exécuté lors de la fin d'édition d'un événement
+      PROCEDURE SurFinEditionEvénement(MonRendezVous est un RendezVous)
+      
+      	// Si on est en ajout
+      	si ModeEditionRendezVous = RdVAjout ALORS
+      		
+      		// On vérifie que le rendez-vous possède un titre
+      		si MonRendezVous..Titre = "" ALORS
+      			
+      			// Recherche le rendez-vous
+      			HLitRecherchePremier(AgendaEvénement, IDAgendaEvénement, MonRendezVous..ID)
+      			dbgAssertion(HTrouve(AgendaEvénement))
+      			
+      			SI HTrouve(AgendaEvénement) ALORS
+      				
+      				// On le supprime
+      				HSupprime(AgendaEvénement)
+      			FIN
+      			
+      			// Efface dans l'agenda
+      			AgendaSupprimeRendezVous(AGD_AGENDA, AGD_AGENDA)
+      			MonRendezVousSélectionné <- null
+      			retour
+      		FIN		
+      	FIN
+      
+      	// Recherche l'événement
+      	HLitRecherchePremier(AgendaEvénement, IDAgendaEvénement, MonRendezVous..id)
+      	dbgAssertion(HTrouve(AgendaEvénement))
+      	
+      	si htrouve(AgendaEvénement) ALORS
+      		
+      		// Conserve le nouveau titre
+      		AgendaEvénement.Titre = MonRendezVous..Titre
+      		
+      		// Enregistre les modifications
+      		hmodifie(AgendaEvénement)		
+      	FIN
+      	
+      	// Conserve l'événement "sélectionné"
+      	SurSélectionEvénement(MonRendezVous)
+      	
+      fin:
+      	ModeEditionRendezVous = 0
+     type : 458752
+   -
+     name : SurSélectionEvénement
+     procedure_id : 1946610333966085158
+     type_code : 14
+     group : 5
+     code : |1-
+      // Résumé : Exécuté lors de la sélection d'un événement
+      PROCEDURE SurSélectionEvénement(MonRendezVous est un RendezVous)
+      
+      	stop si MonRendezVous = null
+      
+      	// Conserve le rendez-vous "sélectionné"
+      	MonRendezVousSélectionné <- MonRendezVous
+      	
+      	// RAZ de la période sélectionné
+      	PériodeSélectionnée.DateDébut 	= ""
+      	PériodeSélectionnée.DateFin 	= ""
+     type : 458752
+   -
+     name : SurDéplacementEvénement
+     procedure_id : 1946610355440991838
+     type_code : 14
+     group : 5
+     code : |1-
+      // Résumé : Exécuté lors du déplacement d'un événement
+      PROCEDURE SurDéplacementEvénement(MonRendezVous est un RendezVous)
+      
+      	// Recherche l'événement dans la base
+      	HLitRecherchePremier(AgendaEvénement, IDAgendaEvénement, MonRendezVous..ID)
+      	dbgAssertion(HTrouve(AgendaEvénement))
+      	
+      	SI HTrouve(AgendaEvénement) ALORS
+      		
+      		// On modifie la période de l'événement
+      		AgendaEvénement.DateDébut 	= MonRendezVous..DateDébut
+      		AgendaEvénement.DateFin 	= MonRendezVous..DateFin
+      		
+      		// Enregistre les modifications
+      		HModifie(AgendaEvénement)
+      	FIN
+      	
+      	// Conserve l'événement "sélectionné"
+      	SurSélectionEvénement(MonRendezVous)
+     type : 458752
+   -
+     name : SurRedimensionnementEvénement
+     procedure_id : 1946610376915899595
+     type_code : 14
+     group : 5
+     code : |1+
+      // Résumé : Exécuté lors du redimensionnement d'un événement
+      PROCEDURE SurRedimensionnementEvénement(MonRendezVous est un RendezVous)
+      
+      	// La gestion du redimensionnement est ici identique au déplacement
+      	SurDéplacementEvénement(MonRendezVous)
+     type : 458752
+   -
+     name : SurSuppressionEvénement
+     internal_properties : CAAAAAgAAAA41T8gHW4ikPb1ilBCeCiJH9Lf2vqVfmFJ8vWAuqJJJpHLkOaU91dKsR8WJqJP1C4n+MDLLi4h3qFG2E7FGMSQ3VRIuE1buo+EwK6BeVHv+CaAvB4vkia5Z4aNsu2HukfQH9on8fUlWUdLDAzde3/DDSAd1vWkKnyao+xdRrTFr/6ma5RKHNWO0SPs52d1QJE1hep6ZOLHWPAkXcWC8f1a4T4bdMdtvRdASA9WIG5nejWZyOJbL98PofQVWxFRnZnMCapgNgzEKxx8J3BpIyadh3m5l5M=
+     procedure_id : 1946610402685774679
+     type_code : 14
+     group : 5
+     code : |1-
+      // Résumé : Exécuté lors de la suppression d'un événement
+      PROCEDURE SurSuppressionEvénement(MonRendezVous est un RendezVous)
+      
+      	sListeAgendaExterne est une chaine
+      
+      	// Désactive temporairement les triggers
+      	HDésactiveTrigger()
+      
+      	// Recherche l'événement dans la base
+      	HLitRecherchePremier(AgendaEvénement, IDAgendaEvénement, MonRendezVous..ID)
+      	dbgAssertion(HTrouve(AgendaEvénement))
+      	
+      	si htrouve(AgendaEvénement) ALORS
+      		
+      		// Si l'événement est lié à un agenda externe
+      		si AgendaEvénement.IDAgendaGoogle <> 0 _ou_ AgendaEvénement.IDAgendaNotes <> 0 _ou_ AgendaEvénement.IDAgendaOutlook <> 0 alors
+      			
+      			// Si l'événement est lié à un agenda Google
+      			si AgendaEvénement.IDAgendaGoogle <> 0 ALORS
+      				
+      				// Recherche l'agenda
+      				HLitRecherchePremier(AgendaGoogle, IDAgendaGoogle, AgendaEvénement.IDAgendaGoogle)
+      				si htrouve(AgendaGoogle) ALORS
+      					
+      					// Complète la liste des agendas externes
+      					sListeAgendaExterne += [rc] + "- " + AgendaGoogle.Nom + " (Google)"
+      				FIN
+      			FIN
+      			
+      			// Si l'événement est lié à un agenda Outlook
+      			SI AgendaEvénement.IDAgendaOutlook <> 0 ALORS
+      				
+      				// Recherche l'agenda
+      				HLitRecherchePremier(AgendaOutlook, IDAgendaOutlook, AgendaEvénement.IDAgendaOutlook)
+      				SI HTrouve(AgendaOutlook) ALORS
+      					
+      					// Complète la liste des agendas externes
+      					sListeAgendaExterne += [RC] + "- " + AgendaOutlook.Nom + " (Outlook)"
+      				FIN
+      			FIN
+      			
+      			// Si l'événement est lié à un agenda Notes
+      			SI AgendaEvénement.IDAgendaNotes <> 0 ALORS
+      				
+      				// Recherche l'agenda
+      				HLitRecherchePremier(AgendaNotes, IDAgendaNotes, AgendaEvénement.IDAgendaNotes)
+      				SI HTrouve(AgendaNotes) ALORS
+      					
+      					// Complète la liste des agendas externes
+      					sListeAgendaExterne += [RC] + "- " + AgendaNotes.Nom + " (Lotus)"
+      				FIN
+      			FIN
+      			
+      			//1 : &Supprimer
+      			//2 : &Ne pas supprimer
+      			SELON Dialogue(<§?1B03C0D9005353F1§>, sListeAgendaExterne)
+      				// &Ne pas supprimer
+      				CAS 2
+      					RepriseSaisie()			
+      			FIN
+      			
+      			// Marque l'événement comme supprimé
+      			AgendaEvénement.Supprimé = Vrai		
+      			
+      			// Enregistre les modifications
+      			HModifie(AgendaEvénement)
+      		sinon
+      			
+      			// On ne demande pas de confirmation
+      			// On supprime directement
+      			hsupprime(AgendaEvénement)
+      		fin
+      	FIN
+      	
+      	// Ré-active les triggers
+      	HActiveTrigger()
+      
+      	// Plus de rendez-vous sélectionné
+      	MonRendezVousSélectionné <- null
+      	ModeEditionRendezVous = 0
+      	
+      	PériodeSélectionnée.DateDébut 	= ""
+      	PériodeSélectionnée.DateFin 	= ""
+     type : 458752
+   -
+     name : ImporteEvénements
+     internal_properties : CAAAAAgAAABufsoCoRfQKoawt6n+upRSmp2KCrYiGKIlqhX5W0/33x+NG5UIUUP6WlOExkwtPM60RzJkzeOmKZDv/igYpoz4Tt86+JzAclqv28+8DIN9N0a4Q1wZFwIWgFGFdFYLoEAPDxO6CQ+YVKYCuXsvMXmuhxABhQnj0WV46sUMhkA5qhoUDU8eP0S/sdzzdn03VgqhB126W34deqtSNU3/jq78QgO9EcyF8piotWIJCipb1yeibmRD/9+z4K+O2RQUjXbp
+     procedure_id : 1946724945171928993
+     type_code : 14
+     code : |1-
+      // Résumé : Récupère les nouveaux événements
+      PROCEDURE ImporteEvénements()
+      
+      	nPosHF est un entier
+      
+      	// Ouvre la fenêtre de progression
+      	ouvrefille(FEN_InfoSynchro)
+      	
+      	// On désactive le GFI temporairement pour éviter les effets de scintillement
+      	// avec la fenêtre de conflit
+      	FenActiveGFI(FEN_Agenda, Faux)
+      	FenActiveGFI(FEN_InfoSynchro, Faux)
+      	
+      	// Borne de la jauge
+      	FEN_InfoSynchro.JAUGE_TRAITEMENT..BorneMax = HNbEnr(AgendaOutlook) * 2 + HNbEnr(AgendaNotes) * 2 + HNbEnr(AgendaGoogle) * 2
+      		
+      	// Messages
+      	FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas Outlook...")
+      
+      	////////////////////////////////////////////////////
+      	// Agendas Outlook
+      	//////////////////////////
+      
+      	pour TOUT AgendaOutlook 
+      		
+      		FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas Outlook...", AgendaOutlook.Profil)
+      					
+      		// Sauvegarde du contexte 
+      		nPosHF = HSauvePosition(AgendaOutlook)
+      		
+      		// Importe les nouveaux événements
+      		OutlookImporteAgenda(AgendaOutlook.Profil, AgendaOutlook.IDAgendaOutlook, faux)
+      		
+      		FEN_InfoSynchro.Traitement(1)
+      		OutlookVérifieSuppressions(AgendaOutlook.Profil, AgendaOutlook.IDAgendaOutlook)
+      		
+      		// Restauration du contexte
+      		HRetourPosition(nPosHF)		
+      	FIN
+      	
+      	FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas Google...")
+      	
+      	////////////////////////////////////////////////////
+      	// Agendas Google
+      	//////////////////////////
+      
+      	POUR TOUT AgendaGoogle 
+      		
+      		FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas Google...", AgendaGoogle.Nom)
+      		
+      		// Sauvegarde du contexte 
+      		nPosHF = HSauvePosition(AgendaGoogle)
+      				
+      		MaConnexion est une gglconnexion
+      		MaConnexion = GoogleConnecteAgenda()
+      		
+      		// Importe les nouveaux événements
+      		GoogleImporteAgenda(MaConnexion, AgendaGoogle.Identifiant, AgendaGoogle.IDAgendaGoogle, Faux)
+      		
+      		FEN_InfoSynchro.Traitement(1)
+      		GoogleVérifieSuppressions(MaConnexion, AgendaGoogle.Identifiant, AgendaGoogle.IDAgendaGoogle)
+      		
+      		// Restauration du contexte
+      		HRetourPosition(nPosHF)		
+      	FIN
+      	
+      	FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas Notes...")
+      	
+      	////////////////////////////////////////////////////
+      	// Agendas Notes
+      	//////////////////////////
+      	
+      	POUR TOUT AgendaNotes 
+      		
+      		FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas Notes...", AgendaNotes.Nom)
+      		
+      		// Sauvegarde du contexte 
+      		nPosHF = HSauvePosition(AgendaNotes)
+      		
+      		// Importe les nouveaux événements
+      		NotesImporteAgenda(AgendaNotes.IDAgendaNotes, Faux)
+      		
+      		FEN_InfoSynchro.Traitement(1)
+      		NotesVérifieSuppressions(AgendaNotes.IDAgendaNotes)
+      		
+      		// Restauration du contexte
+      		HRetourPosition(nPosHF)		
+      	FIN
+      	
+      	ferme(FEN_InfoSynchro)
+      	
+      	// Réactive le GFI
+      	FenActiveGFI(FEN_Agenda, vrai)
+     type : 458752
+   -
+     name : CalendrierPériode
+     procedure_id : 1947000909716700427
+     type_code : 14
+     code : |1-
+      // Résumé : Affiche la période sélectionnée
+      PROCEDURE CalendrierPériode(dDate est une date)
+      
+      	// Ré-sélectionne la date, cela a pour effet d'annuler toute sélection dans le calendrier
+      	CAL_CALENDRIER = dDate
+      	
+      	// En fonction du zoom de l'agenda
+      	SELON AgendaZoom(AGD_AGENDA)
+      		
+      		// A la journée
+      		cas agzJour
+      			CalendrierSelectPlus(CAL_CALENDRIER, dDate)				
+      		
+      		// Au mois
+      		CAS agzMois
+      			
+      			nMois est un entier = dDate..mois
+      			dDate..Jour = 1
+      			
+      			// Sélectionne la période
+      			TANTQUE dDate..Mois = nMois			
+      				CalendrierSelectPlus(CAL_CALENDRIER, dDate)	
+      				dDate..Jour ++
+      			FIN		
+      			
+      		// A la semaine
+      		CAS agzSemaine
+      			
+      			// Semaine commençant le lundi
+      			dDate..Jour -= (DateVersJour(dDate) - 1)
+      			
+      			// Sélectionne la période
+      			POUR i = 1 _a_ 7
+      				CalendrierSelectPlus(CAL_CALENDRIER, dDate)	
+      				dDate..Jour ++
+      			FIN
+      			
+      		// A la semaine ouvrée
+      		CAS agzSemaineSur5
+      			
+      			// Semaine commençant le lundi
+      			dDate..Jour -= (DateVersJour(dDate) - 1)
+      			
+      			// Sélectionne la période
+      			POUR i = 1 _a_ 5
+      				CalendrierSelectPlus(CAL_CALENDRIER, dDate)	
+      				dDate..Jour ++
+      			FIN
+      			
+      	FIN
+     type : 458752
+   -
+     name : SurAjoutEvénement
+     procedure_id : 1947002193912352026
+     type_code : 14
+     group : 5
+     code : |1-
+      // Résumé : Déclenché lors de la création d'un rendez-vous
+      PROCEDURE SurAjoutEvénement(MonRendezVous est an RendezVous)
+      
+      	nCouleur	est entier
+      
+      	HRAZ(AgendaEvénement)
+      	
+      	AgendaEvénement.Auteur 		= MonRendezVous..Auteur
+      	AgendaEvénement.Contenu 		= MonRendezVous..Contenu
+      	AgendaEvénement.DateDébut		= MonRendezVous..DateDébut
+      	AgendaEvénement.DateFin		= MonRendezVous..DateFin
+      	AgendaEvénement.IDCatégorie 	= CatégorieImporte(MonRendezVous..Catégorie, *, nCouleur)
+      	AgendaEvénement.Invités		= MonRendezVous..Invité
+      	AgendaEvénement.Lieux			= MonRendezVous..Lieu
+      	AgendaEvénement.Titre			= MonRendezVous..Titre
+      	AgendaEvénement.JournéeEntière	= MonRendezVous..JournéeEntière
+      	
+      	HAjoute(AgendaEvénement)
+      	MonRendezVous..ID 				= AgendaEvénement.IDAgendaEvénement
+      	MonRendezVous..CouleurFond		= (nCouleur < 0 ? RVB(191, 210, 234) SINON nCouleur)
+      	
+      	// Conserve le rendez-vous "sélectionné"
+      	ModeEditionRendezVous = RdVAjout
+      	SurSélectionEvénement(MonRendezVous)
+     type : 458752
+   -
+     name : SurDébutEditionEvénement
+     procedure_id : 1947064440858308883
+     type_code : 14
+     group : 5
+     code : |1-
+      // Résumé : Exécuté lors de l'édition d'un événement
+      PROCEDURE SurDébutEditionEvénement(MonRendezVous est un RendezVous)
+      
+      	// Conserve le rendez-vous "sélectionné"
+      	ModeEditionRendezVous = RdvEdition
+      	SurSélectionEvénement(MonRendezVous)
+     type : 458752
+   -
+     name : AgendaDonneFocus
+     procedure_id : 1947102159268704627
+     type_code : 14
+     group : 2
+     code : |1-
+      // Résumé : Donne le focus à l'agenda
+      PROCEDURE AgendaDonneFocus(Agenda, local nSourisPosX est un entier = sourisposx, local nSourisPosY est un entier = sourisposy)
+      
+      	RendezVousClic est un RendezVous <- Null
+      	nIndice		   est un entier
+      
+      	// Donne le focus
+      	DonneFocus(Agenda)
+      	
+      	nIndice = AgendaInfoXY(Agenda, agiRendezVous, nSourisPosX, nSourisPosY)
+      	si nIndice > 0 alors
+      
+      		// Simule un clic si on survole un événement, pour le sélectionner
+      		PiloteSouris(Agenda, psClicGauche, nSourisPosX, nSourisPosY)
+      		
+      		// Récupère le rendez-vous sélectionné
+      		RendezVousClic <- Agenda[nIndice]
+      	fin	
+      	
+      	// Si on a un rendez-vous copié
+      	si RendezVousPressePapier <> null ALORS
+      		
+      		// Si aucune période n'a été définie
+      		si RendezVousClic = null et PériodeSélectionnée.DateDébut = "00000000000000000" alors
+      		
+      			// Calcule la durée de l'événement
+      			duDurée	est une duree = (RendezVousPressePapier..DateFin - RendezVousPressePapier..DateDébut)			
+      			
+      			// Récupère la période de début survolée
+      			dhDateHeure est une dateheure = AgendaInfoXY(Agenda, agiDateHeure, nSourisPosX, nSourisPosY)
+      			
+      			// Définit le début de la période
+      			Agenda..DateDébut = dhDateHeure
+      			
+      			// Affecte la même durée que l'événement				
+      			dhDateHeure = duDurée + dhDateHeure
+      				
+      			// Définit la fin de la période		
+      			Agenda..DateFin = dhDateHeure
+      		fin
+      	sinon
+      		
+      		// Si aucune période n'est sélectionnée
+      		SI RendezVousClic = null _et_ Agenda..DateDébut = "" ALORS
+      			
+      			// Simule un clic pour sélectionner une période
+      			PiloteSouris(Agenda, psClicGauche, nSourisPosX, nSourisPosY)
+      		fin
+      	FIN
+     type : 458752
+   -
+     name : PrépareMenuContextuel
+     internal_properties : CAAAAAgAAADU8fFgyvvJ+Jxc7eMaijWeBWw93ltQS+Ewfi3ZSXa4qhS8hDhsZu6VjD2sEXLxg3WHSMBKtJoZVPavDGZmtIKeveR9UTrEjjpToPq1IaKXfTwun2I98bSnBvkPNJe1x/IaTd9yvHw8S4wthc3ynTJTdqiXW7b+3d7Ev0PG5frWYyQaKfqE0BfeRci3ZP0KBoHk+SKqEqdOWtmOiECnk2649HBZLg==
+     procedure_id : 1948470273860359527
+     type_code : 14
+     code : |1-
+      // Résumé : Prépare le menu contextuel
+      PROCEDURE PrépareMenuContextuel()
+      
+      	nIndice est un entier
+      	sNomOpt	est une chaine
+      
+      	// Grise les options de presse-papiers
+      	OPT_CollerRendezVous..Etat = (RendezVousPressePapier = null ? grise sinon actif)
+      	OPT_CopierRendezVous..Etat = (MonRendezVousSélectionné = null ? Grisé sinon actif)
+      				
+      	// Crée les options de menu pour les catégories
+      	pour TOUT AgendaCatégorie depuisfin
+      		
+      		nIndice ++
+      		
+      		// Crée le nom de l'option
+      		sNomOpt = "OPT_CAT" + AgendaCatégorie.IDAgendaCatégorie
+      		
+      		// Si l'option existe déjà
+      		si MenuExiste(OPT_ClasserCatégorie, sNomOpt) alors
+      		
+      			quand exception dans 
+      				MenuSupprime(sNomOpt)
+      			faire
+      				//
+      			FIN
+      		fin
+      			
+      		// Crée l'option de menu
+      		MenuInsèreOption(OPT_ClasserCatégorie, OPT_SéparateurCatégories, sNomOpt, AgendaCatégorie.Libellé, SurClassementEvénement, AgendaCatégorie.IDAgendaCatégorie)				
+      		
+      		// Modifie l'image de l'option
+      		{OPT_ClasserCatégorie..nomcomplet + "." + sNomOpt, indChamp}..Image = CréeImageCatégorie(sNomOpt, AgendaCatégorie.Couleur)
+      		
+      		// On affiche uniquement 5 éléments dans le menu
+      		si nIndice > 5 ALORS
+      			sortir
+      		FIN
+      	FIN
+      	
+      	nIndice = 0
+      	
+      	// Crée les options de menu pour les agendas externes Outlook
+      	pour TOUT AgendaOutlook 
+      		
+      		// Crée le nom de l'option
+      		sNomOpt = "OPT_OUTLOOK_" + AgendaOutlook.IDAgendaOutlook
+      		nIndice ++
+      		
+      		QUAND EXCEPTION DANS 
+      			MenuSupprime(sNomOpt)
+      		FAIRE
+      			//
+      		FIN
+      		
+      		// Crée l'option de menu		
+      		MenuInsèreOption(OPT_LierOutlook, OPT_Outlook_Sep, sNomOpt, AgendaOutlook.Nom, SurLiaisonEvénementOutlook, AgendaOutlook.IDAgendaOutlook)	
+      	FIN
+      		
+      	MENU_Agenda.OPT_Lier.OPT_LierOutlook.OPT_Outlook_Sep..Visible = (nIndice > 0)
+      	nIndice = 0
+      	
+      	// Crée les options de menu pour les agendas externes Notes
+      	POUR TOUT AgendaNotes 
+      		
+      		// Crée le nom de l'option
+      		sNomOpt = "OPT_NOTES_" + AgendaNotes.IDAgendaNotes
+      		nIndice ++
+      		
+      		QUAND EXCEPTION DANS 
+      			MenuSupprime(sNomOpt)
+      		FAIRE
+      			//
+      		FIN
+      		
+      		// Crée l'option de menu
+      		MenuInsèreOption(OPT_LierLotus_Notes, OPT_LierLotus_Sep, sNomOpt, AgendaNotes.Nom, SurLiaisonEvénementNotes, AgendaNotes.IDAgendaNotes)	
+      	FIN
+      	
+      	MENU_Agenda.OPT_Lier.OPT_LierLotus_Notes.OPT_LierLotus_Sep..Visible = (nIndice > 0)
+      	nIndice = 0
+      	
+      	// Crée les options de menu pour les agendas externes Google
+      	POUR TOUT AgendaGoogle
+      		
+      		// Crée le nom de l'option
+      		sNomOpt = "OPT_GOOGLE_" + AgendaGoogle.idAgendaGoogle
+      		nIndice ++
+      		
+      		QUAND EXCEPTION DANS 
+      			MenuSupprime(sNomOpt)
+      		FAIRE
+      			//
+      		FIN
+      		
+      		// Crée l'option de menu
+      		MenuInsèreOption(OPT_LierGoogle, OPT_LierGoogle_Sep, sNomOpt, AgendaGoogle.Nom, SurLiaisonEvénementGoogle, AgendaGoogle.IDAgendaGoogle)	
+      	FIN
+      	
+      	MENU_Agenda.OPT_Lier.OPT_LierGoogle.OPT_LierGoogle_Sep..Visible = (nIndice > 0)
+     type : 458752
+   -
+     name : SurClassementEvénement
+     procedure_id : 1948470935285346027
+     type_code : 14
+     group : 5
+     code : |1-
+      // Résumé : Exécutée lors de la sélection d'une option de menu pour le classement
+      PROCEDURE SurClassementEvénement(local nIDCatégorie est un entier)
+      
+      	// Si un rendez-vous a été sélectionné
+      	si MonRendezVousSélectionné <> null alors
+      
+      		// Recherche l'événement
+      		HLitRecherchePremier(AgendaEvénement, IDAgendaEvénement, MonRendezVousSélectionné..ID)
+      		si htrouve(AgendaEvénement) ALORS
+      			
+      			si nIDCatégorie > 0 alors
+      			
+      				// Recherche la catégorie attribuée
+      				HLitRecherchePremier(AgendaCatégorie, IDAgendaCatégorie, nIDCatégorie)
+      				SI HTrouve(AgendaCatégorie) ALORS
+      			
+      					// Attribue la catégorie
+      					AgendaEvénement.IDCatégorie = nIDCatégorie
+      
+      					// Applique la catégorie et la couleur de la catégorie
+      					MonRendezVousSélectionné..Catégorie 	= AgendaCatégorie.Libellé
+      					MonRendezVousSélectionné..CouleurFond	= AgendaCatégorie.Couleur = -1 ? RVB(191, 210, 234) sinon AgendaCatégorie.Couleur	
+      
+      				fin
+      				
+      			sinon
+      
+      				// Annule l'association
+      				AgendaEvénement.IDCatégorie = 0
+      				
+      				// Applique la catégorie et la couleur de la catégorie par défaut
+      				MonRendezVousSélectionné..Catégorie 	= ""
+      				MonRendezVousSélectionné..CouleurFond	= RVB(191, 210, 234)
+      			fin
+      			
+      			// Enregistre l'association
+      			hmodifie(AgendaEvénement)
+      		FIN		
+      	fin
+     type : 458752
+   -
+     name : CréeImageCatégorie
+     internal_properties : CAAAAAgAAABgDwWTpls97MPVfzzY0V02ne+EB46zr+nYzm1ZlWbcXuz80EjMluoNfM1swdYBp8GHMKSCxHptZDbnxAZCHJ4a3ZSxedKk4pL7sLLl9UoD6cSmtXDHfzJlIBf1AjkLHWTkX9UY5jrqwUZbExP8ozi1WGLFoTDEmxS+vSEE/5DEXSZkj8AOzg3Un3blKk+A2dPpP3sfIaiEzlIrDo/cGr8vYtLtmg==
+     procedure_id : 1948474255295379834
+     type_code : 14
+     code : |1-
+      // Résumé : Crée une image pour une catégorie
+      PROCEDURE CréeImageCatégorie(local sNomOption est une chaine, local nCouleur est un entier)
+      
+      	nCouleurFin 	est un entier
+      	nCouleurFoncé	est un entier
+      	iCat			est une image
+      	sImage			est une chaine = RépertoireDonnéesTemporaires + ["\"] + sNomOption + ".gif"
+      	
+      	// Eclairci la couleur
+      	nCouleurFin 	= tsl(couleurteinte(nCouleur), CouleurSaturation(nCouleur), min(100, CouleurLuminosité(nCouleur) + 10))
+      	nCouleurFoncé 	= tsl(couleurteinte(nCouleur), max(0, CouleurSaturation(nCouleur) - 20), max(0,   CouleurLuminosité(nCouleur) - 20))
+      	
+      	iCat..Largeur = 16
+      	iCat..Hauteur = 16
+      	
+      	// Début du dessin
+      	dDébutDessin(iCat, dEffacer + dAvecOpacité)
+      	dRectangle(0, 0, 15, 15, MagentaClair, MagentaClair)
+      	
+      	// Cadre
+      	dligne( 2,  1, 13,  1, nCouleurFoncé, 1)
+      	dligne( 2, 14, 13, 14, nCouleurFoncé, 1)
+      	dligne( 1,  2,  1, 13, nCouleurFoncé, 1)
+      	dligne(14,  2, 14, 13, nCouleurFoncé, 1)
+      	
+      	// Dégradé
+      	dRectangleDégradé(2, 2, 14, 14, nCouleurFin, nCouleur)
+      		
+      	// Sauvegarde
+      	dSauveImagegif(iCat, sImage)
+      	
+      renvoyer iCat
+     type : 458752
+   -
+     name : SurLiaisonEvénement
+     internal_properties : CAAAAAgAAAAkA8I4wKxfNsWx9BX2+lioBVnUO4K5b3S1ndmdhOk9xPscLZX/GmP1KXRPJR703K/4tw4NrcoEkhio3kPKKHgLuXMwxdZUV3Obis4yviDnXpIwaaVpD9swZ/3Uk+7GTfxMv1M3n2YSqYtysFETH0wZTgi5biMeHZY9ZmAodN6ocbFwQZ4ejHC65vg+ZMkNUytxmuUj0x+142L2SLOfvOcVr2PzAN017mUf160H1t7uAnpVQJOQjrsmPvcIcHdQ
+     procedure_id : 1948499045849696877
+     type_code : 14
+     group : 5
+     code : |1-
+      // Résumé : Exécuté lors de la liaison d'un événement à un agenda externe
+      PROCEDURE SurLiaisonEvénement(local nOrigine est un entier, local nIDAgenda est un entier)
+      
+      	// Si un rendez-vous a été sélectionné
+      	si MonRendezVousSélectionné <> null alors
+      
+      		// Recherche le rendez-vous
+      		HLitRecherchePremier(AgendaEvénement, IDAgendaEvénement, MonRendezVousSélectionné..ID)
+      		si htrouve(AgendaEvénement) alors
+      
+      			// En fonction de l'agenda
+      			selon nOrigine
+      				
+      				// Outlook
+      				cas depuisOutlook
+      					
+      					// Annule la liaison
+      					si nIDAgenda = -1 ALORS
+      						
+      						// Supprime l'événement dans l'agenda Outlook
+      						OutlookSupprimeEvénement(AgendaEvénement.IDAgendaOutlook, AgendaEvénement.IdentifiantOutlook)
+      						
+      						AgendaEvénement.IDAgendaOutlook = 0
+      						AgendaEvénement.IdentifiantOutlook = ""						
+      					sinon
+      						AgendaEvénement.IDAgendaOutlook = nIDAgenda
+      					FIN
+      					
+      				// Notes
+      				cas depuisNotes
+      					
+      					// Annule la liaison
+      					SI nIDAgenda = -1 ALORS
+      						
+      						// Supprime l'événement dans l'agenda Lotus
+      						NotesSupprimeEvénement(AgendaEvénement.IDAgendaNotes, AgendaEvénement.IdentifiantNotes)
+      						
+      						AgendaEvénement.IDAgendaNotes = 0
+      						AgendaEvénement.IdentifiantNotes = ""
+      					SINON
+      						AgendaEvénement.IDAgendaNotes = nIDAgenda
+      					FIN
+      					
+      				// Google
+      				cas depuisGoogle
+      					
+      					// Annule la liaison
+      					SI nIDAgenda = -1 ALORS
+      						
+      						// Supprime l'événement dans l'agenda Google
+      						GoogleSupprimeEvénement(AgendaEvénement.IDAgendaGoogle, AgendaEvénement.IdentifiantGoogle)
+      												
+      						AgendaEvénement.IDAgendaGoogle = 0
+      						AgendaEvénement.IdentifiantGoogle = ""
+      					SINON
+      						AgendaEvénement.IDAgendaGoogle = nIDAgenda
+      					FIN
+      			FIN
+      			
+      			// Enregistre les modifications
+      			hmodifie(AgendaEvénement)
+      		fin
+      		
+      		MonRendezVousSélectionné <- Null
+      				
+      		// Actualise les événements
+      		AfficheEvénements()
+      		
+      		// Re*sélectionne le rendez-vous
+      		AgendaSelectPlus(AGD_AGENDA, RendezVousIndice)
+      	fin
+     type : 458752
+   -
+     name : SurLiaisonEvénementOutlook
+     internal_properties : CAAAAAgAAACuyUosnkJmAThYp+HGtPsOCfZu6kaBfWZ6rHTRYcq6u8xJS4oJVAD5cirm2G6I6d6aYnZjRrjVc3Je/bZMDsTh+XpInKiIzz6QyMILs5j3nA3iwmTkWUZV0/A7mza7WwKyESJCC+zQ+w8K5abvL7Lf6F7kpSMUv+TvpNNPFASEuRnL86ESjZQB75zeBjtfel58eIN6lT4=
+     procedure_id : 1948501558405691601
+     type_code : 14
+     group : 5
+     code : |1-
+      // Résumé : Exécuté lors de la liaison d'un événement à un agenda externe
+      PROCEDURE SurLiaisonEvénementOutlook(local nIDAgenda est un entier)
+      
+      	// Si un agenda a été lié, ou si on supprime la liaison avec l'agenda et que l'utilisateur valide cette suppression
+      	si nIDAgenda > 0 _ou_ (nIDAgenda = -1 _et_ Dialogue(<§?1B0A978B025FC9C8§>) = 1) alors
+      
+      		// Rebond
+      		SurLiaisonEvénement(depuisOutlook, nIDAgenda)
+      	fin
+     type : 458752
+   -
+     name : SurLiaisonEvénementNotes
+     procedure_id : 1948501700139644942
+     type_code : 14
+     group : 5
+     code : |1-
+      // Résumé : Exécuté lors de la liaison d'un événement à un agenda externe
+      PROCEDURE SurLiaisonEvénementNotes(local nIDAgenda est un entier)
+      
+      	// Si un agenda a été lié, ou si on supprime la liaison avec l'agenda et que l'utilisateur valide cette suppression
+      	si nIDAgenda > 0 _ou_ (nIDAgenda = -1 _et_ Dialogue(<§?1B0A97DB028E037D§>) = 1) alors
+      
+      		// Rebond
+      		SurLiaisonEvénement(depuisNotes, nIDAgenda)
+      	fin
+     type : 458752
+   -
+     name : SurLiaisonEvénementGoogle
+     procedure_id : 1948501738794425486
+     type_code : 14
+     group : 5
+     code : |1-
+      // Résumé : Exécuté lors de la liaison d'un événement à un agenda externe
+      PROCEDURE SurLiaisonEvénementGoogle(local nIDAgenda est un entier)
+      
+      	// Si un agenda a été lié, ou si on supprime la liaison avec l'agenda et que l'utilisateur valide cette suppression
+      	si nIDAgenda > 0 _ou_ (nIDAgenda = -1 _et_ Dialogue(<§?1B0A97120231F116§>) = 1) alors
+      
+      		// Rebond
+      		SurLiaisonEvénement(depuisGoogle, nIDAgenda)
+      	fin
+     type : 458752
+   -
+     name : SynchroniseEvénements
+     procedure_id : 1948532632510226102
+     type_code : 14
+     code : |1-
+      // Résumé : Synchronisation des événements avec les agenda externes
+      PROCEDURE SynchroniseEvénements()
+      
+      	// Ouvre la fenêtre de progression
+      	OuvreFille(FEN_InfoSynchro)
+      	
+      	// On désactive le GFI temporairement pour éviter les effets de scintillement
+      	// avec la fenêtre de conflit
+      	FenActiveGFI(FEN_Agenda, Faux)
+      	FenActiveGFI(FEN_InfoSynchro, Faux)
+      	
+      	// Borne de la jauge
+      	FEN_InfoSynchro.JAUGE_TRAITEMENT..BorneMax = 3
+      	
+      	// Messages
+      	FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas...")
+      
+      	// On commence par synchroniser les suppressions
+      	SynchroniseEvénementsSuppressions()
+      	
+      	// Messages
+      	FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas...")
+      	
+      	// On synchronise ensuite les nouvelles liaisons
+      	SynchroniseEvénémentsAjouts()	
+      	
+      	// Messages
+      	FEN_InfoSynchro.Traitement(2, "Synchronisation des agendas...")
+      
+      	// On synchronise enfin les modifications
+      	SynchroniseEvénementsModifications()
+      	
+      	// Messages
+      	FEN_InfoSynchro.Traitement(3, "Terminé")
+      	
+      	Ferme(FEN_InfoSynchro)
+      	
+      	// Réactive le GFI
+      	FenActiveGFI(FEN_Agenda, Vrai)
+     type : 458752
+   -
+     name : SynchroniseEvénementsSuppressions
+     internal_properties : CAAAAAgAAABN0haV+MwPNfiTrgB0G9iCX99SrR3tjlGAiYs8tawQPM4iJxbwa4eJCAZt5je5+hbtjAN3WAV/+otvRP34wEPQIxLPOgZh/TFa5IIijS5idOb+7iREKqB9dgMVuZaqIyhZ+Vqk1wjx7m3A49m69iUFH/Yb6hhfGmrOxCMUYbpwdmTW06oTVEBBjD+yoSzxKbt8HZJIhwfD9hyelCfJoz+TNK6nbaoK2pbUbzZB8GDQOxMVLGEX2r/j1u5ahINB+lO+eaqSSUk7up69Dv8T/BktGT1rXxWWdg/s2A00RDiy
+     procedure_id : 1948540874561857230
+     type_code : 14
+     code : |1-
+      // Résumé : Synchronise les suppressions
+      PROCEDURE SynchroniseEvénementsSuppressions()
+      
+      	TableauDeTableau est une structure
+      		Eléments est un tableau de chaînes
+      	FIN
+      	
+      	taSuppressionsOutlook 	est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      	taSuppressionsNotes 	est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      	taSuppressionsGoogle	est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      	UnTableauDeTableau		est un TableauDeTableau
+      	
+      	// Messages
+      	FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas...", "Rassemblement des événements supprimés...")
+      	
+      	// Désactive temporairement les triggers
+      	HDésactiveTrigger()
+      	
+      	// Pour chaque événement marqué 'Supprimé'
+      	POUR TOUT AgendaEvénement AVEC AgendaEvénement.Supprimé = Vrai
+      		
+      		// Si l'événement est lié à un agenda Google
+      		SI AgendaEvénement.IDAgendaGoogle <> 0 _ET_ AgendaEvénement.IdentifiantGoogle <> "" ALORS
+      			
+      			// Récupère la liste des événements à supprimer
+      			SI taSuppressionsGoogle[AgendaEvénement.IDAgendaGoogle] = Null ALORS
+      				VariableRAZ(UnTableauDeTableau)
+      			SINON
+      				UnTableauDeTableau = taSuppressionsGoogle[AgendaEvénement.IDAgendaGoogle]
+      			FIN
+      			
+      			// Ajoute l'événement à la liste
+      			Ajoute(UnTableauDeTableau:Eléments, AgendaEvénement.IdentifiantGoogle)
+      			
+      			// Conserve la nouvelle liste
+      			taSuppressionsGoogle[AgendaEvénement.IDAgendaGoogle] = UnTableauDeTableau			
+      		fin
+      			
+      		// Efface l'association
+      		AgendaEvénement.IDAgendaGoogle 		= 0
+      		AgendaEvénement.IdentifiantGoogle 	= ""
+      		
+      		// Si l'événement est lié à un agenda Notes
+      		SI AgendaEvénement.IDAgendaNotes <> 0 _ET_ AgendaEvénement.IdentifiantNotes <> "" ALORS
+      			
+      			// Récupère la liste des événements à supprimer
+      			SI taSuppressionsNotes[AgendaEvénement.IDAgendaNotes] = Null ALORS
+      				VariableRAZ(UnTableauDeTableau)
+      			SINON
+      				UnTableauDeTableau = taSuppressionsNotes[AgendaEvénement.IDAgendaNotes]
+      			FIN
+      			
+      			// Ajoute l'événement à la liste
+      			Ajoute(UnTableauDeTableau:Eléments, AgendaEvénement.IdentifiantNotes)
+      			
+      			// Conserve la nouvelle liste
+      			taSuppressionsNotes[AgendaEvénement.IDAgendaNotes] = UnTableauDeTableau		
+      		fin	
+      		
+      		// Efface l'association
+      		AgendaEvénement.IDAgendaNotes 		= 0
+      		AgendaEvénement.IdentifiantNotes 	= ""	
+      		
+      		// Si l'événement est lié à un agenda Notes
+      		SI AgendaEvénement.IDAgendaOutlook <> 0 _ET_ AgendaEvénement.IdentifiantOutlook <> "" ALORS
+      			
+      			// Récupère la liste des événements à supprimer
+      			SI taSuppressionsOutlook[AgendaEvénement.IDAgendaOutlook] = Null ALORS
+      				VariableRAZ(UnTableauDeTableau)
+      			SINON
+      				UnTableauDeTableau = taSuppressionsOutlook[AgendaEvénement.IDAgendaOutlook]
+      			FIN
+      			
+      			// Ajoute l'événement à la liste
+      			Ajoute(UnTableauDeTableau:Eléments, AgendaEvénement.IdentifiantOutlook)
+      			
+      			// Conserve la nouvelle liste
+      			taSuppressionsOutlook[AgendaEvénement.IDAgendaOutlook] = UnTableauDeTableau				
+      		fin
+      			
+      		// Efface l'association
+      		AgendaEvénement.IDAgendaOutlook 		= 0
+      		AgendaEvénement.IdentifiantOutlook 		= ""		
+      		
+      		// Si aucune association
+      		SI AgendaEvénement.IDAgendaOutlook = 0 _ET_ AgendaEvénement.IDAgendaNotes = 0 _ET_ AgendaEvénement.IDAgendaGoogle = 0 ALORS
+      			HSupprime(AgendaEvénement)
+      		SINON
+      			
+      			// Enregistre les modifications
+      			HModifie(AgendaEvénement)
+      			
+      			// Efface l'historique de cet événement
+      			POUR TOUT AgendaEvénementHistorique AVEC IDAgendaEvénement = AgendaEvénement.IDAgendaEvénement
+      				HSupprime(AgendaEvénementHistorique)
+      			FIN
+      		FIN
+      	FIN
+      	
+      	// Ré-active les triggers
+      	HActiveTrigger()
+      	
+      	// Messages
+      	FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas...", "Suppression des événements dans les agendas Outlook...")
+      	
+      	// Effectue les suppressions Outlook
+      	POUR TOUT UnTableauDeTableau, nIDAgenda de taSuppressionsOutlook
+      		OutlookSupprimeEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)
+      	FIN
+      	
+      	// Messages
+      	FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas...", "Suppression des événements dans les agendas Lotus...")
+      	
+      	// Effectue les suppressions Lotus
+      	POUR TOUT UnTableauDeTableau, nIDAgenda de taSuppressionsNotes
+      		NotesSupprimeEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)	
+      	FIN
+      	
+      	// Messages
+      	FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas...", "Suppression des événements dans les agendas Google...")
+      	
+      	// Effectue les suppressions Google
+      	POUR TOUT UnTableauDeTableau, nIDAgenda de taSuppressionsGoogle
+      		GoogleSupprimeEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)	
+      	FIN
+     type : 458752
+   -
+     name : SynchroniseEvénementsAjouts
+     internal_properties : CAAAAAgAAAC2FpKlq+jI16/Mm60Bg043UTsADqRjThI7k9KrGq2yRXPbqzfGKR3O4Lu8bqKdt0hpYV4yK7tY2WKDGpC+DgDuREVm4qIQpD59T1/sYsNV+UQyp55LE4h2Xi3lZBz7HF5KzNB/PvJ9pflzElzo/nqV2gUOmr72pk47A+7Vf3HmkYGd9mj3ZmFkND2Uv+bcS73v9UaznM0++zqvWup8u8Nvw4LxCVcWqi8lFEXnyrpprz5GemdTSV9pPZ+g1KlsNZ6x
+     procedure_id : 1948544602594665032
+     type_code : 14
+     code : |1-
+      // Résumé : Synchronise les nouveaux événements
+      PROCEDURE SynchroniseEvénementsAjouts()
+      
+      	TableauDeTableau est une structure
+      		Eléments est un tableau d'entiers
+      	FIN
+      	
+      	taAjoutsOutlook 	est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      	taAjoutsNotes 		est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      	taAjoutsGoogle		est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      	UnTableauDeTableau	est un TableauDeTableau
+      	
+      	// Désactive temporairement les triggers
+      	HDésactiveTrigger()
+      	
+      	// Messages
+      	FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas...", "Rassemblement des événements ajoutés...")
+      	
+      	// On recherche les événements liés à un agenda Google mais pour lesquels on ne possède pas encore d'identifiant Google
+      	POUR TOUT AgendaEvénement AVEC "IDAgendaGoogle <> 0 ET IdentifiantGoogle = ''"
+      		
+      		// Récupère la liste des ajouts
+      		SI taAjoutsGoogle[AgendaEvénement.IDAgendaGoogle] = Null ALORS
+      			VariableRAZ(UnTableauDeTableau)
+      		SINON
+      			UnTableauDeTableau = taAjoutsGoogle[AgendaEvénement.IDAgendaGoogle]
+      		FIN
+      		
+      		// Ajoute l'événement à la liste
+      		Ajoute(UnTableauDeTableau:Eléments, AgendaEvénement.IDAgendaEvénement)
+      		
+      		// Conserve la nouvelle liste
+      		taAjoutsGoogle[AgendaEvénement.IDAgendaGoogle] = UnTableauDeTableau
+      		
+      		// Efface l'historique de cet événement
+      		pour TOUT AgendaEvénementHistorique avec IDAgendaEvénement = AgendaEvénement.IDAgendaEvénement
+      			hsupprime(AgendaEvénementHistorique)
+      		FIN
+      	FIN
+      	
+      	// On recherche les événements liés à un agenda Outlook mais pour lesquels on ne possède pas encore d'identifiant Outlook
+      	POUR TOUT AgendaEvénement AVEC "IDAgendaOutlook <> 0 ET IdentifiantOutlook = ''"
+      		
+      		// Récupère la liste des ajouts
+      		SI taAjoutsOutlook[AgendaEvénement.IDAgendaOutlook] = Null ALORS
+      			VariableRAZ(UnTableauDeTableau)
+      		SINON
+      			UnTableauDeTableau = taAjoutsOutlook[AgendaEvénement.IDAgendaOutlook]
+      		FIN
+      		
+      		// Ajoute l'événement à la liste
+      		Ajoute(UnTableauDeTableau:Eléments, AgendaEvénement.IDAgendaEvénement)
+      		
+      		// Conserve la nouvelle liste
+      		taAjoutsOutlook[AgendaEvénement.IDAgendaOutlook] = UnTableauDeTableau
+      		
+      		// Efface l'historique de cet événement
+      		POUR TOUT AgendaEvénementHistorique AVEC IDAgendaEvénement = AgendaEvénement.IDAgendaEvénement
+      			HSupprime(AgendaEvénementHistorique)
+      		FIN
+      	FIN
+      	
+      	// On recherche les événements liés à un agenda Notes mais pour lesquels on ne possède pas encore d'identifiant Notes
+      	POUR TOUT AgendaEvénement AVEC "IDAgendaNotes <> 0 ET IdentifiantNotes = ''"
+      		
+      		// Récupère la liste des ajouts
+      		SI taAjoutsNotes[AgendaEvénement.IDAgendaNotes] = Null ALORS
+      			VariableRAZ(UnTableauDeTableau)
+      		SINON
+      			UnTableauDeTableau = taAjoutsNotes[AgendaEvénement.IDAgendaNotes]
+      		FIN
+      		
+      		// Ajoute l'événement à la liste
+      		Ajoute(UnTableauDeTableau:Eléments, AgendaEvénement.IDAgendaEvénement)
+      		
+      		// Conserve la nouvelle liste
+      		taAjoutsNotes[AgendaEvénement.IDAgendaNotes] = UnTableauDeTableau
+      		
+      		// Efface l'historique de cet événement
+      		POUR TOUT AgendaEvénementHistorique AVEC IDAgendaEvénement = AgendaEvénement.IDAgendaEvénement
+      			HSupprime(AgendaEvénementHistorique)
+      		FIN
+      	FIN
+      	
+      	// Messages
+      	FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas...", "Export des événements ajoutés vers les agendas Outlook..")
+      	
+      	POUR TOUT UnTableauDeTableau, nIDAgenda de taAjoutsOutlook
+      		OutlookAjouteEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)	
+      	FIN
+      	
+      	// Messages
+      	FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas...", "Export des événements ajoutés vers les agendas Lotus..")
+      	
+      	POUR TOUT UnTableauDeTableau, nIDAgenda de taAjoutsNotes
+      		NotesAjouteEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)	
+      	FIN
+      	
+      	// Messages
+      	FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas...", "Export des événements ajoutés vers les agendas Google..")
+      	
+      	POUR TOUT UnTableauDeTableau, nIDAgenda de taAjoutsGoogle
+      		GoogleAjouteEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)
+      	FIN
+     type : 458752
+   -
+     name : SynchroniseEvénementsModifications
+     internal_properties : CAAAAAgAAADLZYPGi99IG4Gu/YtJ0+3d+ix1DriCHr9+Y2EJ5RENY1veARIh4SlNPDSPV1wgKADht3qXPU16tKLdxt5WXooe9W0EkKu57KXUDOGpPcTEz4X1deBSewIhXexCXja7N/OhxLbvXqA21AWZyDUDRWD4NEeYsHz64W+lsQT46P6KBkbD5DTDNB6dNCeGWMHpfezYigXI7ZUIwb0w2wQw7TadB3rvw9W6acP1vCclSljfSq50L3W5VoTwxj8Y1j1rCpYNtOlnFdcQ
+     procedure_id : 1948840126377215027
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      PROCEDURE SynchroniseEvénementsModifications()
+      
+      	TableauDeTableau est une structure
+      		Eléments est un tableau d'entiers
+      	FIN
+      	
+      	taModifsOutlook 	est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      	taModifsNotes 		est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      	taModifsGoogle		est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      	UnTableauDeTableau	est un TableauDeTableau
+      
+      	// Messages
+      	FEN_InfoSynchro.Traitement(2, "Synchronisation des agendas...", "Rassemblement des événements modifiés...")
+      
+      	pour TOUT AgendaEvénement 
+      		
+      		// On recherche un historique pour cet événement
+      		HRecherchePremier(AgendaEvénementHistorique, IDAgendaEvénement, AgendaEvénement.IDAgendaEvénement)
+      		si htrouve(AgendaEvénementHistorique) ALORS
+      						
+      			// Si on a trouvé un historique, on doit mettre à jour ces modifications
+      			si AgendaEvénement.IDAgendaGoogle <> 0 _ou_ AgendaEvénement.IDAgendaNotes <> 0 _ou_ AgendaEvénement.IDAgendaOutlook <> 0 ALORS
+      				
+      				// L'événement est lié à un agenda Google
+      				si AgendaEvénement.IDAgendaGoogle <> 0 ALORS
+      					
+      					// Récupère la liste des modifications
+      					SI taModifsGoogle[AgendaEvénement.IDAgendaGoogle] = Null ALORS
+      						VariableRAZ(UnTableauDeTableau)
+      					SINON
+      						UnTableauDeTableau = taModifsGoogle[AgendaEvénement.IDAgendaGoogle]
+      					FIN
+      					
+      					// Ajoute l'événement à la liste
+      					Ajoute(UnTableauDeTableau:Eléments, AgendaEvénement.IDAgendaEvénement)
+      					
+      					// Conserve la nouvelle liste
+      					taModifsGoogle[AgendaEvénement.IDAgendaGoogle] = UnTableauDeTableau
+      				FIN
+      				
+      				// L'événement est lié à un agenda Outlook
+      				SI AgendaEvénement.IDAgendaOutlook <> 0 ALORS
+      					
+      					// Récupère la liste des modifications
+      					SI taModifsOutlook[AgendaEvénement.IDAgendaOutlook] = Null ALORS
+      						VariableRAZ(UnTableauDeTableau)
+      					SINON
+      						UnTableauDeTableau = taModifsOutlook[AgendaEvénement.IDAgendaOutlook]
+      					FIN
+      					
+      					// Ajoute l'événement à la liste
+      					Ajoute(UnTableauDeTableau:Eléments, AgendaEvénement.IDAgendaEvénement)
+      					
+      					// Conserve la nouvelle liste
+      					taModifsOutlook[AgendaEvénement.IDAgendaOutlook] = UnTableauDeTableau
+      				FIN
+      				
+      				// L'événement est lié à un agenda Notes
+      				SI AgendaEvénement.IDAgendaNotes <> 0 ALORS
+      					
+      					// Récupère la liste des modifications
+      					SI taModifsNotes[AgendaEvénement.IDAgendaNotes] = Null ALORS
+      						VariableRAZ(UnTableauDeTableau)
+      					SINON
+      						UnTableauDeTableau = taModifsNotes[AgendaEvénement.IDAgendaNotes]
+      					FIN
+      					
+      					// Ajoute l'événement à la liste
+      					Ajoute(UnTableauDeTableau:Eléments, AgendaEvénement.IDAgendaEvénement)
+      					
+      					// Conserve la nouvelle liste
+      					taModifsNotes[AgendaEvénement.IDAgendaNotes] = UnTableauDeTableau
+      				FIN
+      			FIN
+      		FIN
+      	FIN
+      	
+      	// Messages
+      	FEN_InfoSynchro.Traitement(2, "Synchronisation des agendas...", "Modification des événements dans les agendas Outlook...")
+      	
+      	// Effectue les modifications Outlook
+      	POUR TOUT UnTableauDeTableau, nIDAgenda de taModifsOutlook
+      		OutlookModifieEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)	
+      	FIN
+      
+      	// Messages
+      	FEN_InfoSynchro.Traitement(2, "Synchronisation des agendas...", "Modification des événements dans les agendas Lotus...")
+      
+      	// Effectue les modifications Notes
+      	POUR TOUT UnTableauDeTableau, nIDAgenda de taModifsNotes
+      		NotesModifieEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)	
+      	FIN
+      
+      	// Messages
+      	FEN_InfoSynchro.Traitement(2, "Synchronisation des agendas...", "Modification des événements dans les agendas Google...")
+      
+      	// Effectue les modifications Google
+      	POUR TOUT UnTableauDeTableau, nIDAgenda de taModifsGoogle
+      		GoogleModifieEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)
+      	FIN
+      	
+      	// Efface l'historique des événements
+      	HSupprimeTout(AgendaEvénementHistorique)
+     type : 458752
+   -
+     name : SurZoomAgenda
+     procedure_id : 1948915442933062005
+     type_code : 14
+     group : 5
+     code : |1-
+      // Résumé : Exécuté lors du changement de zoom de l'agenda
+      PROCEDURE SurZoomAgenda()
+      
+      	dDate est une date
+      	dDate = AgendaPosition(AGD_AGENDA)
+      	
+      	AnimationPrépare(mafenetre)
+      	
+      	// En fonction du zoom initial de l'agenda
+      	SELON AgendaZoom(AGD_AGENDA)
+      	
+      		// -> semaine entière
+      		CAS agzSemaine
+      			
+      			// Rend visible le sélecteur de semaine
+      			SEL_TYPESEMAINE..Visible = Vrai
+      			LIB_NUMSEMAINE..Visible = Vrai
+      			SEL_TYPESEMAINE = 1
+      			
+      			LIB_NUMSEMAINE = "Semaine " + DateVersNuméroDeSemaine(dDate) + "/" + dDate..année
+      			
+      			// Options de menu
+      			OPT_Affichage.OPT_Jour..Cochée = faux
+      			OPT_Affichage.OPT_Mois..Cochée = faux
+      			OPT_Affichage.OPT_Semaine.OPT_Semaine_de_travail..Cochée = faux
+      			OPT_Affichage.OPT_Semaine.OPT_Semaine_entière..Cochée = vrai
+      			
+      			BTN_Jour..Enfoncé = Faux
+      			BTN_Mois..Enfoncé = Faux
+      			BTN_Semaine..Enfoncé = Vrai
+      			
+      			// Restaure la période sélectionnée
+      			AGD_AGENDA..DateDébut = PériodeSélectionnée.DateDébut
+      			AGD_AGENDA..DateFin = PériodeSélectionnée.DateFin
+      			
+      			
+      		// -> semaine sur 5 jours
+      		CAS agzSemaineSur5
+      			
+      			// Rend visible le sélecteur de semaine
+      			SEL_TYPESEMAINE..Visible = Vrai
+      			LIB_NUMSEMAINE..Visible = Vrai
+      			SEL_TYPESEMAINE = 2
+      
+      			LIB_NUMSEMAINE = "Semaine " + DateVersNuméroDeSemaine(dDate) + "/" + dDate..Année
+      
+      			// Options de menu
+      			OPT_Affichage.OPT_Jour..Cochée = Faux
+      			OPT_Affichage.OPT_Mois..Cochée = Faux
+      			OPT_Affichage.OPT_Semaine.OPT_Semaine_de_travail..Cochée = vrai
+      			OPT_Affichage.OPT_Semaine.OPT_Semaine_entière..Cochée = faux
+      			
+      			
+      			BTN_Jour..Enfoncé = Faux
+      			BTN_Mois..Enfoncé = Faux
+      			BTN_Semaine..Enfoncé = Vrai
+      			
+      			// Restaure la période sélectionnée
+      			AGD_AGENDA..DateDébut = PériodeSélectionnée.DateDébut
+      			AGD_AGENDA..DateFin = PériodeSélectionnée.DateFin
+      			
+      			
+      		// -> jour
+      		CAS agzJour
+      			
+      			// Cache le sélecteur de semaine
+      			SEL_TYPESEMAINE..Visible = Faux
+      			LIB_NUMSEMAINE..Visible = Faux
+      			
+      			// Options de menu
+      			OPT_Affichage.OPT_Jour..Cochée = vrai
+      			OPT_Affichage.OPT_Mois..Cochée = Faux
+      			OPT_Affichage.OPT_Semaine.OPT_Semaine_de_travail..Cochée = Faux
+      			OPT_Affichage.OPT_Semaine.OPT_Semaine_entière..Cochée = faux
+      			
+      			
+      			BTN_Jour..Enfoncé = Vrai
+      			BTN_Mois..Enfoncé = Faux
+      			BTN_Semaine..Enfoncé = Faux
+      			
+      			// Restaure la période sélectionnée
+      			AGD_AGENDA..DateDébut = PériodeSélectionnée.DateDébut
+      			AGD_AGENDA..DateFin = PériodeSélectionnée.DateFin
+      			
+      		// -> mois
+      		CAS agzMois
+      			
+      			// Cache le sélecteur de semaine
+      			SEL_TYPESEMAINE..Visible = Faux
+      			
+      			// Options de menu
+      			OPT_Affichage.OPT_Jour..Cochée = Faux
+      			OPT_Affichage.OPT_Mois..Cochée = vrai
+      			OPT_Affichage.OPT_Semaine.OPT_Semaine_de_travail..Cochée = Faux
+      			OPT_Affichage.OPT_Semaine.OPT_Semaine_entière..Cochée = faux
+      						
+      			BTN_Jour..Enfoncé = Faux
+      			BTN_Mois..Enfoncé = Vrai
+      			BTN_Semaine..Enfoncé = Faux
+      			
+      			// Désactive la période sélectionnée
+      			AGD_AGENDA..DateDébut = ""
+      			AGD_AGENDA..DateFin = ""
+      	FIN
+      
+      	animationjoue(animfondu)
+     type : 458752
+   -
+     name : SurSélectionCatégorie
+     procedure_id : 1948919591854806699
+     type_code : 14
+     group : 5
+     code : |1-
+      // Résumé : Exécutée lors de la sélection d'une catégorie
+      PROCEDURE SurSélectionCatégorie()
+      
+      	// RAZ de la liste des catégories sélectionnées
+      	ListeCatégories = ""
+      
+      	pour toute ligne de TABLE_CATEGORIES
+      		si COL_Selection ALORS
+      			ListeCatégories += [";"] + COL_IDAgendaCatégorie
+      		FIN
+      	FIN
+      	
+      	// Mise à jour des rendez-vous
+      	AfficheEvénements()
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1b03b7a000124be5
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+ dialogs :
+  -
+    identifier : 0x1b03c0d9005353f1
+    internal_properties : CAAAAAgAAACqSxqAj2y6VUfi5dDo78XmI61VHdjoh+gpsDYm3UIVqcUStybdrpRejgtXwGqv5ULp+SjLyGXzKsZcG2WkzRlgpRBDgRKUISjC
+    label :
+     fr-FR : "Cet événement est lié à un ou plusieurs agendas externe :\r\n%1\r\n\r\nCet événement sera supprimé dans tous les agendas externes.\r\nÊtes-vous sûr de vouloir supprimer cet événement ?"
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : "&Supprimer"
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : "&Ne pas supprimer"
+       image : {}
+       value : 2
+  -
+    identifier : 0x1b0a978b025fc9c8
+    internal_properties : CAAAAAgAAAAKK/ogr0yaNafChTBIj+XGQ811fTgIpwipcHZmXYIVqcUSd2Z9TnR+rqv3YIpPheIJmUgraIUTyqZ8OwUEbflAhXAjofL0gYhi
+    label :
+     fr-FR : "Cette action va supprimer l'événement dans votre agenda Outlook.\r\n\r\nEtes-vous sûr de vouloir supprimer la liaison de cet événement ?"
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : "&Supprimer"
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : "&Ne pas supprimer"
+       image : {}
+       value : 2
+  -
+    identifier : 0x1b0a97db028e037d
+    internal_properties : CAAAAAgAAAB6G0pQP9wqpbcyFaD4H1V2832FLYiYN7jJ0DYGnUJVaQVyV8atnqQuvhvncNo/dXKZKdib+DXDehbsq5WU/WkwlQCzEYJk8XgS
+    label :
+     fr-FR : "Cette action va supprimer l'événement dans votre agenda Lotus.\r\n\r\nEtes-vous sûr de vouloir supprimer la liaison de cet événement ?"
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : "&Supprimer"
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : "&Ne pas supprimer"
+       image : {}
+       value : 2
+  -
+    identifier : 0x1b0a97120231f116
+    internal_properties : CAAAAAgAAAAdMu0r2rmfDprHGrvzIn49jgwwuHNFVN0clQvZ2XwzLTlwk7JOs//LwRwIbd+68G+0zHt4HchQiWGn1qKZ+HQ9gGsmruf/lp91
+    label :
+     fr-FR : "Cette action va supprimer l'événement dans votre agenda Google.\r\n\r\nEtes-vous sûr de vouloir supprimer la liaison de cet événement ?"
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : "&Supprimer"
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : "&Ne pas supprimer"
+       image : {}
+       value : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Agenda.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

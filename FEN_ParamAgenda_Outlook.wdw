@@ -1,0 +1,320 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_ParamAgenda_Outlook
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_ParamAgenda_Outlook
+ identifier : 0x2b014e2ba0026bee
+ internal_properties : CAAAAAgAAAAMb/Y2dfxEjetTuOagq3svjEXwqsL74qzYEDa4v9iCWhFV2y5jqPYYuVE8HE0B6Aa32TixGfbS4KJ8ej4nGnYVPXkmBxzfzrirQn7S8ka6w990peuYStZ5Z7MbQjFQV8LIOUawoMkz94aIfSscEHtRmKWiM07vZGf7Yj9v8AVa1TqYsiGEdMoStONgCvFgFw78JGiOWnL6U1DQHQKuyaZKNdTjMWHiRVnASF+MnQEiJ7hb81nntAC9z5mN9IZHT5koKYlTGAxMB2FQJ6wcO1av2ZV4xkkXecLr8vPWGOZzZqu1MAooTdwiW5RXK232x0t+KxReP/Me1iCxyV+ERfaCgBqunK47bdPGm/BoADHtKqfnymfutqK+CYcsiJmNfdLExiaTRjxuebv301m9RIpeMokNU4tJ3Eeloct0+p14OHILBG97Oli0fQy1vhPQcCNGI0vvifWnnHv+wKs85vNWHzYaut9kvyUlYu+T/FFi2bBRWbCcf43TVWqaDtlUKB3co+5vi2fdJZFozg4In+PH9k7sYvekWmt5H2VoftNR6t3JXa3iBtQhFlLILF3jSSuFiuAIYDaxbcNznoX/19nLO+zCycNMnGLrjjZutgWPiHy+/JHoK8larTZ4Ut/r30g3LpXjxRsCo0kkDFpMSkxrL/gknCIhal+XO7FYmzqGERwIJnsqVsTF24exsktbeSfaCeFChmCi088oJFgLqZtKJx7fFYNfeeko4+acont+1YDdYedvEUOOEVrayPGAEjCrvwA0Ep9H2l6CHve53/OGa1MHdtcFar1Tz3y/fKpDa4DIdIfo0X0Wt00b/0HLZafvLCMiFdmdJMB3cx0GWNHetdEMijBr3BDGru3UmBR0g6iLnMo2h7+CZ+FEWxRgq1N4fL+kx9FPQ/BK4uD4nmLNufeVvV1d/wI=
+ properties :
+  width : 385
+  height : 208
+  widthClient : 383
+  heightClient : 176
+ controls :
+  -
+    name : LIB_FOND
+    identifier : 0x2b014e2ba0056bee
+    internal_properties : CAAAAAgAAADcZc8PKbjUs7M8/kWBMvx3OaXWZCcoit+uNkLRsvntjjl7Na2BdhbunnGwIOir3E+aP9KykWCZXL7jVvxMgWWpGmW479hD4U1qMe1B51WvSqvwwXrH8qVL94gxpQCeFOS8Rggu4VN3srxqAC1JrA4wCOfDRjiPDU0u/xDUD3dxDuEwJKNx2n9P6zXImB4E5qvNIE7ubXETVGJTXrXC5Hl+JhwACAG6GSvGwvlGq6edxzzLK8aKQliJ2lWN0z6ZogFvofT8lNetFkIc9/PaYc9moO2BF2vs7KgsrqubuPo28t3g0eT6K4sJtOiMd7k00LQ29SIKBBWE+eIxX16thxZoXZOWNz3PfhlZ4zYGj1Uz0YJxWFeHcl5YLA+ZyCA2Gk9pQ37d7EiT0oSl1ksqD/HwIMFgp0ByEJsjD0Zzn5u8zw2cT+i3xJZE/y2xgGXRKw==
+    properties :
+     width : 383
+     height : 122
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : IMG_ICON
+    identifier : 0x2b014e2ba0066bee
+    internal_properties : CAAAAAgAAABo3G7C6lxMsCXw9NvFThLfiuX6NTRaG+5cWTvvaRbAlh6RVIUo5hCqqHOZHqU14ItDDu2mqQt+cO8BQq/PDMFsbMYqscBEqZYXCaYwfbDMUB+lECeaWOHDJ4u8uHQ2p6l1LqCE/9OnEJraH0BNGXZLboaqX+t0WWidUrxncHeRy7ixoRw4kEUy5ORHblu+PdpWfM0S/8PTNs55GLHehE8q6EQXk+8UvBrXmIcRQQzrHWt9+vXIqHiQVI8wC2/aYj9HIg5W8nnwdGPO5YFbsB9rXhk76PvNsti0Xqx1LpDhyuwMJMJIbbVWJUD5CzU9dGxeTuTo+0veYbVoy85cwnHnc6zB+cdRd+C15lHKeXDKPsXqbSEZ0EBOe/Hxks3qpvZ0kGCaf4JjcbpdFATLdcVlaKjeypT0IFBFi241NMGJi8gsNRHeKwmMrmsphlMDApJI3dPbI+XZWmlK/fcVQPoWlQ3W706oyAE46VjReAELr6rPFhMCwDmQt2mOvUbOHE+D6sgMaZiCDsxawvFp/e9efszFQZRgUheaNyyPjNdmqZFJbfw4uIMjSi8mUZzjrtCigi4tMZRiDcLm4M2u2fF8ecVYKTt3F8T8FMXKrHTxZnSQOToYu20lpI5DnsoYkzUvtcxs9/dLk35Dh8jL6yH8vJ4s1Tn/4bGOPTC7isSvPiCZ1+xDeS3PP/Ol9nfGL4UoeSTRVO+nnyfQr2j+tIC8BvSB6Nhi8z5CJ2LIg8Tl+czELTGxNaDPaiMOzxrLrcTV40L8Ziw6BIVxe4Mjtk3A41AqtWLrvbBBKCBQ1eoZ9cIevjmgx6dZ4qZue6NjSfMukRvip6wkBFOsztdaeavy5YayOX9uWX4CHlcpJfsnCkWMfLEax0lFBWBW2F8uqSz07YHpnpcXuv0ByQ==
+    properties :
+     x : 8
+     y : 8
+     width : 50
+     height : 50
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : LIB_FONDBOTM
+    identifier : 0x2b015c516f0badde
+    internal_properties : CAAAAAgAAAActbqCxzpG2HCpRZZCpFclolVGMutS3m6WAjf/7P16X4JpMh9NHQSe6UTWaJqvTNLT852gCPFOXT9v2w5W3AMyGPPt6TmKHuFW3A69CEkQ9sy+/luBzeAxPjaALzv9BCuUa/iikc9TmXFwNcCu2vwWgrrc6sVVdcF49bHG0+VNhPgScoukmNXOR/sTdIqfz16q65Cc1fwvjPfIqZkcI9q2lzaZcyduMaql7qIte30Tdshcsp58X90PfrUPXi9ZwRTU25C7uzsFJCRff31Fh+5WZWTkrjXcy13T7nLy73WcguOer0BXcwj6TrhHnGR5k8BHgjXFU+FtF6yNcIiZEOzTtkY4WP7F4PoovNHdhjVw29FLzLrtwEhul+Lxfm/PxRBewtkAbXVdXiSiEPSSmV/FpIDlpfTzkuY0VVXWbwg=
+    properties :
+     y : 121
+     width : 383
+     height : 55
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_OK
+    identifier : 0x2b015c686f2e083d
+    internal_properties : CAAAAAgAAABB6AXRXfWJIoJ99Et7cKz4dafcxLIo6+x+qLzU+5J/W0aCcmQo7VDAJtxWWfAJ9S8QDSMKi4nkrYpk4JLehQaS/TPxuuw3hreTQ3r00OpDhOYFMWZSyMFJOFFxZfNdaC5SJFdolc+JzgaajD7T+FBWafejzTj7W+Xkil4Oz+YEvpKeKKuDSbhLnzrkYGtvf3bCsI5Ny9TgFZLQiYS92Ivhi1v5J/b8cxDQidmKNM5peK1WpOY4w+EnyoHSERbz7UqjaZ3HKnMrtI33gXB86HycMgYbOwHW3cmk23I/YPLLTxgA+M5JHPGwqfPIentmUcbG5gopsl1Hmkx+72VQLd9zKU2BGDvPJiV/uRgvf2HSe7eMuUiiTyb0/lIVl0lx9EwoqOFmIy4UgW3XSRHuZXn20mtd5QPnUWWm8EimPOU9njwMtVN9biItpe8n6kcRtW40OLGDioowsmRcq6ov6oXxqfRC9FXWbvoPc4U9U6G5FILOi8lkziE9XBz19QfrQWKv0MN/VHmy6zBPC+JmzOP38SUXiPcKkJCsX14v6Lx2AlbrVMbHRu40uuVxgjAFR0SrV3m8eS7d1/X7fI5yuyg2u6/su4NGvut4I9SkZyvlSjlQEbCm6+YaSX76ItxIhpGdgNm2gJdaDsgIGySCC2yvnqEIt304vyUyRW8njUa0OAwhGWuOJ7hemU0tsUCjMja3jbTAfSbLU4wPW5WTJteX+EtIfo0g+y4snprWPzg5/a8KOMw6GvsZ7AB7LvmaWMoC/QSA/kp9C+uKWw1Z8x5y7DrTNf2iN7GVf6Q5TZqWcqh/5eGJPHcXIxvoaMiv7p9dJHogP6ZBx6gzjIbrLZHChd3W5u345oE8CyBPp/9T4KH5Bnd2HQ==
+    properties :
+     x : 211
+     y : 136
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Compulse les données
+         EcranVersFichier()
+         AgendaOutlook.Nom = AgendaOutlook.Profil
+         
+         // Enregistrement
+         si AgendaOutlook..NouvelEnregistrement ALORS
+         	
+         	hajoute(AgendaOutlook)
+         	
+         	si HErreurDoublon() alors
+         		erreur("Ce profil a déjà été importé")
+         		RepriseSaisie()
+         	FIN
+         		
+         	//1 : &Importer
+         	//2 : &Ne pas importer
+         	SELON Dialogue(<§?1B01613A006EDC00§>, AgendaOutlook.Nom)
+         		// &Importer
+         		CAS 1
+         			OutlookImporteAgenda(AgendaOutlook.Nom, AgendaOutlook.IDAgendaOutlook)
+         	FIN
+         	
+         sinon
+         	hmodifie(AgendaOutlook)
+         FIN
+         
+         MaFenêtre..ValeurRenvoyée = vrai
+         ferme()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Annuler
+    identifier : 0x2b015c686f30084d
+    internal_properties : CAAAAAgAAAB2WcsnWAuaVxqklrWb4UPHeLI798I1LXw5f1w3Uh+mwxugEFfLuruwpE67mNlTYNfYLQ87fGUWqABEEFETMkFH0tMuqRWPXZaEJO9HB+5/8JeKhSquypW/LRjLltkeizewiCR2fLFUWV5RX1cYxxGUze3G8j1x5gaF8fBDFsRR1OfgxKbvarHByXHyETKT19gcnz7qL9eaxbC/PRX9tvMLM7NBPOXg72gFmxyy8IR2C8w7z2MpIsRG9Y33QNy8pdlHM93F8v2rR9gYbygXL32pp0h4NTWKQVhDu8hulz2n1zq9XiUA4352DxpNrdh/qWXtOrB6P+tejpyad4jh6IcP1+Y6DoakP0xUnAlOcatzkXXj3dOOCcuWr7FI/nOZfMxeFn0du/XfMji8bZR3InsDOpt3LKgnrWC09SbyZhLH4DHDMgp22uR50ahOdBV3xriFTY1LsNZqo2rG3IQabV72aHARBJ+Jvbe9zLFzvf2TfunHqoOeKa22wUf1nSttJI61gDYmSG/qRQ7OyQLk7thc+eD3VrxAdzx2bzAaLCFWLWBJNbc7ndF1eC+OisqLLNwH1zzaL/q1DoI96mnrpED5desir4IR9DYUp7FnLmYCvXu4rvgGVS/32HTEX0bwcfolfpOqQy4bmdsPnnmExSXoLGy8RPwdG+2qPIrJewQoHfnXc2MZvXcofa7nRNoh9Ks6ozga0df4z7e2SMjx6OF1bhnE07/W+hRFcQMfHRJIdUIJTkmTUBIZccLfM5FNcwrvofdfGjhvMTBHtoPPaEleDGGyuBghztle2/A3NwRvL0d6HXy9KBvIOo31hlJmTgsZIT/1Nm2r6hV3JPhRPo8ZQrUl5VE=
+    properties :
+     x : 297
+     y : 136
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         mafenetre..ValeurRenvoyée = faux
+         ferme()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_INFOTITRE
+    identifier : 0x2b015cf173e51f37
+    internal_properties : CAAAAAgAAADsVa6wmcvH+iLGXihJqq2g1W3Az1ru/sWJsP3xPleY7IjW1hqlJxamgvROGylNJrrIxz9mGIItHtZIpFfBU8F+zo5xwyno0pC2MXRQ833p5wl92kIT3yp9yEPW+nUx7MDEYr0Foo3RBV28lKJ23wASQ6y8mNLJeyAYJU1u1C6SwYclLfI8hTP34paVCEQ/4SMDM8maRGA+wD0ZumYDTJM3Q9/JGnc0PmpQQz3reAgw7d5ZoYAfmjyaGA9apZIedrm6pNk1zZbM95/4LdtZpDEQd63SUc0ANhj37lnJrf3oFAogGW01rmft0+xkB61jZHo2VdMF28/p4EmMWoy1aSdYeLjI5hfhlEktaMUFgWbBTB6jqhZb3G8k3QKhAx5zmD+I/g0RMQzgXcXXBgZy7X3XIo3dq7J8YXT3d6lzvQGOwjLMdGJ2GgutkzDzp/5w065a9YaUaCzo78YU1kLDzQsJr20jtOTOhqNG/g==
+    properties :
+     x : 66
+     y : 8
+     width : 311
+     height : 50
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : COMBO_AGD
+    identifier : 0x2b015f82751326c5
+    internal_properties : CAAAAAgAAAD0ZuVmVEx/yiTUyZ9SgfgML4Rqwogp7O9LaePl2dvlCBcM9ksQTbF8VT6GiU4PlU3Naf6Nfs+AvIfGJpcsSociuU46Yj+b2cUADNb2ElRzLri7YpskFzQzVFD8B3xnqK9CcC7gYMaYcjCE/TBIfnYKxA1iNWiOPcobE9MUlJE3HUP8KhPSJPWRe4ScoYyOhM54xQEltKDRTkspSzAvPCs8SRBifRIryRp/TutNxwQlAv9GUVahkPG9nyu4MUeHuj7rkIjdcUTQa1sasTs+/ndPEcwcgBHoM2o2f5FGMbEDBoy63JBtp5Idxl7w+uHGTFcYditV4aPdhU4fEpNWaVSLh719lqb83yfi7tfY9B0TMPJB5oLvmGljnQ8voQ46iamYi6pNFDnLuVKy1fxmJZz1J5rovas2C8+JmYg40EJviUCQilDvHDwmR42DzHcY+8YncyQTFRJb77RsBxdwfIppfxfmJ0N1wzr9sEKEzptnAfZuJgINQdj/n9S/+BQWXAaJjm5747tljFez4mFtw7wH2PoakHldbdTPB8aEueagxphBuhiJtYHLD7dCsdWXDFutLElw6x6RCESh4XbdBWXDGdse3wJkXYecOvjmazZQqQ4BHZlI/MwSedfkijRZ5dSrcyenOMfX3FUEV9Uw1JckQV5AIRICfe5PNT7rOeMZIAu4hGQiP+FaMTrI5cz32UOZ8k7lXC97mFiX66c7XBuWUa0K85yy9yYl02BJ5YUzWDrDeu2iAppFW1X07pQTqwoG8fdclPXO8VsbHO6jhDXc9OhHzRTK4o7ckbDDjDB9kIqGACsp0a/z2X//MMGAQm670KC/vp0mic2ojSzTvOoGM2ZpUGlB2xTtlrk4l7qJ5o6KeinL9a0zFKVy41s4x2i9f5N3dyszgZmHTAdQVj3aENmJp8W97g86rgTwL+O9M2GmF3itqAm0cCl/PM9fV96hkSC+xPKUlfvtbDFdgkC9k5J8QFUDn9meDTPGeuqxDkfF4ZiIAhIIC677gMZaaFTtvaMmFuzuauKCZC/IcqE/vwqFY2EMbARw+SFZI5rqqzS04Jbz4DM0Wx293S8obqGQY3PBTU1sVedeJ1Gbly94RbJ+bCV3WmYaePsLSY3cVxcmE51z7Jc//uN2PlwJLkfzhngyNUwE1fSEbIqwY3EMsAEIoQXWcObeEA4BBmGlnJmkRRrbgQ0bciZ58nBqHUNFlm4vmD+L3xu6stZ9OkXw5pV9G2EmVbg4+QNXdVyP5qHiw9MfUF6kdTN0v8DxsxaJXqu4xjF7hulGpAln3RrwzwJRpuc8ITlS4bmhV0g9ymC+6KYlaXAzNKLA9prUmNN1h3rhkpl1YXfQN3mpLNsycWp0eJtcMiy2eEd8UAkA7u6b0w3iLDKC2WHDBM4fKjzLo1m8AzJuLfF8APrVnctVkT94T22gr24UOltNBhZf/+r2aZglVUpRxPKjPrGaHESviH8WEZ7PgysxMIg/i6IcVeErLkeKqpsoUTCJdgiJ56+zlM5eKp/K5tfi+N60eqPDZeSPImOuXPZtOy4hHPlskWvFYIu/PIJ4KANBLHMHaJ0BIIKtiL0Dj4FSszwB/XEiCwiwd7RIvxQBmjWmcpESkHcOIpkVTRXP6FkCvEHIALV6wgaYGwNQ+D0kCVyuu2QQnumgEkp7xxf9/2h7uEm+M8FK9QpqdHS/mKyJHqZT2yruZTS7GDNYatisnB869Htc1tVPUN3lD8HIM49OT8Dgfkigr+MVPAKXqDUAp9T+IkNLHaI50BIfJKPI0bIEIWnztCtDht9TXAM9ft1qQZ4R5Vn1w4jSwrl/sz728QQh9XTJkf4xs2I33+UE3R6nmIFQ
+    properties :
+     x : 8
+     y : 77
+     width : 290
+     height : 26
+    dropdown :
+     internal_properties : CAAAAAgAAADQN6V4BFoldEiJqkPdYSLSzmuQyhmZeQ/wsQiEnIG+2j2W0m/8Wo8bd7KtlUma45AKY3TwfUC5Er4VXIyNT/15vxxLWpuDpUoZgD9X16v4TkKuZ6TrZVGBF94iWCQFdCRwSQHDARoQMMGJqIVTPO+UNPdX1v+UOMBhSsQun6/n2vpXN9q/YeA6X2q+Q8oOvDpXmGuMZNIbEuo87ZdcJLrtif9aYDUBZHyIdHZsl8cDeFaEuTZGahzFXAd8CmisHH9DYkAy90gB1zCC84X6y1C3ysMVO7U7JEKbIUOaIfhZXiSL4fZ0lywXRattpFRNXa6upYC4nRcQxpiArH0pcRXeInaRKrxI3zNx8xvvl9MwPWk7XK5CKOYr3p/w8rK3sxSS3GuF86tDZuLokEKmVT3JKxWCojvojklvpbUcMZNqPCkIrwgaxhaOE84Pzfo36gZqCec58fxBFv6X83PlBa+VyxoPdma0RXFGMFQVcKDvU62LgT/APcDrxM9yN3JhCtrNhC9c0qIbld5irjdv5ygmeyhBMEgkcETxfjAYOR6y2iCRRE2j03tlxuvbYrUfVRARdTivbsOu0uIEa1cl0Z2f7kbftu/bt09+TaW3v4+wOm5ZI85cDVSdrUj8mwFw1JscYCNjJV+KQp654Ts3/dOsWaXSCSJnzhou6har8SDSda9b4EN701JQNlQfFRnHzOpSl0vEJtvtso7ne4VQJo53f5LieA44BdxXkrrPVUpcnrsQ/b7SkqL7ysu3mUQatrbePzUuazTZgHY3OzIQo1RrHQdDBiHGAVGa2L3ZgRP33+FS2whMRjbFDuR7hfZ8WC7Qir2K
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+         si COMBO_AGD..ValeurMémorisée <> "" ALORS
+         	
+         	// Active le bouton OK
+         	ChampActif(GR_DETAILS_OK, animFondu)
+         sinon
+         	
+         	// Désactive le bouton OK
+         	ListeSelectPlus(COMBO_AGD, 1)
+         	Champgrise(GR_DETAILS_OK, animFondu)
+         	ComboOuvre(COMBO_AGD)
+         FIN
+        type : 33
+      -
+        type : 17
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2b014e2ba0046bee
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAQB7TWDeHfUcO+ftiXRTV4/GCXimLWoulF3nTB6xcZp7luk5EGQOvvmWkOFeSL0RgOqkIdesRjVy+q2L04sHRHPpq5xdzx7wXhxW0NnoGJjpIzc07gQ86zmNlR
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      PROCEDURE FEN_ParamAgenda_Outlook(LOCAL gnIDAgenda est un entier = -1)
+      
+      SI gnIDAgenda = -1 ALORS
+      	
+      	// RAZ
+      	HRAZ(AgendaOutlook)
+      	
+      SINON
+      	
+      	// Recherche de l'agenda
+      	HLitRecherchePremier(AgendaOutlook, IDAgendaOutlook, gnIDAgenda)	
+      FIN
+      
+      // Valeur de retour par défaut
+      MaFenêtre..ValeurRenvoyée = Faux
+   -
+     code : |1-
+      
+      // Récupère la liste des profils
+      ListeProfils()
+      
+      // Affiche le profil
+      FichierVersEcran()
+      
+      // En mode création
+      si AgendaOutlook..NouvelEnregistrement ALORS
+      	
+      	// Sélectionne automatique le seul profil disponible, ou le cas échéant le premier élément de la liste
+      	ListeSelectPlus(COMBO_AGD, (COMBO_AGD..Occurrence > 2 ? 1 sinon 2))
+      FIN
+      
+      // 
+      ExécuteTraitement(COMBO_AGD, trtSélection)
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : ListeProfils
+     internal_properties : CAAAAAgAAAAtvvby97yDA6luhDjSOsxo3zd541N4cOHxo7ahCUx/i+7tkltVhXE7L8BED3ZtaS/o9dIXEUIyO0wAJ1b5uCk8A3jpC4N+sCk922v8aogOgWPoFMbGW+3HRLsB1DELj+oUB0XsECDIF9iZ8UMuWR6fPIb5vQoi6+y2ZWfChSK+a3rxfMImd3mFvLQMU6m6VrM+efQA2m5MNopnEodszupFxUiMoGh+i2PVu0sMsI7AXhdTgLc=
+     procedure_id : 1946295551521971584
+     type_code : 14
+     code : |1+
+      // Résumé : Liste les profils Outlook
+      PROCEDURE ListeProfils()
+      
+      	// Récupère la liste des profils Outlook existant
+      	sListeProfils est une chaine = OutlookListeProfils()
+      	sProfil		  est une chaine
+      	
+      	// Si la récupération des profils a échoué
+      	si ErreurDétectée alors
+      		Erreur
+      		ferme
+      	FIN
+      	
+      	pour toute chaine sProfil de sListeProfils separee par rc
+      		
+      		// On vérifie si on a déjà importé ce profil
+      		HRecherchePremier(AgendaOutlook, Profil, sProfil)
+      		SI PAS HTrouve(AgendaOutlook) ALORS
+      			
+      			// Ajoute le profil à la liste
+      			ListeAjoute(COMBO_AGD, gLien(sProfil) + sProfil)
+      		SINON
+      			
+      			ListeAjoute(COMBO_AGD, gLien("") + gStylo(iGrisClair) + sProfil + " (importé)")
+      		FIN
+      	FIN
+      
+      	// Si on a plusieurs profils
+      	SI COMBO_AGD..Occurrence > 0 ALORS	
+      		ListeInsère(COMBO_AGD, gLien("") + "<Sélectionnez...>", 1)		
+      	SINON
+      		
+      		// Affiche une erreur et ferme
+      		Erreur("Outlook n'est pas installé sur cet ordinateur ou bien aucun profil Outlook n'a encore été créé")
+      		Ferme()
+      	FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1b014e2c00086bfe
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+ dialogs :
+  -
+    identifier : 0x1b01613a006edc00
+    internal_properties : CAAAAAgAAADIsfblBh6lh3Hr2bTHjhMsdFeApD9meiSI1HO8ZGkrG6b9C6wohYcYYBYPuCd7nFzR9EX+7Gqk8ZTvszG0N4/mRjeRqKt14SA=
+    label :
+     fr-FR : Souhaitez-vous importer les événements de l'agenda '%1' ?
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : "&Importer"
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : "&Ne pas importer"
+       image : {}
+       value : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
